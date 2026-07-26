@@ -1,0 +1,597 @@
+{
+  "Albee Bee": {
+    "official_url": "https://us.jellycat.com/albee-bee/",
+    "price": "30.00",
+    "sku": ""
+  },
+  "Amuseables Arlette Heart Macaron (Red)": {
+    "official_url": "https://us.jellycat.com/amuseables-arlette-heart-macaron/",
+    "price": "33.00",
+    "sku": ""
+  },
+  "Amuseables Asparagus": {
+    "official_url": "https://us.jellycat.com/amuseables-asparagus/",
+    "price": "55.00",
+    "sku": ""
+  },
+  "Amuseables Birthday Cake": {
+    "official_url": "https://us.jellycat.com/amuseables-birthday-cake/",
+    "price": "38.00",
+    "sku": ""
+  },
+  "Amuseables Black Hole Bag Charm": {
+    "official_url": "https://us.jellycat.com/amuseables-black-hole-bag-charm/",
+    "price": "30.00",
+    "sku": ""
+  },
+  "Amuseables Boiled Egg Scientist Outfit": {
+    "official_url": "https://us.jellycat.com/amuseables-boiled-egg-scientist-outfit/",
+    "price": "33.00",
+    "sku": ""
+  },
+  "Amuseables Bouquet of Flowers": {
+    "official_url": "https://us.jellycat.com/amuseables-bouquet-of-flowers/",
+    "price": "55.00",
+    "sku": ""
+  },
+  "Amuseables Broccoli": {
+    "official_url": "https://us.jellycat.com/amuseables-broccoli/",
+    "price": "60.00",
+    "sku": ""
+  },
+  "Amuseables Carole Canelé": {
+    "official_url": "https://us.jellycat.com/amuseables-carole-canele/",
+    "price": "25.00",
+    "sku": "A6CNE"
+  },
+  "Amuseables Carrot": {
+    "official_url": "https://us.jellycat.com/amuseables-carrot/",
+    "price": "45.00",
+    "sku": ""
+  },
+  "Amuseables Carrot Cake": {
+    "official_url": "https://us.jellycat.com/amuseables-carrot-cake/",
+    "price": "45.00",
+    "sku": ""
+  },
+  "Amuseables Colette Heart Macaron (Pink)": {
+    "official_url": "https://us.jellycat.com/amuseables-colette-heart-macaron/",
+    "price": "33.00",
+    "sku": ""
+  },
+  "Amuseables Coneroi Temaki": {
+    "official_url": "https://us.jellycat.com/amuseables-coneroi-temaki/",
+    "price": "38.00",
+    "sku": ""
+  },
+  "Amuseables Heart Boiled Egg": {
+    "official_url": "https://us.jellycat.com/amuseables-heart-boiled-egg/",
+    "price": "28.00",
+    "sku": "A6BEHE"
+  },
+  "Amuseables Horatio Pistachio": {
+    "official_url": "https://us.jellycat.com/amuseables-horatio-pistachio/",
+    "price": "28.00",
+    "sku": ""
+  },
+  "Amuseables Hot Dog": {
+    "official_url": "https://us.jellycat.com/amuseables-hot-dog/",
+    "price": "35.00",
+    "sku": ""
+  },
+  "Amuseables Hydrangea": {
+    "official_url": "https://us.jellycat.com/amuseables-hydrangea/",
+    "price": "75.00",
+    "sku": ""
+  },
+  "Amuseables Ivy": {
+    "official_url": "https://us.jellycat.com/amuseables-ivy/",
+    "price": "60.00",
+    "sku": ""
+  },
+  "Amuseables Jellysaucer": {
+    "official_url": "https://us.jellycat.com/amuseables-jellysaucer/",
+    "price": "75.00",
+    "sku": "A2CRAFT"
+  },
+  "Amuseables Life Ring": {
+    "official_url": "https://us.jellycat.com/amuseables-life-ring/",
+    "price": "75.00",
+    "sku": "A2LF"
+  },
+  "Amuseables Margaux Madeleine": {
+    "official_url": "https://us.jellycat.com/amuseables-margaux-madeleine/",
+    "price": "28.00",
+    "sku": "A6MAD"
+  },
+  "Amuseables May Macaron (Lavender)": {
+    "official_url": "https://us.jellycat.com/amuseables-may-macaron-lavender/",
+    "price": "25.00",
+    "sku": "A6MACL"
+  },
+  "Amuseables Mirielle St. Honoré": {
+    "official_url": "https://us.jellycat.com/amuseables-mirielle-st-honore/",
+    "price": "38.00",
+    "sku": ""
+  },
+  "Amuseables Mulshi Woodland Floor": {
+    "official_url": "https://us.jellycat.com/amuseables-mulshi-woodland-floor/",
+    "price": "38.00",
+    "sku": ""
+  },
+  "Amuseables Ort & Tum Acorns": {
+    "official_url": "https://us.jellycat.com/amuseables-ort-tum-acorns/",
+    "price": "38.00",
+    "sku": ""
+  },
+  "Amuseables Pair of Olives": {
+    "official_url": "https://us.jellycat.com/amuseables-pair-of-olives/",
+    "price": "45.00",
+    "sku": ""
+  },
+  "Amuseables Peach Bag Charm": {
+    "official_url": "https://us.jellycat.com/amuseables-peach-bag-charm/",
+    "price": "33.00",
+    "sku": "APEACH4BC"
+  },
+  "Amuseables Peanut": {
+    "official_url": "https://us.jellycat.com/amuseables-peanut/",
+    "price": "23.00",
+    "sku": "A6PE"
+  },
+  "Amuseables Peanut Bag Charm": {
+    "official_url": "https://us.jellycat.com/amuseables-peanut-bag-charm/",
+    "price": "28.00",
+    "sku": "APN4BC"
+  },
+  "Amuseables Peanut Space Rodeo Outfit": {
+    "official_url": "https://us.jellycat.com/amuseables-peanut-space-rodeo-outfit/",
+    "price": "33.00",
+    "sku": ""
+  },
+  "Amuseables Peanut Star Student Outfit": {
+    "official_url": "https://us.jellycat.com/amuseables-peanut-star-student-outfit/",
+    "price": "30.00",
+    "sku": ""
+  },
+  "Amuseables Pebble": {
+    "official_url": "https://us.jellycat.com/amuseables-pebble/",
+    "price": "28.00",
+    "sku": ""
+  },
+  "Amuseables Pencil": {
+    "official_url": "https://us.jellycat.com/amuseables-pencil/",
+    "price": "33.00",
+    "sku": ""
+  },
+  "Amuseables Philippe Palmier": {
+    "official_url": "https://us.jellycat.com/amuseables-philippe-palmier/",
+    "price": "28.00",
+    "sku": "A6PAL"
+  },
+  "Amuseables Pickle": {
+    "official_url": "https://us.jellycat.com/amuseables-pickle/",
+    "price": "28.00",
+    "sku": ""
+  },
+  "Amuseables Pink Orchid": {
+    "official_url": "https://us.jellycat.com/amuseables-pink-orchid/",
+    "price": "55.00",
+    "sku": "A2OCH"
+  },
+  "Amuseables Pink and White Marshmallows": {
+    "official_url": "https://us.jellycat.com/amuseables-pink-and-white-marshmallows/",
+    "price": "33.00",
+    "sku": "A6MPW"
+  },
+  "Amuseables Planet Mars": {
+    "official_url": "https://us.jellycat.com/amuseables-planet-mars/",
+    "price": "45.00",
+    "sku": "A2MAR"
+  },
+  "Amuseables Rainbow": {
+    "official_url": "https://us.jellycat.com/amuseables-rainbow/",
+    "price": "38.00",
+    "sku": "A2RB"
+  },
+  "Amuseables Rainbow Birthday Cake": {
+    "official_url": "https://us.jellycat.com/amuseables-rainbow-birthday-cake/",
+    "price": "65.00",
+    "sku": "A1RBC"
+  },
+  "Amuseables Rose Bouquet": {
+    "official_url": "https://us.jellycat.com/amuseables-rose-bouquet/",
+    "price": "55.00",
+    "sku": "A2BROSE"
+  },
+  "Amuseables Ruler": {
+    "official_url": "https://us.jellycat.com/amuseables-ruler/",
+    "price": "33.00",
+    "sku": "A6RUL"
+  },
+  "Amuseables S'mores": {
+    "official_url": "https://us.jellycat.com/amuseables-smores/",
+    "price": "45.00",
+    "sku": "A4SMR"
+  },
+  "Amuseables Siofra Shamrock": {
+    "official_url": "https://us.jellycat.com/amuseables-siofra-shamrock/",
+    "price": "30.00",
+    "sku": "A6SHM"
+  },
+  "Amuseables Siofra Shamrock Bag Charm": {
+    "official_url": "https://us.jellycat.com/amuseables-shamrock-bag-charm/",
+    "price": "35.00",
+    "sku": "A4SHMBC"
+  },
+  "Amuseables Soyella Edamame Bean": {
+    "official_url": "https://us.jellycat.com/amuseables-soyella-edamame-bean/",
+    "price": "25.00",
+    "sku": "A4EDA"
+  },
+  "Amuseables Space Comet": {
+    "official_url": "https://us.jellycat.com/amuseables-space-comet/",
+    "price": "45.00",
+    "sku": "A4COM"
+  },
+  "Amuseables Stratto Cloud": {
+    "official_url": "https://us.jellycat.com/amuseables-cloud/",
+    "price": "33.00",
+    "sku": "A2CL"
+  },
+  "Amuseables Sun 'Roller Skates'": {
+    "official_url": "https://us.jellycat.com/amuseables-sun-roller-skates/",
+    "price": "60.00",
+    "sku": "A2SUNRS"
+  },
+  "Amuseables Sweetcorn": {
+    "official_url": "https://us.jellycat.com/amuseables-sweetcorn/",
+    "price": "55.00",
+    "sku": "A4SWEE"
+  },
+  "Amuseables Watering Can": {
+    "official_url": "https://us.jellycat.com/amuseables-watering-can/",
+    "price": "60.00",
+    "sku": "A2WC"
+  },
+  "Amuseables Zapperty Lightning Bolt": {
+    "official_url": "https://us.jellycat.com/amuseables-zapperty-lightning-bolt/",
+    "price": "45.00",
+    "sku": "A2BLT"
+  },
+  "Bartholomew Bear All-in-one Outfit": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-all-in-one-outfit/",
+    "price": "60.00",
+    "sku": "BAR2ONE"
+  },
+  "Bartholomew Bear Bathrobe": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-bathrobe/",
+    "price": "50.00",
+    "sku": "BARM2BR"
+  },
+  "Bartholomew Bear Daffodil Outfit": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-daffodil-outfit/",
+    "price": "65.00",
+    "sku": "BARM2FL"
+  },
+  "Bartholomew Bear Hiking Outfit": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-hiking-outfit/",
+    "price": "80.00",
+    "sku": "BARM2OD"
+  },
+  "Bartholomew Bear Junior": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-junior/",
+    "price": "33.00",
+    "sku": "BARM6BO"
+  },
+  "Bartholomew Bear Medium": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear/",
+    "price": "33.00",
+    "sku": "BARM3BR"
+  },
+  "Bartholomew Bear Seafarer Outfit": {
+    "official_url": "https://us.jellycat.com/bartholomew-bear-seafarer-outfit/",
+    "price": "75.00",
+    "sku": "BARM2FM"
+  },
+  "Bashful Beige Bunny 'Birthday' (Medium)": {
+    "official_url": "https://us.jellycat.com/bashful-beige-birthday-bunny/",
+    "price": "50.00",
+    "sku": "BAS3BEBB"
+  },
+  "Bashful Beige Bunny Original": {
+    "official_url": "https://us.jellycat.com/bashful-beige-bunny/",
+    "price": "33.00",
+    "sku": "BAS3B"
+  },
+  "Bashful Beige Bunny Soother": {
+    "official_url": "https://us.jellycat.com/bashful-bunny-soothers/",
+    "price": "33.00",
+    "sku": "SO4BB"
+  },
+  "Bashful Bunny Graduation Outfit": {
+    "official_url": "https://us.jellycat.com/bashful-bunny-graduation-outfit/",
+    "price": "60.00",
+    "sku": "BAS3GRAD"
+  },
+  "Bashful Cream Bunny Original": {
+    "official_url": "https://us.jellycat.com/bashful-cream-bunny/",
+    "price": "33.00",
+    "sku": "BAS3BC"
+  },
+  "Bashful Rufferty Black & Cream Puppy Original": {
+    "official_url": "https://us.jellycat.com/bashful-black-cream-puppy/",
+    "price": "33.00",
+    "sku": "BAS3BCP"
+  },
+  "Bashful Silver Bunny Original": {
+    "official_url": "https://us.jellycat.com/bashful-silver-bunny/",
+    "price": "33.00",
+    "sku": "BAS3BS"
+  },
+  "Bashful Woodland Bunny": {
+    "official_url": "https://us.jellycat.com/bashful-woodland-bunny/",
+    "price": "33.00",
+    "sku": "CTM3B"
+  },
+  "Betty Corgi": {
+    "official_url": "https://us.jellycat.com/betty-corgi-bag-charm/",
+    "price": "28.00",
+    "sku": ""
+  },
+  "Blossom Cream Bunny 'Berry' Original": {
+    "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry/",
+    "price": "33.00",
+    "sku": "BMP3MS"
+  },
+  "Blushkin Blossom Bunny Bag Charm": {
+    "official_url": "https://us.jellycat.com/blushkin-blossom-bunny-bag-charm/",
+    "price": "30.00",
+    "sku": "BP4ROSE"
+  },
+  "Blushkin Blossom Luxe Bunny Original": {
+    "official_url": "https://us.jellycat.com/blushkin-blossom-luxe-bunny-original/",
+    "price": "50.00",
+    "sku": "BAS3ROSE"
+  },
+  "Bretti Yeti": {
+    "official_url": "https://us.jellycat.com/bretti-yeti/",
+    "price": "65.00",
+    "sku": "YEN2YET"
+  },
+  "Canterneigh Pony": {
+    "official_url": "https://us.jellycat.com/canterneigh-pony/",
+    "price": "60.00",
+    "sku": "JUNG2H"
+  },
+  "Cream Bunny with Plant": {
+    "official_url": "https://us.jellycat.com/cream-bunny-with-plant/",
+    "price": "55.00",
+    "sku": "BB3PLA"
+  },
+  "Cream Bunny with Rose": {
+    "official_url": "https://us.jellycat.com/cream-bunny-with-rose/",
+    "price": "55.00",
+    "sku": "BB6ROSE"
+  },
+  "Cream Bunny with Star": {
+    "official_url": "https://us.jellycat.com/cream-bunny-with-star/",
+    "price": "55.00",
+    "sku": "BB3STAR"
+  },
+  "Croissant": {
+    "official_url": "https://us.jellycat.com/amuseables-croissant-bag-charm/",
+    "price": "28.00",
+    "sku": ""
+  },
+  "Derreck Dog": {
+    "official_url": "https://us.jellycat.com/derreck-dog/",
+    "price": "55.00",
+    "sku": "GRU3DG"
+  },
+  "Fancy Carp": {
+    "official_url": "https://us.jellycat.com/fancy-carp/",
+    "price": "38.00",
+    "sku": "KO4C"
+  },
+  "Festival Horse": {
+    "official_url": "https://us.jellycat.com/festival-horse/",
+    "price": "60.00",
+    "sku": "ROCK4H"
+  },
+  "Flower Bouquet": {
+    "official_url": "https://us.jellycat.com/amuseables-bouquet-of-flowers/",
+    "price": "55.00",
+    "sku": "A2BFL"
+  },
+  "Golden Puppy": {
+    "official_url": "https://us.jellycat.com/golden-puppy/",
+    "price": "38.00",
+    "sku": "MAL3DOG"
+  },
+  "Hoppleston Luxe Bunny Original": {
+    "official_url": "https://us.jellycat.com/hoppleston-luxe-bunny-original/",
+    "price": "45.00",
+    "sku": "BAS3BROW"
+  },
+  "Jerboa": {
+    "official_url": "https://us.jellycat.com/jerboa/",
+    "price": "35.00",
+    "sku": "JEB3RAT"
+  },
+  "Keli Pelican": {
+    "official_url": "https://us.jellycat.com/keli-pelican/",
+    "price": "75.00",
+    "sku": "PEL2CAN"
+  },
+  "Larry Lobster Sailor Outfit": {
+    "official_url": "https://us.jellycat.com/larry-lobster-sailor-outfit/",
+    "price": "75.00",
+    "sku": "LOB2LAR"
+  },
+  "Lazulia Dragon": {
+    "official_url": "https://us.jellycat.com/lazulia-dragon/",
+    "price": "75.00",
+    "sku": "RBW2DD"
+  },
+  "Lemonade": {
+    "official_url": "https://us.jellycat.com/amuseables-lemonade/",
+    "price": "33.00",
+    "sku": "A2LMD"
+  },
+  "Leola Bear Medium": {
+    "official_url": "https://us.jellycat.com/leola-bear/",
+    "price": "33.00",
+    "sku": "BARM2BP"
+  },
+  "Little Fox": {
+    "official_url": "https://us.jellycat.com/little-fox/",
+    "price": "25.00",
+    "sku": "L3F"
+  },
+  "Little Pig": {
+    "official_url": "https://us.jellycat.com/little-pig/",
+    "price": "25.00",
+    "sku": "L3P"
+  },
+  "Little Pup Bag Charm": {
+    "official_url": "https://us.jellycat.com/little-pup-bag-charm/",
+    "price": "28.00",
+    "sku": "L4PUBC"
+  },
+  "Little Snake": {
+    "official_url": "https://us.jellycat.com/little-snake/",
+    "price": "25.00",
+    "sku": "L3S"
+  },
+  "Munro Scottie Dog Bag Charm": {
+    "official_url": "https://us.jellycat.com/munro-scottie-dog-bag-charm/",
+    "price": "28.00",
+    "sku": "MUN4BC"
+  },
+  "Munro Scottie Dog Space Outfit": {
+    "official_url": "https://us.jellycat.com/munro-scottie-dog-space-outfit/",
+    "price": "60.00",
+    "sku": "MUN3SPD"
+  },
+  "Otto Sausage Dog": {
+    "official_url": "https://us.jellycat.com/otto-sausage-dog/",
+    "price": "35.00",
+    "sku": "OT3SD"
+  },
+  "Pinchsnap Crab": {
+    "official_url": "https://us.jellycat.com/pinchsnap-crab/",
+    "price": "60.00",
+    "sku": "CR2CRB"
+  },
+  "Rainbow Birthday Cake": {
+    "official_url": "https://us.jellycat.com/amuseables-rainbow-birthday-cake/",
+    "price": "65.00",
+    "sku": "A1RBC"
+  },
+  "Red Love Heart Bunny": {
+    "official_url": "https://us.jellycat.com/bashful-red-love-heart-bunny/",
+    "price": "38.00",
+    "sku": "BB3LOVE"
+  },
+  "Ricky Rain Frog": {
+    "official_url": "https://us.jellycat.com/ricky-rain-frog/",
+    "price": "33.00",
+    "sku": "RR3F"
+  },
+  "Roarwell Sea Lion": {
+    "official_url": "https://us.jellycat.com/roarwell-sea-lion/",
+    "price": "60.00",
+    "sku": "SEA2LN"
+  },
+  "Rockleton": {
+    "official_url": "https://us.jellycat.com/rockleton/",
+    "price": "75.00",
+    "sku": "R3RMON"
+  },
+  "Skipson Lamb Original": {
+    "official_url": "https://us.jellycat.com/skipson-lamb-original/",
+    "price": "35.00",
+    "sku": "BAS3LAM"
+  },
+  "Sky Dragon Bag Charm": {
+    "official_url": "https://us.jellycat.com/sky-dragon-bag-charm/",
+    "price": "35.00",
+    "sku": "SKY4BC"
+  },
+  "Smudge Cow Original": {
+    "official_url": "https://us.jellycat.com/smudge-cow-original/",
+    "price": "40.00",
+    "sku": "SMG2C"
+  },
+  "Smudge Pig Original": {
+    "official_url": "https://us.jellycat.com/smudge-pig-original/",
+    "price": "40.00",
+    "sku": "SMG2PG"
+  },
+  "Springlowe Luxe Bunny Big": {
+    "official_url": "https://us.jellycat.com/springlowe-luxe-bunny-big/",
+    "price": "100.00",
+    "sku": "BAH2LPB"
+  },
+  "Squawkatoo": {
+    "official_url": "https://us.jellycat.com/squawkatoo/",
+    "price": "35.00",
+    "sku": "CKT3P"
+  },
+  "Storm cloud": {
+    "official_url": "https://us.jellycat.com/amuseables-storm-cloud/",
+    "price": "33.00",
+    "sku": "A2SCL"
+  },
+  "Strutton Pigeon": {
+    "official_url": "https://us.jellycat.com/strutton-pigeon/",
+    "price": "50.00",
+    "sku": "PIG3EONY"
+  },
+  "Thimble Turtle": {
+    "official_url": "https://us.jellycat.com/thimble-turtle/",
+    "price": "30.00",
+    "sku": "TS4TUR"
+  },
+  "Thistlepop Blossom Bunny Bag Charm": {
+    "official_url": "https://us.jellycat.com/thistlepop-blossom-bunny-bag-charm/",
+    "price": "30.00",
+    "sku": "BP4MAG"
+  },
+  "Thistlepop Blossom Luxe Bunny Original": {
+    "official_url": "https://us.jellycat.com/thistlepop-blossom-luxe-bunny-original/",
+    "price": "50.00",
+    "sku": "BAS3MAG"
+  },
+  "Trixiwoo Raccoon": {
+    "official_url": "https://us.jellycat.com/trixiwoo-raccoon/",
+    "price": "55.00",
+    "sku": "RA3CN"
+  },
+  "Wonda Wombat": {
+    "official_url": "https://us.jellycat.com/wonda-wombat/",
+    "price": "55.00",
+    "sku": "WOM3BAT"
+  },
+  "Yummy Bunny": {
+    "official_url": "https://us.jellycat.com/yummy-bunny/",
+    "price": "23.00",
+    "sku": "YUM6B"
+  },
+  "Zodihop Luxe Bunny Bag Charm": {
+    "official_url": "https://us.jellycat.com/zodihop-luxe-bunny-bag-charm/",
+    "price": "30.00",
+    "sku": "BAS4COSBC"
+  },
+  "Zodihop Luxe Bunny Original": {
+    "official_url": "https://us.jellycat.com/zodihop-luxe-bunny-original/",
+    "price": "50.00",
+    "sku": "BAS3COS"
+  },
+  "Zyllan Alien": {
+    "official_url": "https://us.jellycat.com/zyllan-alien/",
+    "price": "45.00",
+    "sku": "AL3GRE"
+  }
+}

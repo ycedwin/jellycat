@@ -1,4 +1,5 @@
 import csv
+import json
 import re
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -6,6 +7,7 @@ from urllib.parse import quote_plus
 ROOT = Path(__file__).parent
 SOURCE = ROOT / "Marketplace - Jellycat.csv"
 OUTPUT = ROOT / "stock.csv"
+PRICE_DATA = ROOT / "official_prices.json"
 
 KNOWN = {
     "woodland babe bunny (medium)": {
@@ -34,6 +36,8 @@ KNOWN = {
         "image_url": "https://image.floranext.com/instances/lehifloral_com/catalog/product/s/c/screenshot_2025-01-29_at_5.05.10_pm_679ac25dc7549.png.webp?h=700&w=700&r=255&g=255&b=255",
     },
 }
+
+OFFICIAL_PRICES = json.loads(PRICE_DATA.read_text(encoding="utf-8")) if PRICE_DATA.exists() else {}
 
 
 def clean(value):
@@ -87,6 +91,10 @@ for key, item in products.items():
         item["quantity"] = "0"
 
     item.update(KNOWN.get(key, {}))
+    if verified := OFFICIAL_PRICES.get(item["name"]):
+        item["official_price_usd"] = verified["price"]
+        item["official_url"] = verified["official_url"]
+        item["sku"] = verified["sku"] or item["sku"]
     if not item["official_url"]:
         item["official_url"] = f"https://us.jellycat.com/search.php?search_query={quote_plus(item['name'])}"
     if not item["image_url"]:
