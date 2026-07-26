@@ -297,184 +297,6 @@
       color: var(--muted);
     }
 
-    .view-tabs {
-      display: flex;
-      width: fit-content;
-      margin: 0 auto 2rem;
-      padding: .3rem;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: var(--paper);
-    }
-
-    .view-tab {
-      padding: .7rem 1.2rem;
-      border: 0;
-      border-radius: 999px;
-      background: transparent;
-      color: var(--muted);
-      cursor: pointer;
-      font-weight: 700;
-    }
-
-    .view-tab[aria-selected="true"] {
-      background: var(--ink);
-      color: white;
-    }
-
-    .transactions {
-      padding-top: 1rem;
-    }
-
-    .section-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .section-heading h2 {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(2rem, 5vw, 3.4rem);
-      font-weight: 400;
-    }
-
-    .section-heading p {
-      max-width: 30rem;
-      margin: 0;
-      color: var(--muted);
-      font-size: .85rem;
-      line-height: 1.5;
-    }
-
-    .profit-summary {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      margin-bottom: 1.25rem;
-    }
-
-    .metric {
-      padding: 1.25rem;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 1rem;
-    }
-
-    .metric span {
-      display: block;
-      margin-bottom: .35rem;
-      color: var(--muted);
-      font-size: .72rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .metric strong {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.6rem;
-      font-weight: 400;
-    }
-
-    .transaction-form {
-      display: grid;
-      grid-template-columns: 2fr repeat(5, 1fr) auto;
-      gap: .65rem;
-      align-items: end;
-      padding: 1.25rem;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 1.15rem;
-      box-shadow: var(--shadow);
-    }
-
-    .transaction-form label {
-      display: grid;
-      gap: .35rem;
-      color: var(--muted);
-      font-size: .7rem;
-      letter-spacing: .04em;
-      text-transform: uppercase;
-    }
-
-    .transaction-form input,
-    .transaction-form select {
-      width: 100%;
-      min-width: 0;
-      padding: 0 .8rem;
-      border-radius: .7rem;
-    }
-
-    .primary-button, .secondary-button, .delete-button {
-      border: 0;
-      cursor: pointer;
-      font-weight: 700;
-    }
-
-    .primary-button {
-      min-height: 3rem;
-      padding: 0 1.1rem;
-      border-radius: .7rem;
-      background: var(--ink);
-      color: white;
-      white-space: nowrap;
-    }
-
-    .transaction-actions {
-      display: flex;
-      justify-content: flex-end;
-      gap: .6rem;
-      margin: 1rem 0;
-    }
-
-    .secondary-button {
-      padding: .7rem 1rem;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: var(--paper);
-      color: var(--ink);
-      font-size: .78rem;
-    }
-
-    .table-wrap {
-      overflow-x: auto;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 1rem;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: .83rem;
-    }
-
-    th, td {
-      padding: .9rem 1rem;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      white-space: nowrap;
-    }
-
-    th {
-      color: var(--muted);
-      font-size: .68rem;
-      letter-spacing: .07em;
-      text-transform: uppercase;
-    }
-
-    tbody tr:last-child td { border-bottom: 0; }
-
-    .delete-button {
-      padding: .35rem .6rem;
-      border-radius: 999px;
-      background: var(--pink-light);
-      color: #834b59;
-      font-size: .7rem;
-    }
-
     .back-to-top {
       position: fixed;
       right: 1.25rem;
@@ -507,8 +329,6 @@
 
     @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .transaction-form { grid-template-columns: repeat(3, 1fr); }
-      .transaction-form label:first-child { grid-column: span 2; }
     }
 
     @media (max-width: 610px) {
@@ -517,12 +337,6 @@
       .search-wrap { grid-column: 1 / -1; }
       .grid { grid-template-columns: 1fr; }
       .card h2 { min-height: 0; }
-      .section-heading { display: block; }
-      .section-heading p { margin-top: .7rem; }
-      .profit-summary { grid-template-columns: 1fr; }
-      .transaction-form { grid-template-columns: 1fr 1fr; }
-      .transaction-form label:first-child { grid-column: 1 / -1; }
-      .transaction-form .primary-button { grid-column: 1 / -1; }
     }
   </style>
 </head>
@@ -536,11 +350,6 @@
   </header>
 
   <main>
-    <nav class="view-tabs" aria-label="Page sections">
-      <button class="view-tab" type="button" data-view="catalog-view" aria-selected="true">Catalog</button>
-      <button class="view-tab" type="button" data-view="transactions-view" aria-selected="false">Transactions & profit</button>
-    </nav>
-
     <section id="catalog-view">
       <div class="toolbar" aria-label="Catalog controls">
         <label class="search-wrap">
@@ -572,42 +381,6 @@
         <p class="empty">Loading the shelf…</p>
       </section>
     </section>
-
-    <section class="transactions" id="transactions-view" aria-labelledby="transactions-title" hidden>
-      <div class="section-heading">
-        <h2 id="transactions-title">Transactions & profit</h2>
-        <p>Saved only in this browser. Export a backup before clearing browser data or changing devices.</p>
-      </div>
-
-      <div class="profit-summary">
-        <div class="metric"><span>Revenue</span><strong id="total-revenue">$0.00</strong></div>
-        <div class="metric"><span>Total cost</span><strong id="total-cost">$0.00</strong></div>
-        <div class="metric"><span>Profit</span><strong id="total-profit">$0.00</strong></div>
-      </div>
-
-      <form class="transaction-form" id="transaction-form">
-        <label>Product<select id="transaction-product" required><option value="">Choose a product</option></select></label>
-        <label>Date<input id="transaction-date" type="date" required></label>
-        <label>Quantity<input id="transaction-quantity" type="number" min="1" step="1" value="1" required></label>
-        <label>Sale CAD<input id="transaction-sale" type="number" min="0" step=".01" required></label>
-        <label>Unit cost CAD<input id="transaction-cost" type="number" min="0" step=".01" required></label>
-        <label>Fees CAD<input id="transaction-fees" type="number" min="0" step=".01" value="0"></label>
-        <button class="primary-button" type="submit">Save sale</button>
-      </form>
-
-      <div class="transaction-actions">
-        <button class="secondary-button" id="export-transactions" type="button">Export backup</button>
-        <button class="secondary-button" id="import-transactions" type="button">Import backup</button>
-        <input id="import-file" type="file" accept="application/json" hidden>
-      </div>
-
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Date</th><th>Product</th><th>Qty</th><th>Revenue</th><th>Cost + fees</th><th>Profit</th><th></th></tr></thead>
-          <tbody id="transaction-list"></tbody>
-        </table>
-      </div>
-    </section>
   </main>
 
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
@@ -621,17 +394,12 @@
     const catalog = document.querySelector("#catalog");
     const search = document.querySelector("#search");
     const statusFilter = document.querySelector("#status");
-    const transactionForm = document.querySelector("#transaction-form");
-    const transactionProduct = document.querySelector("#transaction-product");
-    const transactionList = document.querySelector("#transaction-list");
-    const transactionKey = "jellycat-transactions-v1";
     const backToTop = document.querySelector("#back-to-top");
     const stockSources = [
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-cpq37DxcW9dhxC_-uTZgT8owPFsaiQ_GRYqi74LyY6glhL_Thc6oTMrFRfL96NtEYgJDUwEbSaz7/pub?output=csv",
       "stock.csv"
     ];
     let products = [];
-    let transactions = JSON.parse(localStorage.getItem(transactionKey) || "[]");
 
     function parseCsv(text) {
       const rows = [];
@@ -776,82 +544,6 @@
       document.querySelector("#unit-count").textContent = visible.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
     }
 
-    function showView(viewId) {
-      document.querySelector("#catalog-view").hidden = viewId !== "catalog-view";
-      document.querySelector("#transactions-view").hidden = viewId !== "transactions-view";
-      for (const tab of document.querySelectorAll(".view-tab")) {
-        tab.setAttribute("aria-selected", String(tab.dataset.view === viewId));
-      }
-      history.replaceState(null, "", viewId === "transactions-view" ? "#transactions" : "#catalog");
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-
-    function saveTransactions() {
-      localStorage.setItem(transactionKey, JSON.stringify(transactions));
-      renderTransactions();
-    }
-
-    function renderTransactions() {
-      transactionList.replaceChildren();
-      let revenue = 0;
-      let totalCost = 0;
-
-      for (const transaction of transactions) {
-        const quantity = Number(transaction.quantity);
-        const rowRevenue = Number(transaction.sale) * quantity;
-        const rowCost = Number(transaction.cost) * quantity + Number(transaction.fees || 0);
-        revenue += rowRevenue;
-        totalCost += rowCost;
-
-        const row = document.createElement("tr");
-        for (const value of [
-          transaction.date, transaction.product, quantity,
-          money(rowRevenue, "CAD"), money(rowCost, "CAD"), money(rowRevenue - rowCost, "CAD")
-        ]) {
-          const cell = document.createElement("td");
-          cell.textContent = value;
-          row.append(cell);
-        }
-        const action = document.createElement("td");
-        const remove = document.createElement("button");
-        remove.className = "delete-button";
-        remove.type = "button";
-        remove.textContent = "Delete";
-        remove.addEventListener("click", () => {
-          transactions = transactions.filter(item => item.id !== transaction.id);
-          saveTransactions();
-        });
-        action.append(remove);
-        row.append(action);
-        transactionList.append(row);
-      }
-
-      if (!transactions.length) {
-        const row = document.createElement("tr");
-        const cell = document.createElement("td");
-        cell.colSpan = 7;
-        cell.textContent = "No transactions saved yet.";
-        row.append(cell);
-        transactionList.append(row);
-      }
-
-      document.querySelector("#total-revenue").textContent = money(revenue, "CAD");
-      document.querySelector("#total-cost").textContent = money(totalCost, "CAD");
-      document.querySelector("#total-profit").textContent = money(revenue - totalCost, "CAD");
-    }
-
-    function populateProducts() {
-      const options = products.map(product => {
-        const option = document.createElement("option");
-        option.value = product.name;
-        option.textContent = product.name;
-        option.dataset.price = product.my_price_cad;
-        option.dataset.cost = product.source_plus_gst;
-        return option;
-      });
-      transactionProduct.append(...options);
-    }
-
     async function loadStock() {
       for (const source of stockSources) {
         try {
@@ -860,7 +552,6 @@
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           products = parseCsv(await response.text());
           render();
-          populateProducts();
           return;
         } catch (error) {
           console.error(`Could not load ${source}`, error);
@@ -871,69 +562,12 @@
 
     search.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
-    for (const tab of document.querySelectorAll(".view-tab")) {
-      tab.addEventListener("click", () => showView(tab.dataset.view));
-    }
     window.addEventListener("scroll", () => {
       backToTop.hidden = window.scrollY < 500;
     }, { passive: true });
     backToTop.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
-    transactionProduct.addEventListener("change", () => {
-      const option = transactionProduct.selectedOptions[0];
-      if (option?.dataset.price) document.querySelector("#transaction-sale").value = option.dataset.price;
-      if (option?.dataset.cost) document.querySelector("#transaction-cost").value = option.dataset.cost;
-    });
-    transactionForm.addEventListener("submit", event => {
-      event.preventDefault();
-      transactions.unshift({
-        id: crypto.randomUUID(),
-        product: transactionProduct.value,
-        date: document.querySelector("#transaction-date").value,
-        quantity: document.querySelector("#transaction-quantity").value,
-        sale: document.querySelector("#transaction-sale").value,
-        cost: document.querySelector("#transaction-cost").value,
-        fees: document.querySelector("#transaction-fees").value || "0"
-      });
-      saveTransactions();
-      transactionForm.reset();
-      document.querySelector("#transaction-date").valueAsDate = new Date();
-      document.querySelector("#transaction-quantity").value = "1";
-      document.querySelector("#transaction-fees").value = "0";
-    });
-    document.querySelector("#export-transactions").addEventListener("click", () => {
-      const blob = new Blob([JSON.stringify(transactions, null, 2)], { type: "application/json" });
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = `jellycat-transactions-${new Date().toISOString().slice(0, 10)}.json`;
-      link.click();
-      URL.revokeObjectURL(link.href);
-    });
-    document.querySelector("#import-transactions").addEventListener("click", () => {
-      document.querySelector("#import-file").click();
-    });
-    document.querySelector("#import-file").addEventListener("change", async event => {
-      const [file] = event.target.files;
-      if (!file) return;
-      try {
-        const imported = JSON.parse(await file.text());
-        const fields = ["id", "product", "date", "quantity", "sale", "cost", "fees"];
-        if (!Array.isArray(imported) || imported.some(item => !item || fields.some(field => !(field in item)))) {
-          throw new Error("Invalid transaction backup");
-        }
-        transactions = imported;
-        saveTransactions();
-      } catch (error) {
-        alert("That file is not a valid Jellycat transaction backup.");
-        console.error(error);
-      } finally {
-        event.target.value = "";
-      }
-    });
-    document.querySelector("#transaction-date").valueAsDate = new Date();
-    renderTransactions();
-    if (location.hash === "#transactions") showView("transactions-view");
     loadStock();
   </script>
 </body>

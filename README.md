@@ -28,12 +28,6 @@ Verified official USD prices and exact product links live in `official_prices.js
 
 The `source_*` columns preserve every column from the latest matching row in the private marketplace export. They include costs, profit, status, and owner/type data and are intentionally public in `stock.csv`.
 
-## Transactions and profit
-
-Sales are saved privately in the current browser. Revenue, total cost, and profit are calculated automatically.
-
-Use **Export backup** to download the transaction history before clearing browser data or moving to another device. Use **Import backup** to restore it. Browser storage does not sync between devices.
-
 ## Publish with GitHub Pages
 
 1. Create a GitHub repository and upload this folder.
