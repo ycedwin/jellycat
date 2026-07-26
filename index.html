@@ -560,7 +560,7 @@
           </select>
         </label>
 
-        <a class="edit-link" id="edit-link" href="stock.csv">Edit stock</a>
+        <a class="edit-link" href="https://docs.google.com/spreadsheets/d/1xr_M3_GrhcJzxosVEvrk6IhMysEDxpx1AeZ3_pa4vBk/edit?gid=419836162#gid=419836162" target="_blank" rel="noopener">Edit stock</a>
       </div>
 
       <p class="summary" aria-live="polite">
@@ -776,14 +776,6 @@
       document.querySelector("#unit-count").textContent = visible.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
     }
 
-    function setEditLink() {
-      const { hostname, pathname } = window.location;
-      if (!hostname.endsWith(".github.io")) return;
-      const owner = hostname.split(".")[0];
-      const repo = pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
-      document.querySelector("#edit-link").href = `https://github.com/${owner}/${repo}/edit/main/stock.csv`;
-    }
-
     function showView(viewId) {
       document.querySelector("#catalog-view").hidden = viewId !== "catalog-view";
       document.querySelector("#transactions-view").hidden = viewId !== "transactions-view";
@@ -942,7 +934,6 @@
     document.querySelector("#transaction-date").valueAsDate = new Date();
     renderTransactions();
     if (location.hash === "#transactions") showView("transactions-view");
-    setEditLink();
     loadStock();
   </script>
 </body>
