@@ -14,6 +14,8 @@ Open `stock.csv` on GitHub, click the pencil icon, make a change, and commit it.
 
 The website updates a few minutes after the commit. The **Edit stock** button on the published site opens the same GitHub editor.
 
+The live catalog reads the published Google Sheet first and falls back to the repository’s `stock.csv` if the Sheet is unavailable.
+
 To rebuild `stock.csv` from the private marketplace spreadsheet, run:
 
 ```sh

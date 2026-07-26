@@ -626,6 +626,10 @@
     const transactionList = document.querySelector("#transaction-list");
     const transactionKey = "jellycat-transactions-v1";
     const backToTop = document.querySelector("#back-to-top");
+    const stockSources = [
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-cpq37DxcW9dhxC_-uTZgT8owPFsaiQ_GRYqi74LyY6glhL_Thc6oTMrFRfL96NtEYgJDUwEbSaz7/pub?output=csv",
+      "stock.csv"
+    ];
     let products = [];
     let transactions = JSON.parse(localStorage.getItem(transactionKey) || "[]");
 
@@ -857,16 +861,20 @@
     }
 
     async function loadStock() {
-      try {
-        const response = await fetch(`stock.csv?v=${Date.now()}`);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        products = parseCsv(await response.text());
-        render();
-        populateProducts();
-      } catch (error) {
-        catalog.innerHTML = '<p class="error">Could not load stock.csv. Open this site through a web server rather than as a local file.</p>';
-        console.error(error);
+      for (const source of stockSources) {
+        try {
+          const separator = source.includes("?") ? "&" : "?";
+          const response = await fetch(`${source}${separator}v=${Date.now()}`);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          products = parseCsv(await response.text());
+          render();
+          populateProducts();
+          return;
+        } catch (error) {
+          console.error(`Could not load ${source}`, error);
+        }
       }
+      catalog.innerHTML = '<p class="error">Could not load the Google Sheet or backup stock.csv.</p>';
     }
 
     search.addEventListener("input", render);
