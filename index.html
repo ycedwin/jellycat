@@ -453,23 +453,18 @@
       const imageWrap = document.createElement("div");
       imageWrap.className = "image-wrap";
 
-      let image;
-      if (product.image_url) {
-        image = document.createElement("img");
-        image.src = product.image_url;
-        image.alt = product.name;
-        image.loading = "lazy";
-        image.addEventListener("error", () => {
-          const placeholder = document.createElement("div");
-          placeholder.className = "image-placeholder";
-          placeholder.textContent = "Picture not added yet";
-          image.replaceWith(placeholder);
-        }, { once: true });
-      } else {
-        image = document.createElement("div");
-        image.className = "image-placeholder";
-        image.textContent = "Picture not added yet";
-      }
+      // ponytail: name search can pick a variant; set image_url in the Sheet to override it.
+      const imageUrl = product.image_url || `https://tse2.mm.bing.net/th?q=${encodeURIComponent(`Jellycat ${product.name}`)}&w=800&h=800&c=7&rs=1&p=0`;
+      const image = document.createElement("img");
+      image.src = imageUrl;
+      image.alt = product.name;
+      image.loading = "lazy";
+      image.addEventListener("error", () => {
+        const placeholder = document.createElement("div");
+        placeholder.className = "image-placeholder";
+        placeholder.textContent = "Picture not found";
+        image.replaceWith(placeholder);
+      }, { once: true });
 
       const badge = document.createElement("span");
       badge.className = `badge ${product.status.toLowerCase().replaceAll(" ", "-")}`;
@@ -511,7 +506,7 @@
 
       const link = document.createElement("a");
       link.className = "official-link";
-      link.href = product.official_url;
+      link.href = product.official_url || `https://us.jellycat.com/search.php?search_query=${encodeURIComponent(product.name)}`;
       link.target = "_blank";
       link.rel = "noopener";
       link.textContent = "View official product ↗";
