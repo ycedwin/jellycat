@@ -850,6 +850,7 @@
         option.value = product.name;
         option.textContent = product.name;
         option.dataset.price = product.my_price_cad;
+        option.dataset.cost = product.source_plus_gst;
         return option;
       });
       transactionProduct.append(...options);
@@ -882,6 +883,7 @@
     transactionProduct.addEventListener("change", () => {
       const option = transactionProduct.selectedOptions[0];
       if (option?.dataset.price) document.querySelector("#transaction-sale").value = option.dataset.price;
+      if (option?.dataset.cost) document.querySelector("#transaction-cost").value = option.dataset.cost;
     });
     transactionForm.addEventListener("submit", event => {
       event.preventDefault();

@@ -5,6 +5,11 @@ from pathlib import Path
 EXPECTED = [
     "name", "sku", "status", "quantity", "my_price_cad",
     "official_price_usd", "official_url", "image_url",
+    "source_column_1", "source_column_12", "source_column_2", "source_title",
+    "source_price", "source_plus_gst", "source_sell_price", "source_35_percent",
+    "source_profit", "source_profit_percent", "source_status", "source_type",
+    "source_summary_status", "source_summary_value", "source_summary_count",
+    "source_summary_total", "source_extra",
 ]
 
 root = Path(__file__).parent

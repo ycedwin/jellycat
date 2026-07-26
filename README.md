@@ -24,6 +24,8 @@ The rebuild keeps manually verified product images and generates a name-based im
 
 Verified official USD prices and exact product links live in `official_prices.json`. Products with ambiguous names, retired pages, or no displayed official price remain `Not listed` rather than using an estimate.
 
+The `source_*` columns preserve every column from the latest matching row in the private marketplace export. They include costs, profit, status, and owner/type data and are intentionally public in `stock.csv`.
+
 ## Transactions and profit
 
 Sales are saved privately in the current browser. Revenue, total cost, and profit are calculated automatically.

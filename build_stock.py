@@ -39,6 +39,14 @@ KNOWN = {
 
 OFFICIAL_PRICES = json.loads(PRICE_DATA.read_text(encoding="utf-8")) if PRICE_DATA.exists() else {}
 
+SOURCE_FIELDS = [
+    "source_column_1", "source_column_12", "source_column_2", "source_title",
+    "source_price", "source_plus_gst", "source_sell_price", "source_35_percent",
+    "source_profit", "source_profit_percent", "source_status", "source_type",
+    "source_summary_status", "source_summary_value", "source_summary_count",
+    "source_summary_total", "source_extra",
+]
+
 
 def clean(value):
     return re.sub(r"^\s*\d+\|", "", value or "").strip()
@@ -73,6 +81,7 @@ for row in rows[3:]:
     })
     item["statuses"].append(clean(row[10]))
     item["my_price_cad"] = number(row[6]) or item["my_price_cad"]
+    item.update(dict(zip(SOURCE_FIELDS, row)))
 
 for key, item in products.items():
     statuses = item.pop("statuses")
@@ -105,7 +114,7 @@ for key, item in products.items():
 fields = [
     "name", "sku", "status", "quantity", "my_price_cad",
     "official_price_usd", "official_url", "image_url",
-]
+] + SOURCE_FIELDS
 with OUTPUT.open("w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=fields, lineterminator="\n")
     writer.writeheader()
