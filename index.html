@@ -31,6 +31,7 @@
 
     button, input, select { font: inherit; }
     a { color: inherit; }
+    [hidden] { display: none !important; }
 
     .announcement {
       padding: .65rem 1rem;
@@ -296,10 +297,33 @@
       color: var(--muted);
     }
 
+    .view-tabs {
+      display: flex;
+      width: fit-content;
+      margin: 0 auto 2rem;
+      padding: .3rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+    }
+
+    .view-tab {
+      padding: .7rem 1.2rem;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .view-tab[aria-selected="true"] {
+      background: var(--ink);
+      color: white;
+    }
+
     .transactions {
-      margin-top: 5rem;
-      padding-top: 3.5rem;
-      border-top: 1px solid var(--line);
+      padding-top: 1rem;
     }
 
     .section-heading {
@@ -451,6 +475,22 @@
       font-size: .7rem;
     }
 
+    .back-to-top {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      z-index: 10;
+      width: 3rem;
+      height: 3rem;
+      border: 0;
+      border-radius: 50%;
+      background: var(--ink);
+      color: white;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      font-size: 1.3rem;
+    }
+
     footer {
       padding: 2rem 1rem;
       background: var(--paper);
@@ -492,37 +532,44 @@
   </header>
 
   <main>
-    <div class="toolbar" aria-label="Catalog controls">
-      <label class="search-wrap">
-        <span hidden>Search stock</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
-        <input id="search" type="search" placeholder="Search by name or SKU…" autocomplete="off">
-      </label>
+    <nav class="view-tabs" aria-label="Page sections">
+      <button class="view-tab" type="button" data-view="catalog-view" aria-selected="true">Catalog</button>
+      <button class="view-tab" type="button" data-view="transactions-view" aria-selected="false">Transactions & profit</button>
+    </nav>
 
-      <label>
-        <span hidden>Filter by status</span>
-        <select id="status">
-          <option value="all">All status</option>
-          <option value="in stock">In stock</option>
-          <option value="sold">Sold</option>
-          <option value="keep">Keep</option>
-          <option value="not in stock">Not in stock</option>
-        </select>
-      </label>
+    <section id="catalog-view">
+      <div class="toolbar" aria-label="Catalog controls">
+        <label class="search-wrap">
+          <span hidden>Search stock</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+          <input id="search" type="search" placeholder="Search by name or SKU…" autocomplete="off">
+        </label>
 
-      <a class="edit-link" id="edit-link" href="stock.csv">Edit stock</a>
-    </div>
+        <label>
+          <span hidden>Filter by status</span>
+          <select id="status">
+            <option value="all">All status</option>
+            <option value="in stock">In stock</option>
+            <option value="sold">Sold</option>
+            <option value="keep">Keep</option>
+            <option value="not in stock">Not in stock</option>
+          </select>
+        </label>
 
-    <p class="summary" aria-live="polite">
-      <span><strong id="item-count">0</strong> designs</span>
-      <span><strong id="unit-count">0</strong> total pieces</span>
-    </p>
+        <a class="edit-link" id="edit-link" href="stock.csv">Edit stock</a>
+      </div>
 
-    <section class="grid" id="catalog" aria-label="Jellycat stock">
-      <p class="empty">Loading the shelf…</p>
+      <p class="summary" aria-live="polite">
+        <span><strong id="item-count">0</strong> designs</span>
+        <span><strong id="unit-count">0</strong> total pieces</span>
+      </p>
+
+      <section class="grid" id="catalog" aria-label="Jellycat stock">
+        <p class="empty">Loading the shelf…</p>
+      </section>
     </section>
 
-    <section class="transactions" aria-labelledby="transactions-title">
+    <section class="transactions" id="transactions-view" aria-labelledby="transactions-title" hidden>
       <div class="section-heading">
         <h2 id="transactions-title">Transactions & profit</h2>
         <p>Saved only in this browser. Export a backup before clearing browser data or changing devices.</p>
@@ -559,6 +606,8 @@
     </section>
   </main>
 
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
+
   <footer>
     Personal reference site. Not affiliated with or endorsed by Jellycat.<br>
     Product names, images, and official prices belong to their respective owners.
@@ -572,6 +621,7 @@
     const transactionProduct = document.querySelector("#transaction-product");
     const transactionList = document.querySelector("#transaction-list");
     const transactionKey = "jellycat-transactions-v1";
+    const backToTop = document.querySelector("#back-to-top");
     let products = [];
     let transactions = JSON.parse(localStorage.getItem(transactionKey) || "[]");
 
@@ -726,6 +776,16 @@
       document.querySelector("#edit-link").href = `https://github.com/${owner}/${repo}/edit/main/stock.csv`;
     }
 
+    function showView(viewId) {
+      document.querySelector("#catalog-view").hidden = viewId !== "catalog-view";
+      document.querySelector("#transactions-view").hidden = viewId !== "transactions-view";
+      for (const tab of document.querySelectorAll(".view-tab")) {
+        tab.setAttribute("aria-selected", String(tab.dataset.view === viewId));
+      }
+      history.replaceState(null, "", viewId === "transactions-view" ? "#transactions" : "#catalog");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
     function saveTransactions() {
       localStorage.setItem(transactionKey, JSON.stringify(transactions));
       renderTransactions();
@@ -806,6 +866,15 @@
 
     search.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
+    for (const tab of document.querySelectorAll(".view-tab")) {
+      tab.addEventListener("click", () => showView(tab.dataset.view));
+    }
+    window.addEventListener("scroll", () => {
+      backToTop.hidden = window.scrollY < 500;
+    }, { passive: true });
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
     transactionProduct.addEventListener("change", () => {
       const option = transactionProduct.selectedOptions[0];
       if (option?.dataset.price) document.querySelector("#transaction-sale").value = option.dataset.price;
@@ -858,6 +927,7 @@
     });
     document.querySelector("#transaction-date").valueAsDate = new Date();
     renderTransactions();
+    if (location.hash === "#transactions") showView("transactions-view");
     setEditLink();
     loadStock();
   </script>
