@@ -89,6 +89,10 @@ for key, item in products.items():
     item.update(KNOWN.get(key, {}))
     if not item["official_url"]:
         item["official_url"] = f"https://us.jellycat.com/search.php?search_query={quote_plus(item['name'])}"
+    if not item["image_url"]:
+        # ponytail: name search can pick a variant; add a curated KNOWN entry when exact matching matters.
+        query = quote_plus(f"Jellycat {item['name']}")
+        item["image_url"] = f"https://tse2.mm.bing.net/th?q={query}&w=800&h=800&c=7&rs=1&p=0"
 
 fields = [
     "name", "sku", "status", "quantity", "my_price_cad",

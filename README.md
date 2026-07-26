@@ -20,6 +20,8 @@ To rebuild `stock.csv` from the private marketplace spreadsheet, run:
 python3 build_stock.py
 ```
 
+The rebuild keeps manually verified product images and generates a name-based image lookup for the remaining designs. Similar product names can occasionally return the wrong variation; add a verified entry to `KNOWN` in `build_stock.py` to override one.
+
 ## Transactions and profit
 
 Sales are saved privately in the current browser. Revenue, total cost, and profit are calculated automatically.
