@@ -6,13 +6,25 @@ A static personal stock catalog designed for GitHub Pages.
 
 Open `stock.csv` on GitHub, click the pencil icon, make a change, and commit it.
 
-- `status`: use `In stock`, `Sold`, or `Keep`
+- `status`: use `In stock`, `Sold`, `Keep`, or `Not in stock`
 - `quantity`: number currently owned
 - `my_price_cad`: your selling price in CAD
 - `official_price_usd`: price shown on the official US Jellycat site
 - Add one row for each new design
 
 The website updates a few minutes after the commit. The **Edit stock** button on the published site opens the same GitHub editor.
+
+To rebuild `stock.csv` from the private marketplace spreadsheet, run:
+
+```sh
+python3 build_stock.py
+```
+
+## Transactions and profit
+
+Sales are saved privately in the current browser. Revenue, total cost, and profit are calculated automatically.
+
+Use **Export backup** to download the transaction history before clearing browser data or moving to another device. Use **Import backup** to restore it. Browser storage does not sync between devices.
 
 ## Publish with GitHub Pages
 
