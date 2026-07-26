@@ -34,11 +34,11 @@
     [hidden] { display: none !important; }
 
     .announcement {
-      padding: .65rem 1rem;
+      padding: .45rem 1rem;
       background: var(--ink);
       color: white;
       text-align: center;
-      font-size: .78rem;
+      font-size: .68rem;
       letter-spacing: .08em;
       text-transform: uppercase;
     }
@@ -46,7 +46,7 @@
     header {
       position: relative;
       overflow: hidden;
-      padding: 4.8rem 1.25rem 4rem;
+      padding: 2.6rem 1.25rem 2.3rem;
       text-align: center;
       background: var(--paper);
       border-bottom: 1px solid var(--line);
@@ -80,7 +80,7 @@
       position: relative;
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(2.7rem, 8vw, 5.6rem);
+      font-size: clamp(2.3rem, 6vw, 4.2rem);
       font-weight: 400;
       letter-spacing: -.045em;
       line-height: .95;
@@ -89,16 +89,16 @@
     .intro {
       position: relative;
       max-width: 34rem;
-      margin: 1.25rem auto 0;
+      margin: .8rem auto 0;
       color: var(--muted);
-      font-size: 1rem;
+      font-size: .9rem;
       line-height: 1.6;
     }
 
     main {
-      width: min(1180px, calc(100% - 2rem));
+      width: min(1280px, calc(100% - 2rem));
       margin: 0 auto;
-      padding: 2.5rem 0 5rem;
+      padding: 1.5rem 0 4rem;
     }
 
     .toolbar {
@@ -166,15 +166,15 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: .9rem;
     }
 
     .card {
       overflow: hidden;
       background: var(--paper);
       border: 1px solid var(--line);
-      border-radius: 1.35rem;
+      border-radius: 1rem;
       box-shadow: var(--shadow);
       transition: transform 180ms ease, box-shadow 180ms ease;
     }
@@ -237,7 +237,7 @@
       text-align: center;
     }
 
-    .card-body { padding: 1.25rem; }
+    .card-body { padding: .9rem; }
 
     .sku {
       margin: 0 0 .45rem;
@@ -249,9 +249,9 @@
 
     .card h2 {
       min-height: 2.5em;
-      margin: 0 0 1rem;
+      margin: 0 0 .75rem;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.35rem;
+      font-size: 1.08rem;
       font-weight: 400;
       line-height: 1.25;
     }
@@ -259,8 +259,8 @@
     .prices {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: .75rem;
-      padding: .9rem 0;
+      gap: .5rem;
+      padding: .7rem 0;
       border-top: 1px solid var(--line);
       border-bottom: 1px solid var(--line);
     }
@@ -275,13 +275,13 @@
     }
 
     .price {
-      font-size: 1rem;
+      font-size: .85rem;
       font-weight: 700;
     }
 
     .official-link {
       display: inline-block;
-      margin-top: 1rem;
+      margin-top: .75rem;
       color: var(--ink);
       font-size: .82rem;
       font-weight: 700;
@@ -501,14 +501,18 @@
       line-height: 1.6;
     }
 
-    @media (max-width: 850px) {
+    @media (max-width: 1050px) {
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .transaction-form { grid-template-columns: repeat(3, 1fr); }
       .transaction-form label:first-child { grid-column: span 2; }
     }
 
     @media (max-width: 610px) {
-      header { padding-top: 3.6rem; }
+      header { padding: 2.2rem 1rem 2rem; }
       .toolbar { grid-template-columns: 1fr 1fr; }
       .search-wrap { grid-column: 1 / -1; }
       .grid { grid-template-columns: 1fr; }
