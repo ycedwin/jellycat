@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal Jellycat stock catalog.">
+  <title>My Jellycat Shelf</title>
+  <style>
+    :root {
+      --ink: #15364a;
+      --muted: #65747c;
+      --cream: #f8f5ee;
+      --paper: #fffdf8;
+      --pink: #efc6d0;
+      --pink-light: #f8e9ec;
+      --green: #dce9d8;
+      --green-ink: #365d3c;
+      --line: #dedbd3;
+      --shadow: 0 12px 32px rgb(21 54 74 / 8%);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--cream);
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, input, select { font: inherit; }
+    a { color: inherit; }
+
+    .announcement {
+      padding: .65rem 1rem;
+      background: var(--ink);
+      color: white;
+      text-align: center;
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    header {
+      position: relative;
+      overflow: hidden;
+      padding: 4.8rem 1.25rem 4rem;
+      text-align: center;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+
+    header::before,
+    header::after {
+      position: absolute;
+      width: 18rem;
+      height: 18rem;
+      border-radius: 50%;
+      background: var(--pink-light);
+      content: "";
+      filter: blur(1px);
+    }
+
+    header::before { top: -11rem; left: -7rem; }
+    header::after { right: -8rem; bottom: -12rem; }
+
+    .eyebrow {
+      position: relative;
+      margin: 0 0 .8rem;
+      color: #a6576b;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      position: relative;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.7rem, 8vw, 5.6rem);
+      font-weight: 400;
+      letter-spacing: -.045em;
+      line-height: .95;
+    }
+
+    .intro {
+      position: relative;
+      max-width: 34rem;
+      margin: 1.25rem auto 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2.5rem 0 5rem;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(13rem, 1fr) auto auto;
+      gap: .75rem;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .search-wrap { position: relative; }
+
+    .search-wrap svg {
+      position: absolute;
+      top: 50%;
+      left: 1rem;
+      width: 1.1rem;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    input, select, .edit-link {
+      min-height: 3rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    input {
+      width: 100%;
+      padding: 0 1rem 0 2.8rem;
+    }
+
+    select { padding: 0 2.5rem 0 1.1rem; }
+
+    input:focus, select:focus, .edit-link:focus-visible, .official-link:focus-visible {
+      outline: 3px solid rgb(239 198 208 / 65%);
+      outline-offset: 2px;
+    }
+
+    .edit-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1.25rem;
+      background: var(--pink);
+      border-color: var(--pink);
+      font-size: .88rem;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 0 0 1rem;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    .summary strong { color: var(--ink); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      overflow: hidden;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 1.35rem;
+      box-shadow: var(--shadow);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 38px rgb(21 54 74 / 12%);
+    }
+
+    .image-wrap {
+      position: relative;
+      aspect-ratio: 1;
+      overflow: hidden;
+      background: #f1eee7;
+    }
+
+    .image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+      transition: transform 300ms ease;
+    }
+
+    .card:hover img { transform: scale(1.025); }
+
+    .badge {
+      position: absolute;
+      top: .85rem;
+      left: .85rem;
+      padding: .45rem .75rem;
+      border-radius: 999px;
+      background: var(--green);
+      color: var(--green-ink);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .badge.sold {
+      background: #ece8e0;
+      color: #746f65;
+    }
+
+    .card-body { padding: 1.25rem; }
+
+    .sku {
+      margin: 0 0 .45rem;
+      color: var(--muted);
+      font-size: .7rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .card h2 {
+      min-height: 2.5em;
+      margin: 0 0 1rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.35rem;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+
+    .prices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .75rem;
+      padding: .9rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .price-label {
+      display: block;
+      margin-bottom: .3rem;
+      color: var(--muted);
+      font-size: .7rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .price {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .official-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--ink);
+      font-size: .82rem;
+      font-weight: 700;
+      text-underline-offset: .22rem;
+    }
+
+    .empty, .error {
+      grid-column: 1 / -1;
+      padding: 4rem 1rem;
+      border: 1px dashed var(--line);
+      border-radius: 1.25rem;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 2rem 1rem;
+      background: var(--paper);
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      text-align: center;
+      font-size: .75rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 850px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 610px) {
+      header { padding-top: 3.6rem; }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+      .search-wrap { grid-column: 1 / -1; }
+      .grid { grid-template-columns: 1fr; }
+      .card h2 { min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement">A small shelf of very soft friends</div>
+
+  <header>
+    <p class="eyebrow">Personal stock catalog</p>
+    <h1>My Jellycat Shelf</h1>
+    <p class="intro">A simple reference for what is currently on my shelf, with links and prices from the official Jellycat website.</p>
+  </header>
+
+  <main>
+    <div class="toolbar" aria-label="Catalog controls">
+      <label class="search-wrap">
+        <span hidden>Search stock</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+        <input id="search" type="search" placeholder="Search by name or SKU…" autocomplete="off">
+      </label>
+
+      <label>
+        <span hidden>Filter by status</span>
+        <select id="status">
+          <option value="all">All status</option>
+          <option value="in stock">In stock</option>
+          <option value="sold">Sold</option>
+          <option value="keep">Keep</option>
+        </select>
+      </label>
+
+      <a class="edit-link" id="edit-link" href="stock.csv">Edit stock</a>
+    </div>
+
+    <p class="summary" aria-live="polite">
+      <span><strong id="item-count">0</strong> designs</span>
+      <span><strong id="unit-count">0</strong> total pieces</span>
+    </p>
+
+    <section class="grid" id="catalog" aria-label="Jellycat stock">
+      <p class="empty">Loading the shelf…</p>
+    </section>
+  </main>
+
+  <footer>
+    Personal reference site. Not affiliated with or endorsed by Jellycat.<br>
+    Product names, images, and official prices belong to their respective owners.
+  </footer>
+
+  <script>
+    const catalog = document.querySelector("#catalog");
+    const search = document.querySelector("#search");
+    const statusFilter = document.querySelector("#status");
+    let products = [];
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let cell = "";
+      let quoted = false;
+
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        if (char === '"') {
+          if (quoted && text[i + 1] === '"') {
+            cell += '"';
+            i++;
+          } else {
+            quoted = !quoted;
+          }
+        } else if (char === "," && !quoted) {
+          row.push(cell);
+          cell = "";
+        } else if ((char === "\n" || char === "\r") && !quoted) {
+          if (char === "\r" && text[i + 1] === "\n") i++;
+          row.push(cell);
+          if (row.some(value => value.trim())) rows.push(row);
+          row = [];
+          cell = "";
+        } else {
+          cell += char;
+        }
+      }
+
+      row.push(cell);
+      if (row.some(value => value.trim())) rows.push(row);
+
+      const [headers, ...records] = rows;
+      return records.map(values => Object.fromEntries(headers.map((header, i) => [header, values[i] ?? ""])));
+    }
+
+    function money(value, currency) {
+      if (!value) return "Not listed";
+      return new Intl.NumberFormat("en-CA", {
+        style: "currency",
+        currency,
+        currencyDisplay: "code"
+      }).format(Number(value));
+    }
+
+    function productCard(product) {
+      const article = document.createElement("article");
+      article.className = "card";
+
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "image-wrap";
+
+      const image = document.createElement("img");
+      image.src = product.image_url;
+      image.alt = product.name;
+      image.loading = "lazy";
+      image.addEventListener("error", () => {
+        image.removeAttribute("src");
+        image.alt = `${product.name} image unavailable`;
+      }, { once: true });
+
+      const badge = document.createElement("span");
+      badge.className = `badge ${product.status.toLowerCase() === "sold" ? "sold" : ""}`;
+      badge.textContent = `${product.status} · ${product.quantity}`;
+
+      imageWrap.append(image, badge);
+
+      const body = document.createElement("div");
+      body.className = "card-body";
+
+      const sku = document.createElement("p");
+      sku.className = "sku";
+      sku.textContent = `SKU ${product.sku}`;
+
+      const name = document.createElement("h2");
+      name.textContent = product.name;
+
+      const prices = document.createElement("div");
+      prices.className = "prices";
+
+      const myPrice = document.createElement("div");
+      const myLabel = document.createElement("span");
+      myLabel.className = "price-label";
+      myLabel.textContent = "My price";
+      const myValue = document.createElement("span");
+      myValue.className = "price";
+      myValue.textContent = money(product.my_price_cad, "CAD");
+      myPrice.append(myLabel, myValue);
+
+      const officialPrice = document.createElement("div");
+      const officialLabel = document.createElement("span");
+      officialLabel.className = "price-label";
+      officialLabel.textContent = "Official";
+      const officialValue = document.createElement("span");
+      officialValue.className = "price";
+      officialValue.textContent = money(product.official_price_usd, "USD");
+      officialPrice.append(officialLabel, officialValue);
+      prices.append(myPrice, officialPrice);
+
+      const link = document.createElement("a");
+      link.className = "official-link";
+      link.href = product.official_url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "View official product ↗";
+
+      body.append(sku, name, prices, link);
+      article.append(imageWrap, body);
+      return article;
+    }
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      const status = statusFilter.value;
+      const visible = products.filter(product => {
+        const matchesQuery = `${product.name} ${product.sku}`.toLowerCase().includes(query);
+        const matchesStatus = status === "all" || product.status.toLowerCase() === status;
+        return matchesQuery && matchesStatus;
+      });
+
+      catalog.replaceChildren();
+      if (!visible.length) {
+        const empty = document.createElement("p");
+        empty.className = "empty";
+        empty.textContent = "No Jellycats match that search.";
+        catalog.append(empty);
+      } else {
+        catalog.append(...visible.map(productCard));
+      }
+
+      document.querySelector("#item-count").textContent = visible.length;
+      document.querySelector("#unit-count").textContent = visible.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
+    }
+
+    function setEditLink() {
+      const { hostname, pathname } = window.location;
+      if (!hostname.endsWith(".github.io")) return;
+      const owner = hostname.split(".")[0];
+      const repo = pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
+      document.querySelector("#edit-link").href = `https://github.com/${owner}/${repo}/edit/main/stock.csv`;
+    }
+
+    async function loadStock() {
+      try {
+        const response = await fetch(`stock.csv?v=${Date.now()}`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        products = parseCsv(await response.text());
+        render();
+      } catch (error) {
+        catalog.innerHTML = '<p class="error">Could not load stock.csv. Open this site through a web server rather than as a local file.</p>';
+        console.error(error);
+      }
+    }
+
+    search.addEventListener("input", render);
+    statusFilter.addEventListener("change", render);
+    setEditLink();
+    loadStock();
+  </script>
+</body>
+</html>
