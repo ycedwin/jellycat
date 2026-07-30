@@ -1,48 +1,61 @@
 # My Jellycat Shelf
 
-A static personal stock catalog designed for GitHub Pages.
+Personal Jellycat stock catalog on GitHub Pages, edited through Google Sheets.
 
-## Update stock
+## Links
 
-Open `stock.csv` on GitHub, click the pencil icon, make a change, and commit it.
+| | URL |
+| --- | --- |
+| **Live site** | https://ycedwin.github.io/jellycat/ |
+| **Repo** | https://github.com/ycedwin/jellycat |
+| **Edit stock (Google Sheet)** | https://docs.google.com/spreadsheets/d/1xr_M3_GrhcJzxosVEvrk6IhMysEDxpx1AeZ3_pa4vBk/edit?gid=419836162#gid=419836162 |
 
-- `status`: use `In stock`, `Sold`, `Keep`, or `Not in stock`
-- `quantity`: number currently owned
-- `my_price_cad`: your selling price in CAD
-- `official_price_usd`: price shown on the official US Jellycat site
-- Add one row for each new design
+The site loads stock from the published Google Sheet first, then falls back to `stock.csv` in this repo.
 
-The website updates a few minutes after the commit. The **Edit stock** button on the published site opens the same GitHub editor.
+## Add or update a listing
 
-The live catalog reads the published Google Sheet first and falls back to the repository’s `stock.csv` if the Sheet is unavailable.
+1. Open **Edit stock** on the site (or the Google Sheet link above).
+2. Add a new row, or change an existing one.
+3. Refresh the live site after a few minutes.
 
-To rebuild `stock.csv` from the private marketplace spreadsheet, run:
+### Required columns
+
+| Column | Example | Notes |
+| --- | --- | --- |
+| `name` | `Amuseables Peanut` | Product name |
+| `status` | `In stock` | One of: `In stock`, `Sold`, `Keep`, `Not in stock` |
+| `quantity` | `1` | Whole number |
+| `my_price_cad` | `50.00` | Your selling price in CAD |
+
+### Optional columns
+
+| Column | Notes |
+| --- | --- |
+| `sku` | Official SKU if known |
+| `official_price_usd` | Verified USD price from [us.jellycat.com](https://us.jellycat.com) |
+| `official_url` | Exact product page. If blank, the site uses a Jellycat search link |
+| `image_url` | Leave blank for automatic name-based image search. Fill in to override a wrong image |
+| `source_*` | Original marketplace columns (cost, GST, profit, type, etc.) |
+
+Do not rename the header row.
+
+## Images and official prices
+
+- **Images:** If `image_url` is empty, the page searches online by `Jellycat + name`. Wrong variants can be fixed by pasting a correct URL into `image_url`.
+- **Official prices:** Enter verified USD prices manually in the Sheet. Jellycat has no public price API for live auto-fetch on GitHub Pages.
+- Verified prices already researched live in `official_prices.json`.
+
+## Rebuild from marketplace CSV (optional)
 
 ```sh
 python3 build_stock.py
-```
-
-The rebuild keeps manually verified product images and generates a name-based image lookup for the remaining designs. Similar product names can occasionally return the wrong variation; add a verified entry to `KNOWN` in `build_stock.py` to override one.
-
-Verified official USD prices and exact product links live in `official_prices.json`. Products with ambiguous names, retired pages, or no displayed official price remain `Not listed` rather than using an estimate.
-
-The `source_*` columns preserve every column from the latest matching row in the private marketplace export. They include costs, profit, status, and owner/type data and are intentionally public in `stock.csv`.
-
-## Publish with GitHub Pages
-
-1. Create a GitHub repository and upload this folder.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select `main`, `/ (root)`, then **Save**.
-
-GitHub will show the public site URL when deployment finishes.
-
-## Check the CSV
-
-Run:
-
-```sh
 python3 check.py
 ```
 
-The original marketplace spreadsheet is intentionally excluded from the public catalog because it contains private cost and profit information.
+`Marketplace - Jellycat.csv` stays local and is gitignored. Rebuild overwrites `stock.csv` from that export plus `official_prices.json`.
+
+## Notes
+
+- Not affiliated with or endorsed by Jellycat.
+- Product names, images, and official prices belong to their respective owners.
+- Sheet and `stock.csv` are publicly readable.
