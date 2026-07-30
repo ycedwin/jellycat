@@ -1,61 +1,71 @@
 # My Jellycat Shelf
 
-Personal Jellycat stock catalog on GitHub Pages, edited through Google Sheets.
+Personal Jellycat stock catalog on GitHub Pages, edited through Google Sheets, plus an official Soft Toys / Animals / Bag Charms browser.
 
 ## Links
 
 | | URL |
 | --- | --- |
 | **Live site** | https://ycedwin.github.io/jellycat/ |
+| **Official tab** | https://ycedwin.github.io/jellycat/#official |
 | **Repo** | https://github.com/ycedwin/jellycat |
 | **Edit stock (Google Sheet)** | https://docs.google.com/spreadsheets/d/1xr_M3_GrhcJzxosVEvrk6IhMysEDxpx1AeZ3_pa4vBk/edit?gid=419836162#gid=419836162 |
 
-The site loads stock from the published Google Sheet first, then falls back to `stock.csv` in this repo.
+## Tabs
 
-## Add or update a listing
+### My stock
 
-1. Open **Edit stock** on the site (or the Google Sheet link above).
-2. Add a new row, or change an existing one.
-3. Refresh the live site after a few minutes.
+Reads the published Google Sheet first, then falls back to `stock.csv`.
 
-### Required columns
+Required columns for new rows: `name`, `status`, `quantity`, `my_price_cad`.
 
-| Column | Example | Notes |
-| --- | --- | --- |
-| `name` | `Amuseables Peanut` | Product name |
-| `status` | `In stock` | One of: `In stock`, `Sold`, `Keep`, `Not in stock` |
-| `quantity` | `1` | Whole number |
-| `my_price_cad` | `50.00` | Your selling price in CAD |
+Optional: `sku`, `official_price_usd`, `official_url`, `image_url` (blank = automatic name image), `source_*`.
 
-### Optional columns
+### Official listing
 
-| Column | Notes |
-| --- | --- |
-| `sku` | Official SKU if known |
-| `official_price_usd` | Verified USD price from [us.jellycat.com](https://us.jellycat.com) |
-| `official_url` | Exact product page. If blank, the site uses a Jellycat search link |
-| `image_url` | Leave blank for automatic name-based image search. Fill in to override a wrong image |
-| `source_*` | Original marketplace columns (cost, GST, profit, type, etc.) |
+Lists Soft Toys, Animals, and Bag Charms from [us.jellycat.com](https://us.jellycat.com/shop-all).
 
-Do not rename the header row.
+Each card shows:
 
-## Images and official prices
+- product image
+- official USD price
+- CAD price using fixed FX `1.41`
+- profit price = CAD × `1.2`
 
-- **Images:** If `image_url` is empty, the page searches online by `Jellycat + name`. Wrong variants can be fixed by pasting a correct URL into `image_url`.
-- **Official prices:** Enter verified USD prices manually in the Sheet. Jellycat has no public price API for live auto-fetch on GitHub Pages.
-- Verified prices already researched live in `official_prices.json`.
+Profit filters are **dynamic** thirds of the current catalog (labels like `< $42`), so each bucket stays roughly even as prices change.
 
-## Rebuild from marketplace CSV (optional)
+**Refresh listings** reloads `official-catalog.json` from the site. It does **not** scrape Jellycat in the browser.
+
+## Refresh official catalog (new listings only)
+
+Existing rows are kept as-is. Only missing products are appended.
+
+### Locally
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python refresh_official_catalog.py
+```
+
+Then commit/push `official-catalog.json`, or open the local site and hit **Refresh listings**.
+
+### Daily on GitHub
+
+`.github/workflows/refresh-official-catalog.yml` runs once a day and pushes new products when found. You can also run it from **Actions → Refresh official catalog → Run workflow**.
+
+Change FX or markup in `refresh_official_catalog.py` (`USD_TO_CAD`, `PROFIT_MARKUP`).
+
+## Rebuild stock from marketplace CSV (optional)
 
 ```sh
 python3 build_stock.py
 python3 check.py
 ```
 
-`Marketplace - Jellycat.csv` stays local and is gitignored. Rebuild overwrites `stock.csv` from that export plus `official_prices.json`.
-
 ## Notes
 
 - Not affiliated with or endorsed by Jellycat.
 - Product names, images, and official prices belong to their respective owners.
-- Sheet and `stock.csv` are publicly readable.
+- Sheet, `stock.csv`, and `official-catalog.json` are publicly readable.

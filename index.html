@@ -313,6 +313,84 @@
       font-size: 1.3rem;
     }
 
+    .view-tabs {
+      display: flex;
+      width: fit-content;
+      margin: 0 auto 1.5rem;
+      padding: .3rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+    }
+
+    .view-tab {
+      padding: .65rem 1.15rem;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .view-tab[aria-selected="true"] {
+      background: var(--ink);
+      color: white;
+    }
+
+    .profit-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin: 0 0 1rem;
+    }
+
+    .profit-chip {
+      padding: .55rem .9rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--muted);
+      cursor: pointer;
+      font-size: .78rem;
+      font-weight: 700;
+    }
+
+    .profit-chip[aria-pressed="true"] {
+      background: var(--green);
+      border-color: var(--green);
+      color: var(--green-ink);
+    }
+
+    .official-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .refresh-button {
+      min-height: 2.7rem;
+      padding: 0 1.1rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .meta-note {
+      color: var(--muted);
+      font-size: .8rem;
+    }
+
+    .prices.three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
     footer {
       padding: 2rem 1rem;
       background: var(--paper);
@@ -329,6 +407,7 @@
 
     @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .prices.three { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 610px) {
@@ -350,7 +429,12 @@
   </header>
 
   <main>
-    <section id="catalog-view">
+    <nav class="view-tabs" aria-label="Page sections">
+      <button class="view-tab" type="button" data-view="stock-view" aria-selected="true">My stock</button>
+      <button class="view-tab" type="button" data-view="official-view" aria-selected="false">Official listing</button>
+    </nav>
+
+    <section id="stock-view">
       <div class="toolbar" aria-label="Catalog controls">
         <label class="search-wrap">
           <span hidden>Search stock</span>
@@ -381,6 +465,30 @@
         <p class="empty">Loading the shelf…</p>
       </section>
     </section>
+
+    <section id="official-view" hidden>
+      <div class="official-toolbar">
+        <p class="meta-note" id="official-meta">Soft Toys, Animals, and Bag Charms from the official US site.</p>
+        <button class="refresh-button" id="official-refresh" type="button">Refresh listings</button>
+      </div>
+
+      <label class="search-wrap" style="display:block;margin-bottom:1rem">
+        <span hidden>Search official listings</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+        <input id="official-search" type="search" placeholder="Search official listings…" autocomplete="off">
+      </label>
+
+      <nav class="profit-nav" id="profit-nav" aria-label="Profit price filters"></nav>
+
+      <p class="summary" aria-live="polite">
+        <span><strong id="official-count">0</strong> listings</span>
+        <span id="official-fx">FX —</span>
+      </p>
+
+      <section class="grid" id="official-catalog" aria-label="Official Jellycat listings">
+        <p class="empty">Loading official listings…</p>
+      </section>
+    </section>
   </main>
 
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
@@ -395,11 +503,18 @@
     const search = document.querySelector("#search");
     const statusFilter = document.querySelector("#status");
     const backToTop = document.querySelector("#back-to-top");
+    const officialCatalog = document.querySelector("#official-catalog");
+    const officialSearch = document.querySelector("#official-search");
+    const profitNav = document.querySelector("#profit-nav");
     const stockSources = [
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-cpq37DxcW9dhxC_-uTZgT8owPFsaiQ_GRYqi74LyY6glhL_Thc6oTMrFRfL96NtEYgJDUwEbSaz7/pub?output=csv",
       "stock.csv"
     ];
     let products = [];
+    let officialProducts = [];
+    let officialMeta = { fx: 1.41, markup: 1.2, updatedAt: null };
+    let profitFilter = "all";
+    let profitThresholds = [];
 
     function parseCsv(text) {
       const rows = [];
@@ -516,6 +631,65 @@
       return article;
     }
 
+    function officialCard(product) {
+      const article = document.createElement("article");
+      article.className = "card";
+
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "image-wrap";
+      const image = document.createElement("img");
+      image.src = product.image_url;
+      image.alt = product.name;
+      image.loading = "lazy";
+      image.addEventListener("error", () => {
+        const placeholder = document.createElement("div");
+        placeholder.className = "image-placeholder";
+        placeholder.textContent = "Picture not found";
+        image.replaceWith(placeholder);
+      }, { once: true });
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.textContent = product.category;
+      imageWrap.append(image, badge);
+
+      const body = document.createElement("div");
+      body.className = "card-body";
+      const sku = document.createElement("p");
+      sku.className = "sku";
+      sku.textContent = product.sku ? `SKU ${product.sku}` : "Official listing";
+      const name = document.createElement("h2");
+      name.textContent = product.name;
+
+      const prices = document.createElement("div");
+      prices.className = "prices three";
+      for (const [label, value, currency] of [
+        ["USD", product.official_price_usd, "USD"],
+        ["CAD", product.official_price_cad, "CAD"],
+        ["Profit CAD", product.profit_price_cad, "CAD"]
+      ]) {
+        const block = document.createElement("div");
+        const title = document.createElement("span");
+        title.className = "price-label";
+        title.textContent = label;
+        const amount = document.createElement("span");
+        amount.className = "price";
+        amount.textContent = money(value, currency);
+        block.append(title, amount);
+        prices.append(block);
+      }
+
+      const link = document.createElement("a");
+      link.className = "official-link";
+      link.href = product.official_url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "View official product ↗";
+
+      body.append(sku, name, prices, link);
+      article.append(imageWrap, body);
+      return article;
+    }
+
     function render() {
       const query = search.value.trim().toLowerCase();
       const status = statusFilter.value;
@@ -539,6 +713,75 @@
       document.querySelector("#unit-count").textContent = visible.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
     }
 
+    function computeProfitThresholds(items) {
+      const profits = items.map(item => Number(item.profit_price_cad)).filter(n => Number.isFinite(n)).sort((a, b) => a - b);
+      if (profits.length < 3) return [];
+      const pick = ratio => profits[Math.min(profits.length - 1, Math.floor((profits.length - 1) * ratio))];
+      const t1 = Math.ceil(pick(1 / 3));
+      const t2 = Math.ceil(pick(2 / 3));
+      const t3 = Math.ceil(profits[profits.length - 1]);
+      return [...new Set([t1, t2, t3])];
+    }
+
+    function renderProfitNav() {
+      profitThresholds = computeProfitThresholds(officialProducts);
+      profitNav.replaceChildren();
+      const options = [["all", "All profits"], ...profitThresholds.map(value => [String(value), `< $${value}`])];
+      for (const [value, label] of options) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "profit-chip";
+        button.textContent = label;
+        button.setAttribute("aria-pressed", String(profitFilter === value));
+        button.addEventListener("click", () => {
+          profitFilter = value;
+          renderOfficial();
+        });
+        profitNav.append(button);
+      }
+    }
+
+    function renderOfficial() {
+      const query = officialSearch.value.trim().toLowerCase();
+      const visible = officialProducts.filter(product => {
+        const matchesQuery = `${product.name} ${product.sku} ${product.category}`.toLowerCase().includes(query);
+        const profit = Number(product.profit_price_cad);
+        const matchesProfit = profitFilter === "all" || profit <= Number(profitFilter);
+        return matchesQuery && matchesProfit;
+      });
+
+      officialCatalog.replaceChildren();
+      if (!visible.length) {
+        const empty = document.createElement("p");
+        empty.className = "empty";
+        empty.textContent = "No official listings match that filter.";
+        officialCatalog.append(empty);
+      } else {
+        officialCatalog.append(...visible.map(officialCard));
+      }
+
+      document.querySelector("#official-count").textContent = visible.length;
+      document.querySelector("#official-fx").textContent = `FX ${officialMeta.fx} · profit ×${officialMeta.markup}`;
+      const updated = officialMeta.updatedAt ? new Date(officialMeta.updatedAt).toLocaleString() : "unknown";
+      document.querySelector("#official-meta").textContent = `Soft Toys, Animals, Bag Charms · last catalog update ${updated}. Refresh reloads the saved list; new items are added by the daily job or local script.`;
+      for (const button of profitNav.querySelectorAll(".profit-chip")) {
+        button.setAttribute("aria-pressed", String(
+          (button.textContent === "All profits" && profitFilter === "all") ||
+          button.textContent === `< $${profitFilter}`
+        ));
+      }
+    }
+
+    function showView(viewId) {
+      document.querySelector("#stock-view").hidden = viewId !== "stock-view";
+      document.querySelector("#official-view").hidden = viewId !== "official-view";
+      for (const tab of document.querySelectorAll(".view-tab")) {
+        tab.setAttribute("aria-selected", String(tab.dataset.view === viewId));
+      }
+      history.replaceState(null, "", viewId === "official-view" ? "#official" : "#stock");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
     async function loadStock() {
       for (const source of stockSources) {
         try {
@@ -555,15 +798,49 @@
       catalog.innerHTML = '<p class="error">Could not load the Google Sheet or backup stock.csv.</p>';
     }
 
+    async function loadOfficial() {
+      try {
+        const response = await fetch(`official-catalog.json?v=${Date.now()}`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        officialProducts = data.products || [];
+        officialMeta = {
+          fx: data.fx_usd_to_cad ?? 1.41,
+          markup: data.profit_markup ?? 1.2,
+          updatedAt: data.updated_at
+        };
+        profitFilter = "all";
+        renderProfitNav();
+        renderOfficial();
+      } catch (error) {
+        officialCatalog.innerHTML = '<p class="error">Could not load official-catalog.json.</p>';
+        console.error(error);
+      }
+    }
+
     search.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
+    officialSearch.addEventListener("input", renderOfficial);
+    for (const tab of document.querySelectorAll(".view-tab")) {
+      tab.addEventListener("click", () => showView(tab.dataset.view));
+    }
+    document.querySelector("#official-refresh").addEventListener("click", async () => {
+      const button = document.querySelector("#official-refresh");
+      button.disabled = true;
+      button.textContent = "Refreshing…";
+      await loadOfficial();
+      button.disabled = false;
+      button.textContent = "Refresh listings";
+    });
     window.addEventListener("scroll", () => {
       backToTop.hidden = window.scrollY < 500;
     }, { passive: true });
     backToTop.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+    if (location.hash === "#official") showView("official-view");
     loadStock();
+    loadOfficial();
   </script>
 </body>
 </html>
