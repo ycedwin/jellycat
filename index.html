@@ -64,13 +64,20 @@
 
     .banner-tags {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: center;
+      align-items: center;
       gap: .35rem .7rem;
       padding: 0 1rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none;
     }
 
+    .banner-tags::-webkit-scrollbar { display: none; }
+
     .banner-tag {
+      flex: 0 0 auto;
       color: rgb(255 255 255 / 92%);
       font-size: .7rem;
       font-weight: 700;
@@ -657,7 +664,7 @@
       .search-wrap { grid-column: 1 / -1; }
       .grid { grid-template-columns: 1fr; }
       .card h2 { min-height: 0; }
-      .banner-tag { font-size: .62rem; }
+      .banner-tag { font-size: .58rem; }
       .banner-logo { height: 2.4rem; }
     }
   </style>
