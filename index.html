@@ -35,11 +35,12 @@
 
     header {
       position: relative;
-      display: grid;
-      place-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       overflow: hidden;
       min-height: clamp(10rem, 28vw, 18rem);
-      padding: 1.25rem;
+      padding: 0;
       border-bottom: 1px solid var(--line);
       background:
         url("https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/1920w/image-manager/rooftop-desktop-1270x704.jpg?t=1785197021") center / cover no-repeat;
@@ -48,27 +49,50 @@
     header::before,
     header::after { display: none; }
 
-    .banner-tags {
+    .banner-bar {
       position: relative;
       z-index: 1;
+      width: 100%;
+      padding: .4rem 0;
+      background: rgb(21 54 74 / 38%);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgb(255 255 255 / 18%);
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    }
+
+    .banner-tags {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: .5rem .55rem;
-      max-width: min(42rem, 100%);
+      gap: .35rem .7rem;
+      padding: 0 1rem;
     }
 
     .banner-tag {
-      padding: .45rem .85rem;
-      border: 1px solid rgb(255 255 255 / 45%);
-      border-radius: 999px;
-      background: rgb(21 54 74 / 42%);
-      color: white;
-      font-size: .78rem;
+      color: rgb(255 255 255 / 92%);
+      font-size: .7rem;
       font-weight: 700;
-      letter-spacing: .02em;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
+      letter-spacing: .03em;
+      white-space: nowrap;
+    }
+
+    .banner-tag + .banner-tag::before {
+      content: "·";
+      margin-right: .7rem;
+      opacity: .45;
+    }
+
+    .banner-logo {
+      position: relative;
+      z-index: 1;
+      display: block;
+      width: auto;
+      height: clamp(2.8rem, 9vw, 5rem);
+      margin: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 10px rgb(0 0 0 / 18%));
     }
 
     main {
@@ -628,20 +652,30 @@
     }
 
     @media (max-width: 610px) {
-      header { min-height: 9rem; padding: 1rem; }
+      header { min-height: 9rem; }
       .toolbar { grid-template-columns: 1fr 1fr; }
       .search-wrap { grid-column: 1 / -1; }
       .grid { grid-template-columns: 1fr; }
       .card h2 { min-height: 0; }
-      .banner-tag { font-size: .7rem; padding: .4rem .7rem; }
+      .banner-tag { font-size: .62rem; }
+      .banner-logo { height: 2.4rem; }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="banner-tags" id="banner-tags" aria-live="polite">
-      <span class="banner-tag">Loading…</span>
+    <div class="banner-bar">
+      <div class="banner-tags" id="banner-tags" aria-live="polite">
+        <span class="banner-tag">Loading…</span>
+      </div>
     </div>
+    <img
+      class="banner-logo"
+      src="https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/250x100/jellycat-logo-250x100_1713397226__60866.original.png"
+      alt="Jellycat"
+      width="250"
+      height="100"
+    >
   </header>
 
   <main>
