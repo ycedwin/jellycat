@@ -48,10 +48,9 @@
       overflow: hidden;
       padding: 3.2rem 1.25rem 3rem;
       text-align: center;
-      color: white;
+      color: var(--ink);
       border-bottom: 1px solid var(--line);
       background:
-        linear-gradient(180deg, rgb(21 54 74 / 55%) 0%, rgb(21 54 74 / 72%) 100%),
         url("https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/1920w/image-manager/rooftop-desktop-1270x704.jpg?t=1785197021") center / cover no-repeat;
     }
 
@@ -61,7 +60,7 @@
     .eyebrow {
       position: relative;
       margin: 0 0 .8rem;
-      color: #efc6d0;
+      color: #a6576b;
       font-size: .78rem;
       font-weight: 700;
       letter-spacing: .18em;
@@ -79,13 +78,14 @@
 
     .header-stat {
       padding: .35rem .75rem;
-      border: 1px solid rgb(255 255 255 / 28%);
+      border: 1px solid rgb(255 255 255 / 55%);
       border-radius: 999px;
-      background: rgb(21 54 74 / 35%);
-      color: rgb(255 255 255 / 92%);
+      background: rgb(255 253 248 / 82%);
+      color: var(--ink);
       font-size: .78rem;
       font-weight: 700;
       letter-spacing: .02em;
+      backdrop-filter: blur(4px);
     }
 
     h1 {
@@ -96,14 +96,15 @@
       font-weight: 400;
       letter-spacing: -.045em;
       line-height: .95;
-      color: white;
+      color: var(--ink);
+      text-shadow: 0 1px 0 rgb(255 253 248 / 70%);
     }
 
     .intro {
       position: relative;
       max-width: 34rem;
       margin: .8rem auto 0;
-      color: rgb(255 255 255 / 88%);
+      color: var(--muted);
       font-size: .9rem;
       line-height: 1.6;
     }
@@ -395,10 +396,17 @@
       font-size: 1.3rem;
     }
 
+    .view-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .75rem;
+      margin: 0 0 1.5rem;
+    }
+
     .view-tabs {
       display: flex;
       width: fit-content;
-      margin: 0 auto 1.5rem;
       padding: .3rem;
       border: 1px solid var(--line);
       border-radius: 999px;
@@ -418,6 +426,38 @@
     .view-tab[aria-selected="true"] {
       background: var(--ink);
       color: white;
+    }
+
+    .refresh-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.7rem;
+      height: 2.7rem;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .refresh-button svg {
+      width: 1.15rem;
+      height: 1.15rem;
+    }
+
+    .refresh-button:disabled {
+      opacity: .55;
+      cursor: wait;
+    }
+
+    .refresh-button.is-busy svg {
+      animation: spin .8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
     }
 
     .profit-nav,
@@ -447,24 +487,58 @@
       color: var(--green-ink);
     }
 
-    .official-toolbar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: .75rem;
-      align-items: center;
-      justify-content: flex-end;
-      margin-bottom: 1rem;
+    #official-catalog.grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .refresh-button {
-      min-height: 2.7rem;
-      padding: 0 1.1rem;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: var(--paper);
-      color: var(--ink);
-      cursor: pointer;
-      font-weight: 700;
+    .card.row {
+      display: grid;
+      grid-template-columns: 8rem minmax(0, 1fr);
+      align-items: stretch;
+    }
+
+    .card.row .image-wrap {
+      min-height: 8rem;
+    }
+
+    .card.row .badge {
+      top: .5rem;
+      left: .5rem;
+      padding: .3rem .5rem;
+      font-size: .58rem;
+      max-width: calc(100% - 1rem);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .card.row .badge.retired {
+      top: auto;
+      left: auto;
+      bottom: .5rem;
+      right: .5rem;
+    }
+
+    .card.row .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: .35rem;
+      padding: .7rem .8rem;
+    }
+
+    .card.row .sku { margin: 0; }
+
+    .card.row .title-row { margin: 0; }
+
+    .card.row h2 {
+      font-size: .98rem;
+    }
+
+    .card.row .prices.three {
+      margin-top: .25rem;
+      padding: 0;
+      border: 0;
     }
 
     .meta-note {
@@ -487,6 +561,7 @@
 
     @media (max-width: 1050px) {
       .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      #official-catalog.grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 800px) {
@@ -499,6 +574,7 @@
       .search-wrap { grid-column: 1 / -1; }
       .grid { grid-template-columns: 1fr; }
       .card h2 { min-height: 0; }
+      .card.row { grid-template-columns: 6.5rem minmax(0, 1fr); }
     }
   </style>
 </head>
@@ -513,16 +589,17 @@
   </header>
 
   <main>
-    <nav class="view-tabs" aria-label="Page sections">
-      <button class="view-tab" type="button" data-view="official-view" aria-selected="true">Official listing</button>
-      <button class="view-tab" type="button" data-view="stock-view" aria-selected="false">My stock</button>
-    </nav>
+    <div class="view-bar">
+      <nav class="view-tabs" aria-label="Page sections">
+        <button class="view-tab" type="button" data-view="official-view" aria-selected="true">Official listing</button>
+        <button class="view-tab" type="button" data-view="stock-view" aria-selected="false">My stock</button>
+      </nav>
+      <button class="refresh-button" id="official-refresh" type="button" title="Refresh listings" aria-label="Refresh listings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.6-6.35M21 4v5h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+      </button>
+    </div>
 
     <section id="official-view">
-      <div class="official-toolbar">
-        <button class="refresh-button" id="official-refresh" type="button">Refresh listings</button>
-      </div>
-
       <label class="search-wrap" style="display:block;margin-bottom:1rem">
         <span hidden>Search official listings</span>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
@@ -534,7 +611,6 @@
 
       <p class="summary" aria-live="polite">
         <span><strong id="official-count">0</strong> listings</span>
-        <span id="official-fx">FX —</span>
       </p>
 
       <section class="grid" id="official-catalog" aria-label="Official Jellycat listings">
@@ -759,7 +835,7 @@
 
     function officialCard(product) {
       const article = document.createElement("article");
-      article.className = "card";
+      article.className = "card row";
 
       const imageWrap = document.createElement("div");
       imageWrap.className = "image-wrap";
@@ -889,8 +965,7 @@
       for (const label of [
         `${officialProducts.length} official`,
         `${products.length} on shelf · ${stockUnits} units`,
-        `Updated ${updated}`,
-        `FX ${officialMeta.fx}`
+        `Updated ${updated}`
       ]) {
         const chip = document.createElement("span");
         chip.className = "header-stat";
@@ -948,7 +1023,6 @@
       }
 
       document.querySelector("#official-count").textContent = visible.length;
-      document.querySelector("#official-fx").textContent = `FX ${officialMeta.fx} · profit ×${officialMeta.markup}`;
       for (const button of categoryNav.querySelectorAll(".category-chip")) {
         button.setAttribute("aria-pressed", String(button.dataset.value === listFilter));
       }
@@ -962,6 +1036,7 @@
     function showView(viewId) {
       document.querySelector("#stock-view").hidden = viewId !== "stock-view";
       document.querySelector("#official-view").hidden = viewId !== "official-view";
+      document.querySelector("#official-refresh").hidden = viewId !== "official-view";
       for (const tab of document.querySelectorAll(".view-tab")) {
         tab.setAttribute("aria-selected", String(tab.dataset.view === viewId));
       }
@@ -1017,10 +1092,10 @@
     document.querySelector("#official-refresh").addEventListener("click", async () => {
       const button = document.querySelector("#official-refresh");
       button.disabled = true;
-      button.textContent = "Refreshing…";
+      button.classList.add("is-busy");
       await loadOfficial();
       button.disabled = false;
-      button.textContent = "Refresh listings";
+      button.classList.remove("is-busy");
     });
     window.addEventListener("scroll", () => {
       backToTop.hidden = window.scrollY < 500;
