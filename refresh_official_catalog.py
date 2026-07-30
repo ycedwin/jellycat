@@ -183,19 +183,39 @@ def main() -> None:
         discovered.extend(fetch_category(scraper, category, url))
 
     added = 0
+    live_urls = {item["official_url"] for item in discovered if not should_skip(item)}
+    # Don't mass-retire if the scrape looks incomplete.
+    scrape_ok = len(live_urls) >= max(50, int(len(existing) * 0.5))
+
     for item in discovered:
         if should_skip(item):
             continue
         url = item["official_url"]
         if url in existing:
-            # Append-only: keep first-seen record; merge category tags if needed.
+            # Append-only: keep first-seen price/image; merge category tags if needed.
             old = existing[url]
             cats = {c.strip() for c in old.get("category", "").split("|") if c.strip()}
             cats.add(item["category"])
             old["category"] = " | ".join(sorted(cats))
+            old["retired"] = False
             continue
+        item["retired"] = False
         existing[url] = item
         added += 1
+
+    retired = 0
+    if scrape_ok:
+        for url, old in existing.items():
+            if url not in live_urls:
+                if not old.get("retired"):
+                    retired += 1
+                old["retired"] = True
+            else:
+                old["retired"] = False
+    else:
+        print(f"Scrape looked thin ({len(live_urls)} live) — skipped retirement updates.")
+        for old in existing.values():
+            old.setdefault("retired", False)
 
     products = sorted(existing.values(), key=lambda item: item["name"].casefold())
     catalog["products"] = products
@@ -203,10 +223,13 @@ def main() -> None:
     catalog["counts"] = {
         "total": len(products),
         "added_this_run": added,
+        "retired_marked_this_run": retired,
+        "live_this_run": len(live_urls),
         "fetched_this_run": len(discovered),
+        "scrape_ok": scrape_ok,
     }
     OUTPUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUTPUT.name}: {len(products)} products ({added} new)")
+    print(f"Wrote {OUTPUT.name}: {len(products)} products ({added} new, {retired} newly retired)")
 
 
 if __name__ == "__main__":

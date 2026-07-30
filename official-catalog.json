@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-07-30T13:50:24.345440+00:00",
+  "updated_at": "2026-07-30T14:22:35.708250+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -12,7 +12,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Allexi Alligator",
@@ -23,7 +24,8 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Apple",
@@ -34,7 +36,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Arlette Heart Macaron",
@@ -45,7 +48,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Aruba Coconut",
@@ -56,7 +60,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Asparagus",
@@ -67,7 +72,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Avocado",
@@ -78,7 +84,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Bagel",
@@ -89,7 +96,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Baguette",
@@ -100,7 +108,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Baguette Bag Charm",
@@ -111,7 +120,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Bean",
@@ -122,7 +132,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Birthday Cake",
@@ -133,7 +144,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Black Hole Bag Charm",
@@ -144,7 +156,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Boiled Egg 'Bride'",
@@ -155,7 +168,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Boiled Egg 'Graduation'",
@@ -166,7 +180,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Boiled Egg 'Groom'",
@@ -177,7 +192,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Boiled Egg Chic",
@@ -188,7 +204,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Boiled Egg Geek",
@@ -199,7 +216,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Bouquet of Flowers",
@@ -210,7 +228,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Brie",
@@ -221,7 +240,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Brigitte Brioche",
@@ -232,7 +252,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Broccoli",
@@ -243,7 +264,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Burger",
@@ -254,7 +276,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Camembert",
@@ -265,7 +288,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Canada Soccer Ball",
@@ -276,7 +300,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Caprese Baguette",
@@ -287,7 +312,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Carole Canelé",
@@ -298,7 +324,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Carrot",
@@ -309,7 +336,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Carrot Cake",
@@ -320,7 +348,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cheri Cake",
@@ -331,7 +360,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cherries Bag Charm",
@@ -342,7 +372,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cherry",
@@ -353,7 +384,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cinnamon Bun",
@@ -364,7 +396,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Clementine",
@@ -375,7 +408,8 @@
       "official_price_usd": "27.50",
       "official_price_cad": "38.77",
       "profit_price_cad": "46.53",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cloud",
@@ -386,7 +420,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coffee Bean",
@@ -397,7 +432,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coffee Bean Bag Charm",
@@ -408,7 +444,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coffee Cup",
@@ -419,7 +456,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coffee-to-Go",
@@ -430,7 +468,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coffee-to-Go Bag Charm",
@@ -441,7 +480,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Colette Heart Macaron",
@@ -452,7 +492,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Collette Tarte Au Citron",
@@ -463,7 +504,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coneroi Temaki",
@@ -474,7 +516,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Coral",
@@ -485,7 +528,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Cream Heart Bag Charm",
@@ -496,7 +540,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Croissant",
@@ -507,7 +552,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Croissant Bag Charm",
@@ -518,7 +564,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Daisy",
@@ -529,7 +576,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Diamond Ring",
@@ -540,7 +588,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Doughnut",
@@ -551,7 +600,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Dragon Fruit",
@@ -562,7 +612,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Eggetha Egg & Lance Soldier",
@@ -573,7 +624,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Egglantine Egg On Toast",
@@ -584,7 +636,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Eggplant",
@@ -595,7 +648,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Eggplant Bag Charm",
@@ -606,7 +660,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Espresso Cup",
@@ -617,7 +672,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Farfalle",
@@ -628,7 +684,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Fleurette Tarte Aux Fraises",
@@ -639,7 +696,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Flickerty Candle",
@@ -650,7 +708,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Fran Pancakes",
@@ -661,7 +720,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Garlic",
@@ -672,7 +732,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Ginger",
@@ -683,7 +744,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Glazespun Doughnut",
@@ -694,7 +756,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Goat Cheese",
@@ -705,7 +768,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Graham Potato",
@@ -716,7 +780,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Happy Boiled Egg",
@@ -727,7 +792,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Happy Raindrop",
@@ -738,7 +804,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Heart Boiled Egg",
@@ -749,7 +816,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Horatio Pistachio",
@@ -760,7 +828,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Hot Dog",
@@ -771,7 +840,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Jellina Birthday Cake Keyring",
@@ -782,7 +852,8 @@
       "official_price_usd": "12.00",
       "official_price_cad": "16.92",
       "profit_price_cad": "20.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Jellycat Soccer Ball",
@@ -793,7 +864,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Latte",
@@ -804,7 +876,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Lemon",
@@ -815,7 +888,8 @@
       "official_price_usd": "27.50",
       "official_price_cad": "38.77",
       "profit_price_cad": "46.53",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Lemonade",
@@ -826,7 +900,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Life Ring",
@@ -837,7 +912,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Lightbulb",
@@ -848,7 +924,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Margaux Madeleine",
@@ -859,7 +936,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Marin Chocolate Milkshake",
@@ -870,7 +948,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Max Macaron",
@@ -881,7 +960,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables May Macaron",
@@ -892,7 +972,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mexico Soccer Ball",
@@ -903,7 +984,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mia Macaron",
@@ -914,7 +996,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Michelle Mussel",
@@ -925,7 +1008,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Milie Mille-Feuille",
@@ -936,7 +1020,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mirielle St. Honoré",
@@ -947,7 +1032,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mona Macaron",
@@ -958,7 +1044,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Monstera Plant",
@@ -969,7 +1056,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Moon",
@@ -980,7 +1068,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mozzarella",
@@ -991,7 +1080,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Mulshi Woodland Floor",
@@ -1002,7 +1092,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Oats",
@@ -1013,7 +1104,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Ort & Tum Acorns",
@@ -1024,7 +1116,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pain Au Chocolat",
@@ -1035,7 +1128,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pair of Marshmallows Bag Charm",
@@ -1046,7 +1140,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pair of Olives",
@@ -1057,7 +1152,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pammie Palm Tree",
@@ -1068,7 +1164,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Parmesan",
@@ -1079,7 +1176,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Peach",
@@ -1090,7 +1188,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Peach Bag Charm",
@@ -1101,7 +1200,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Peanut",
@@ -1112,7 +1212,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Peanut Bag Charm",
@@ -1123,7 +1224,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Peanut ‘Yeti’",
@@ -1134,7 +1236,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pear",
@@ -1145,7 +1248,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pebble",
@@ -1156,7 +1260,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pencil",
@@ -1167,7 +1272,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Philippe Palmier",
@@ -1178,7 +1284,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pickle",
@@ -1189,7 +1296,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pickle Bag Charm",
@@ -1200,7 +1308,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pink and White Marshmallows",
@@ -1211,7 +1320,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pink Orchid",
@@ -1222,7 +1332,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Popcorn",
@@ -1233,7 +1344,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pretzel",
@@ -1244,7 +1356,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Pretzel Bag Charm",
@@ -1255,7 +1368,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rainbow",
@@ -1266,7 +1380,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rainbow Birthday Cake",
@@ -1277,7 +1392,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Ravioli",
@@ -1288,7 +1404,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rayray Lantern",
@@ -1299,7 +1416,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rene Waffle",
@@ -1310,7 +1428,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rocksy Salt & Miller Pepper",
@@ -1321,7 +1440,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Rose Bouquet",
@@ -1332,7 +1452,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Ruler",
@@ -1343,7 +1464,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables S'mores",
@@ -1354,7 +1476,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sandcastle",
@@ -1365,7 +1488,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sardine Tin",
@@ -1376,7 +1500,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Siofra Shamrock",
@@ -1387,7 +1512,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Siofra Shamrock Bag Charm",
@@ -1398,7 +1524,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Slice of Pizza",
@@ -1409,7 +1536,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sourdough",
@@ -1420,7 +1548,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Soyella Edamame Bean",
@@ -1431,7 +1560,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Badminton",
@@ -1442,7 +1572,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Baseball",
@@ -1453,7 +1584,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Basketball",
@@ -1464,7 +1596,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Cariss Curling Stone",
@@ -1475,7 +1608,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Football",
@@ -1486,7 +1620,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Fowla Red Card",
@@ -1497,7 +1632,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Golf Ball",
@@ -1508,7 +1644,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Ice Hockey Puck",
@@ -1519,7 +1656,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Kettlebell",
@@ -1530,7 +1668,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Pickleball",
@@ -1541,7 +1680,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Soccer Bag Charm",
@@ -1552,7 +1692,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Soccer Ball",
@@ -1563,7 +1704,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Table Tennis",
@@ -1574,7 +1716,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Tennis Bag Charm",
@@ -1585,7 +1728,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Tennis Ball",
@@ -1596,7 +1740,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Walston Whistle",
@@ -1607,7 +1752,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sports Warni Yellow Card",
@@ -1618,7 +1764,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Steepy Tea Bag",
@@ -1629,7 +1776,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Storm Cloud",
@@ -1640,7 +1788,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Storm Cloud Bag Charm",
@@ -1651,7 +1800,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sun",
@@ -1662,7 +1812,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sun 'Roller Skates'",
@@ -1673,7 +1824,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sun Bag Charm",
@@ -1684,7 +1836,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sunflower",
@@ -1695,7 +1848,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Sweetcorn",
@@ -1706,7 +1860,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Toilet Roll",
@@ -1717,7 +1872,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Treasure Chest",
@@ -1728,7 +1884,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables USA Soccer Ball",
@@ -1739,7 +1896,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Vampop Drink",
@@ -1750,7 +1908,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Vicky Teapot",
@@ -1761,7 +1920,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Watering Can",
@@ -1772,7 +1932,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Amuseables Zapperty Lightning Bolt",
@@ -1783,7 +1944,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Audrey Hootsoftly",
@@ -1794,7 +1956,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Backpack Panda",
@@ -1805,7 +1968,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Barnabus Pig",
@@ -1816,7 +1980,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear",
@@ -1827,7 +1992,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Backpack",
@@ -1838,7 +2004,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Bag Charm",
@@ -1849,7 +2016,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Bouffant",
@@ -1860,7 +2028,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Bundlesnug",
@@ -1871,7 +2040,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Fluffleshade Hat",
@@ -1882,7 +2052,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Junior",
@@ -1893,7 +2064,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Pouch",
@@ -1904,7 +2076,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear Tote Bag",
@@ -1915,7 +2088,8 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘All-in-one’",
@@ -1926,7 +2100,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘Bathrobe’",
@@ -1937,7 +2112,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘Daffodil’",
@@ -1948,7 +2124,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘Hiking’",
@@ -1959,7 +2136,8 @@
       "official_price_usd": "80.00",
       "official_price_cad": "112.80",
       "profit_price_cad": "135.36",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘Seafarer’",
@@ -1970,7 +2148,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bartholomew Bear ‘Sun’",
@@ -1981,7 +2160,8 @@
       "official_price_usd": "62.00",
       "official_price_cad": "87.42",
       "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Beige Bunny",
@@ -1992,7 +2172,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Beige Bunny 'Birthday'",
@@ -2003,7 +2184,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Beige Bunny Backpack",
@@ -2014,7 +2196,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Beige Bunny Bag Charm",
@@ -2025,7 +2208,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Black & Cream Puppy",
@@ -2036,7 +2220,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Blue Bunny",
@@ -2047,7 +2232,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Blue Elephant",
@@ -2058,7 +2244,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Blush Bunny",
@@ -2069,7 +2256,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Blush Bunny Bag Charm",
@@ -2080,7 +2268,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Bunny ‘Gold Medal Ski’",
@@ -2091,7 +2280,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Bunny ‘Graduation’",
@@ -2102,7 +2292,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Calf",
@@ -2113,7 +2304,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Cream Bunny",
@@ -2124,7 +2316,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Dino",
@@ -2135,7 +2328,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Dragon",
@@ -2146,7 +2340,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Duckling",
@@ -2157,7 +2352,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Fox Cub",
@@ -2168,7 +2364,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Fudge Puppy",
@@ -2179,7 +2376,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Giraffe",
@@ -2190,7 +2388,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Hippo",
@@ -2201,7 +2400,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Kitten",
@@ -2212,7 +2412,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Lion",
@@ -2223,7 +2424,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Bunny Juniper",
@@ -2234,7 +2436,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Bunny Luna",
@@ -2245,7 +2448,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Bunny Nimbus",
@@ -2256,7 +2460,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Bunny Rosa",
@@ -2267,7 +2472,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Bunny Willow",
@@ -2278,7 +2484,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Elephant Thuddeus",
@@ -2289,7 +2496,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Luxe Puppy Orlando",
@@ -2300,7 +2508,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Monkey",
@@ -2311,7 +2520,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Moss Bunny",
@@ -2322,7 +2532,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Patchwork Brown Bunny",
@@ -2333,7 +2544,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Pink Bunny",
@@ -2344,7 +2556,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Red Love Heart Bunny",
@@ -2355,7 +2568,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Silver Bunny",
@@ -2366,7 +2580,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Toffee Puppy",
@@ -2377,7 +2592,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Tulip Pink Bunny",
@@ -2388,7 +2604,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Turtle",
@@ -2399,7 +2616,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Twinkle Bunny",
@@ -2410,7 +2628,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Unicorn",
@@ -2421,7 +2640,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bashful Viola Bunny",
@@ -2432,7 +2652,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Beatrice Butterfly",
@@ -2443,7 +2664,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Betty Corgi",
@@ -2454,7 +2676,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Betty Corgi Bag Charm",
@@ -2465,7 +2688,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Beige Bunny 'Petal'",
@@ -2476,7 +2700,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Beige Bunny 'Petal' Bag Charm",
@@ -2487,7 +2712,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Blush Bunny 'Cherry'",
@@ -2498,7 +2724,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Cream Bunny 'Berry'",
@@ -2509,7 +2736,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Cream Bunny 'Berry' Bag Charm",
@@ -2520,7 +2748,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blossom Silver Bunny 'Bloom'",
@@ -2531,7 +2760,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blushkin Blossom Bunny Bag Charm",
@@ -2542,7 +2772,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Blushkin Blossom Luxe Bunny",
@@ -2553,7 +2784,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bo Bigfoot",
@@ -2564,7 +2796,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bretti Yeti",
@@ -2575,7 +2808,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Brooke Otter",
@@ -2586,7 +2820,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Budgeby Parrot",
@@ -2597,7 +2832,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Bumbly Bear",
@@ -2608,7 +2844,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Canterneigh Pony",
@@ -2619,7 +2856,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Cecile Chicken",
@@ -2630,7 +2868,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Chip Seagull",
@@ -2641,7 +2880,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Clyde Capybara",
@@ -2652,7 +2892,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Clyde Capybara Bag Charm",
@@ -2663,7 +2904,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Cordy Roy Fox",
@@ -2674,7 +2916,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Cream Bunny with Plant",
@@ -2685,7 +2928,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Cream Bunny with Rose",
@@ -2696,7 +2940,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Cream Bunny with Star",
@@ -2707,7 +2952,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Delia Duck",
@@ -2718,7 +2964,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Derreck Dog",
@@ -2729,7 +2976,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Dexter Dragon",
@@ -2740,7 +2988,8 @@
       "official_price_usd": "32.50",
       "official_price_cad": "45.82",
       "profit_price_cad": "54.99",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Dorit Duckling",
@@ -2751,7 +3000,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ewert Sheepdog",
@@ -2762,7 +3012,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fabulous Fruit Peach",
@@ -2773,7 +3024,8 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fancy Carp",
@@ -2784,7 +3036,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fawn Flufflet Bunny",
@@ -2795,7 +3048,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fergus Frog",
@@ -2806,7 +3060,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fergus Frog Bag Charm",
@@ -2817,7 +3072,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Festival Horse",
@@ -2828,7 +3084,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fluffy Crab",
@@ -2839,7 +3096,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fluffy Turtle",
@@ -2850,7 +3108,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fluffy Whale",
@@ -2861,7 +3120,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Dino",
@@ -2872,7 +3132,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Dragon",
@@ -2883,7 +3144,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Elephant",
@@ -2894,7 +3156,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Ginger Cat",
@@ -2905,7 +3168,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Highland Cow",
@@ -2916,7 +3180,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Lion",
@@ -2927,7 +3192,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Puppy",
@@ -2938,7 +3204,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Galumphous Seal",
@@ -2949,7 +3216,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ghost Bob",
@@ -2960,7 +3228,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Gobfrey Whale Shark",
@@ -2971,7 +3240,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Golden Puppy",
@@ -2982,7 +3252,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Gordy Guinea Pig",
@@ -2993,7 +3264,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Growlston Gargoyle",
@@ -3004,7 +3276,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Heart Dragon",
@@ -3015,7 +3288,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Hoppleston Luxe Bunny",
@@ -3026,7 +3300,8 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Hopscone Luxe Bunny",
@@ -3037,7 +3312,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Huddles Duck",
@@ -3048,7 +3324,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Isobel Chihuahua",
@@ -3059,7 +3336,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jellycat 25th Anniversary Stickers",
@@ -3070,7 +3348,8 @@
       "official_price_usd": "5.00",
       "official_price_cad": "7.05",
       "profit_price_cad": "8.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jellycat Bag Charm",
@@ -3081,7 +3360,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jellycat Jack",
@@ -3092,7 +3372,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jerboa",
@@ -3103,7 +3384,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jolly Gingerbread Fred",
@@ -3114,7 +3396,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Jolly Gingerbread Ruby",
@@ -3125,7 +3408,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Keli Pelican",
@@ -3136,7 +3420,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Koala with Message",
@@ -3147,7 +3432,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lachlan Sad Rat",
@@ -3158,7 +3444,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lambeth Lemming",
@@ -3169,7 +3456,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Larry Lobster ‘Sailor’",
@@ -3180,7 +3468,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lavender Dragon",
@@ -3191,7 +3480,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lazulia Dragon",
@@ -3202,7 +3492,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Leola Bear",
@@ -3213,7 +3504,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Bear",
@@ -3224,7 +3516,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Fox",
@@ -3235,7 +3528,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Frog",
@@ -3246,7 +3540,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Goat",
@@ -3257,7 +3552,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Horse",
@@ -3268,7 +3564,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Lamb",
@@ -3279,7 +3576,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Lamb Bag",
@@ -3290,7 +3588,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Monkey",
@@ -3301,7 +3600,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Penguin",
@@ -3312,7 +3612,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Pig",
@@ -3323,7 +3624,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Pig Bag",
@@ -3334,7 +3636,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Pup",
@@ -3345,7 +3648,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Pup Bag",
@@ -3356,7 +3660,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Pup Bag Charm",
@@ -3367,7 +3672,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Snake",
@@ -3378,7 +3684,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Little Snowman",
@@ -3389,7 +3696,8 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lolly Sugar Glider",
@@ -3400,7 +3708,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Lottie Bunny Fairy",
@@ -3411,7 +3720,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Maffles Manatee",
@@ -3422,7 +3732,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Malachy Dragon",
@@ -3433,7 +3744,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Maya Octopus",
@@ -3444,7 +3756,8 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Miff Mothman",
@@ -3455,7 +3768,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Mooliet Cow",
@@ -3466,7 +3780,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Munro Scottie Dog",
@@ -3477,7 +3792,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Munro Scottie Dog Bag Charm",
@@ -3488,7 +3804,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Munro Scottie Dog ‘Space’",
@@ -3499,7 +3816,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Muswell Mole",
@@ -3510,7 +3828,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Oat Flufflet Bunny",
@@ -3521,7 +3840,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Odell Octopus",
@@ -3532,7 +3852,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Otto Sausage Dog",
@@ -3543,7 +3864,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Otto Sausage Dog Bag",
@@ -3554,7 +3876,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Peanut Penguin",
@@ -3565,7 +3888,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Peanut Penguin Bag Charm",
@@ -3576,7 +3900,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Peanut Penguin Pouch",
@@ -3587,7 +3912,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Perry Polar Bear",
@@ -3598,7 +3924,8 @@
       "official_price_usd": "13.00",
       "official_price_cad": "18.33",
       "profit_price_cad": "22.00",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Persimmon Dragon",
@@ -3609,7 +3936,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Pinchsnap Crab",
@@ -3620,7 +3948,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Puddlesea Bunny",
@@ -3631,7 +3960,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ramone Bull",
@@ -3642,7 +3972,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ramsley Sheep",
@@ -3653,7 +3984,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ricky Rain Frog",
@@ -3664,7 +3996,8 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ricky Rain Frog Bag Charm",
@@ -3675,7 +4008,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ricky Rain Frog Rubber Ring",
@@ -3686,7 +4020,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Ricky Rain Frog Smiling",
@@ -3697,7 +4032,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Roarwell Sea Lion",
@@ -3708,7 +4044,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Rockleton",
@@ -3719,7 +4056,8 @@
       "official_price_usd": "75.00",
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Rufferty Puppy 'Wizard'",
@@ -3730,7 +4068,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Sacha Snow Tiger",
@@ -3741,7 +4080,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Sheldon Shrimp",
@@ -3752,7 +4092,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Skipson Lamb",
@@ -3763,7 +4104,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Sky Dragon",
@@ -3774,7 +4116,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Sky Dragon Bag Charm",
@@ -3785,7 +4128,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Bear",
@@ -3796,7 +4140,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Bear Backpack",
@@ -3807,7 +4152,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Bear Bag Charm",
@@ -3818,7 +4164,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Bear Tote Bag",
@@ -3829,7 +4176,8 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Cow",
@@ -3840,7 +4188,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Elephant",
@@ -3851,7 +4200,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Fox",
@@ -3862,7 +4212,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Hippo",
@@ -3873,7 +4224,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Lamb",
@@ -3884,7 +4236,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Monkey",
@@ -3895,7 +4248,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Panda",
@@ -3906,7 +4260,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Pig",
@@ -3917,7 +4272,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Rabbit",
@@ -3928,7 +4284,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Rabbit Backpack",
@@ -3939,7 +4296,8 @@
       "official_price_usd": "65.00",
       "official_price_cad": "91.65",
       "profit_price_cad": "109.98",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Rabbit Bag Charm",
@@ -3950,7 +4308,8 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Smudge Rabbit Tote Bag",
@@ -3961,7 +4320,8 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Snow Dragon",
@@ -3972,7 +4332,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Springlowe Luxe Bunny",
@@ -3983,7 +4344,8 @@
       "official_price_usd": "100.00",
       "official_price_cad": "141.00",
       "profit_price_cad": "169.20",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Squawkatoo",
@@ -3994,7 +4356,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Strutton Pigeon",
@@ -4005,7 +4368,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Swinley Boar",
@@ -4016,7 +4380,8 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Thimble Turtle",
@@ -4027,7 +4392,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Thistlepop Blossom Bunny Bag Charm",
@@ -4038,7 +4404,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Thistlepop Blossom Luxe Bunny",
@@ -4049,7 +4416,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Tilly Golden Retriever",
@@ -4060,7 +4428,8 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Timmy Turtle",
@@ -4071,7 +4440,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Timmy Turtle Bag",
@@ -4082,7 +4452,8 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Timmy Turtle Bag Charm",
@@ -4093,7 +4464,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Trixiwoo Raccoon",
@@ -4104,7 +4476,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Tumblie Sheep Dog",
@@ -4115,7 +4488,8 @@
       "official_price_usd": "35.00",
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Vivacious Vegetable Carrot",
@@ -4126,7 +4500,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Wheat Flufflet Bunny",
@@ -4137,7 +4512,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Wonda Wombat",
@@ -4148,7 +4524,8 @@
       "official_price_usd": "55.00",
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Yummy Bear",
@@ -4159,7 +4536,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Yummy Bunny",
@@ -4170,7 +4548,8 @@
       "official_price_usd": "20.00",
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Yummy Duckling",
@@ -4181,7 +4560,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Yummy Lamb",
@@ -4192,7 +4572,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Yummy Mouse",
@@ -4203,7 +4584,8 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Zodihop Luxe Bunny",
@@ -4214,7 +4596,8 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Zodihop Luxe Bunny Bag Charm",
@@ -4225,7 +4608,8 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Zumblebi Alien",
@@ -4236,7 +4620,8 @@
       "official_price_usd": "60.00",
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     },
     {
       "name": "Zyllan Alien",
@@ -4247,11 +4632,16 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
+      "added_at": "2026-07-30",
+      "retired": false
     }
   ],
   "counts": {
     "total": 386,
-    "pruned": 6
+    "added_this_run": 0,
+    "retired_marked_this_run": 0,
+    "live_this_run": 386,
+    "fetched_this_run": 585,
+    "scrape_ok": true
   }
 }

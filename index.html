@@ -238,6 +238,15 @@
       color: #82554a;
     }
 
+    .badge.retired {
+      top: auto;
+      left: auto;
+      bottom: .85rem;
+      right: .85rem;
+      background: #ece8e0;
+      color: #746f65;
+    }
+
     .image-placeholder {
       display: grid;
       width: 100%;
@@ -278,6 +287,25 @@
       border-bottom: 1px solid var(--line);
     }
 
+    .prices.three {
+      display: flex;
+      align-items: stretch;
+      gap: .35rem;
+      padding: .65rem 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .prices.three .price-box {
+      flex: 1;
+      min-width: 0;
+      padding: .4rem .3rem;
+      border: 1px solid var(--line);
+      border-radius: .55rem;
+      background: var(--cream);
+      text-align: center;
+    }
+
     .price-label {
       display: block;
       margin-bottom: .3rem;
@@ -287,9 +315,23 @@
       text-transform: uppercase;
     }
 
+    .prices.three .price-label {
+      margin-bottom: .15rem;
+      font-size: .62rem;
+    }
+
     .price {
       font-size: .85rem;
       font-weight: 700;
+    }
+
+    .prices.three .price {
+      display: block;
+      font-size: .72rem;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .official-link {
@@ -403,10 +445,6 @@
       font-size: .8rem;
     }
 
-    .prices.three {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
     footer {
       padding: 2rem 1rem;
       background: var(--paper);
@@ -426,7 +464,6 @@
 
     @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .prices.three { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 610px) {
@@ -542,6 +579,7 @@
     const LIST_FILTERS = [
       ["all", "All"],
       ["new", `New (<${NEW_LISTING_DAYS}d)`],
+      ["retired", "Retired"],
       ["Amuseables", "Amuseables"],
       ["Animals", "Animals"],
       ["Bag Charms", "Bag Charms"],
@@ -693,6 +731,12 @@
       badge.className = "badge";
       badge.textContent = product.category;
       imageWrap.append(image, badge);
+      if (product.retired) {
+        const retired = document.createElement("span");
+        retired.className = "badge retired";
+        retired.textContent = "Retired";
+        imageWrap.append(retired);
+      }
 
       const body = document.createElement("div");
       body.className = "card-body";
@@ -707,9 +751,10 @@
       for (const [label, value, currency] of [
         ["USD", product.official_price_usd, "USD"],
         ["CAD", product.official_price_cad, "CAD"],
-        ["Profit CAD", product.profit_price_cad, "CAD"]
+        ["Sell", product.profit_price_cad, "CAD"]
       ]) {
         const block = document.createElement("div");
+        block.className = "price-box";
         const title = document.createElement("span");
         title.className = "price-label";
         title.textContent = label;
@@ -790,6 +835,7 @@
     function matchesListFilter(product) {
       if (listFilter === "all") return true;
       if (listFilter === "new") return isNewListing(product);
+      if (listFilter === "retired") return Boolean(product.retired);
       if (CATEGORY_FILTERS.includes(listFilter)) {
         return product.category.split("|").map(part => part.trim()).includes(listFilter);
       }
