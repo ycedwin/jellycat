@@ -30,7 +30,7 @@ SKU_RE = re.compile(r"/products/\d+/[^/]+/([A-Za-z0-9_-]+?)(?:__|\.)")
 BOOK_RE = re.compile(r"\b(book|board book)\b", re.I)
 # Baby accessories + personalized SKUs — soft toys / charms only.
 SKIP_RE = re.compile(
-    r"\b(blankie|comforter|soother|rattle|personaliz(?:e|ed|ation)?|personalised?)\b",
+    r"\b(blankie|comforter|soother|rattle|musical\s*pull|personaliz(?:e|ed|ation)?|personalised?)\b",
     re.I,
 )
 

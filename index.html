@@ -383,7 +383,7 @@
       flex-wrap: wrap;
       gap: .75rem;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-end;
       margin-bottom: 1rem;
     }
 
@@ -416,6 +416,9 @@
       font-size: .75rem;
       line-height: 1.6;
     }
+
+    footer p { margin: 0; }
+    footer p + p { margin-top: .45rem; }
 
     @media (max-width: 1050px) {
       .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -453,7 +456,6 @@
 
     <section id="official-view">
       <div class="official-toolbar">
-        <p class="meta-note" id="official-meta">Soft Toys, Animals, and Bag Charms from the official US site.</p>
         <button class="refresh-button" id="official-refresh" type="button">Refresh listings</button>
       </div>
 
@@ -463,8 +465,7 @@
         <input id="official-search" type="search" placeholder="Search official listings…" autocomplete="off">
       </label>
 
-      <nav class="category-nav" id="category-nav" aria-label="Category filters"></nav>
-      <nav class="category-nav" id="series-nav" aria-label="Series filters"></nav>
+      <nav class="category-nav" id="category-nav" aria-label="Listing filters"></nav>
       <nav class="profit-nav" id="profit-nav" aria-label="Profit price ranges"></nav>
 
       <p class="summary" aria-live="polite">
@@ -513,8 +514,8 @@
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
 
   <footer>
-    Personal reference site. Not affiliated with or endorsed by Jellycat.<br>
-    Product names, images, and official prices belong to their respective owners.
+    <p id="footer-meta">Catalog updating…</p>
+    <p>Personal shelf for reference. Prices and images from the official US Jellycat site.</p>
   </footer>
 
   <script>
@@ -526,7 +527,6 @@
     const officialSearch = document.querySelector("#official-search");
     const profitNav = document.querySelector("#profit-nav");
     const categoryNav = document.querySelector("#category-nav");
-    const seriesNav = document.querySelector("#series-nav");
     const stockSources = [
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-cpq37DxcW9dhxC_-uTZgT8owPFsaiQ_GRYqi74LyY6glhL_Thc6oTMrFRfL96NtEYgJDUwEbSaz7/pub?output=csv",
       "stock.csv"
@@ -535,14 +535,28 @@
     let officialProducts = [];
     let officialMeta = { fx: 1.41, markup: 1.2, updatedAt: null };
     let profitFilter = "all";
-    let categoryFilter = "all";
-    let seriesFilter = "all";
-    let newOnly = false;
-    let profitRanges = [];
-    const officialCategories = ["Soft Toys", "Animals", "Bag Charms"];
-    const officialSeries = ["Amuseables", "Bashful", "Bartholomew", "Blossom", "Smudge", "Little", "Fuddlewuddle"];
+    let listFilter = "all";
     const NEW_LISTING_DAYS = 30;
-    const SKIP_PRODUCT_RE = /\b(blankie|comforter|soother|rattle|personaliz(?:e|ed|ation)?|personalised?|book|board book)\b/i;
+    const SERIES_FILTERS = ["Amuseables", "Bashful", "Bartholomew", "Little", "Fuddlewuddle"];
+    const CATEGORY_FILTERS = ["Animals", "Bag Charms"];
+    const LIST_FILTERS = [
+      ["all", "All"],
+      ["new", `New (<${NEW_LISTING_DAYS}d)`],
+      ["Amuseables", "Amuseables"],
+      ["Animals", "Animals"],
+      ["Bag Charms", "Bag Charms"],
+      ["Bashful", "Bashful"],
+      ["Bartholomew", "Bartholomew"],
+      ["Little", "Little"],
+      ["Fuddlewuddle", "Fuddlewuddle"],
+      ["Other", "Other"]
+    ];
+    const PROFIT_RANGES = [
+      { id: "0-65", label: "$0–$65", min: 0, max: 65, exclusiveMin: false },
+      { id: "65-100", label: "$65–$100", min: 65, max: 100, exclusiveMin: true },
+      { id: "100+", label: ">$100", min: 100, max: Infinity, exclusiveMin: true }
+    ];
+    const SKIP_PRODUCT_RE = /\b(blankie|comforter|soother|rattle|musical\s*pull|personaliz(?:e|ed|ation)?|personalised?|book|board book)\b/i;
 
     function parseCsv(text) {
       const rows = [];
@@ -741,21 +755,6 @@
       document.querySelector("#unit-count").textContent = visible.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
     }
 
-    function computeProfitRanges(items) {
-      const profits = items.map(item => Number(item.profit_price_cad)).filter(n => Number.isFinite(n)).sort((a, b) => a - b);
-      if (profits.length < 3) return [];
-      const pick = ratio => profits[Math.min(profits.length - 1, Math.floor((profits.length - 1) * ratio))];
-      const a = Math.ceil(pick(1 / 3));
-      const b = Math.ceil(pick(2 / 3));
-      const max = Math.ceil(profits[profits.length - 1]);
-      // Half-open after the first bucket so a price never matches two chips.
-      return [
-        { id: `0-${a}`, label: `$0–$${a}`, min: 0, max: a, exclusiveMin: false },
-        { id: `${a}-${b}`, label: `$${a}–$${b}`, min: a, max: b, exclusiveMin: true },
-        { id: `${b}-${max}`, label: `$${b}–$${max}`, min: b, max: max, exclusiveMin: true }
-      ];
-    }
-
     function renderChipNav(container, options, selected, onSelect, chipClass) {
       container.replaceChildren();
       for (const [value, label] of options) {
@@ -785,7 +784,16 @@
 
     function productSeries(product) {
       const name = product.name || "";
-      return officialSeries.find(series => name.startsWith(series)) || "Other";
+      return SERIES_FILTERS.find(series => name.startsWith(series)) || "Other";
+    }
+
+    function matchesListFilter(product) {
+      if (listFilter === "all") return true;
+      if (listFilter === "new") return isNewListing(product);
+      if (CATEGORY_FILTERS.includes(listFilter)) {
+        return product.category.split("|").map(part => part.trim()).includes(listFilter);
+      }
+      return productSeries(product) === listFilter;
     }
 
     function updateHeaderStats() {
@@ -810,39 +818,23 @@
         `Soft toys & bag charms · profit = CAD × ${officialMeta.markup}`;
     }
 
-    function renderCategoryNav() {
-      const options = [["all", "All"], ...officialCategories.map(name => [name, name])];
-      renderChipNav(categoryNav, options, categoryFilter, value => {
-        categoryFilter = value;
-        renderOfficial();
-      }, "category-chip");
-      const newChip = document.createElement("button");
-      newChip.type = "button";
-      newChip.className = "category-chip";
-      newChip.dataset.value = "new";
-      newChip.textContent = `New (<${NEW_LISTING_DAYS}d)`;
-      newChip.setAttribute("aria-pressed", String(newOnly));
-      newChip.addEventListener("click", () => {
-        newOnly = !newOnly;
-        renderOfficial();
-      });
-      categoryNav.append(newChip);
+    function updateFooterMeta() {
+      const updated = officialMeta.updatedAt
+        ? new Date(officialMeta.updatedAt).toLocaleString()
+        : "unknown";
+      document.querySelector("#footer-meta").textContent =
+        `Soft Toys, Animals, Bag Charms · last catalog update ${updated}.`;
     }
 
-    function renderSeriesNav() {
-      const present = new Set(officialProducts.map(productSeries));
-      const series = officialSeries.filter(name => present.has(name));
-      if (present.has("Other")) series.push("Other");
-      const options = [["all", "All series"], ...series.map(name => [name, name])];
-      renderChipNav(seriesNav, options, seriesFilter, value => {
-        seriesFilter = value;
+    function renderCategoryNav() {
+      renderChipNav(categoryNav, LIST_FILTERS, listFilter, value => {
+        listFilter = value;
         renderOfficial();
       }, "category-chip");
     }
 
     function renderProfitNav() {
-      profitRanges = computeProfitRanges(officialProducts);
-      const options = [["all", "All prices"], ...profitRanges.map(range => [range.id, range.label])];
+      const options = [["all", "All prices"], ...PROFIT_RANGES.map(range => [range.id, range.label])];
       renderChipNav(profitNav, options, profitFilter, value => {
         profitFilter = value;
         renderOfficial();
@@ -851,19 +843,15 @@
 
     function renderOfficial() {
       const query = officialSearch.value.trim().toLowerCase();
-      const range = profitRanges.find(item => item.id === profitFilter);
+      const range = PROFIT_RANGES.find(item => item.id === profitFilter);
       const visible = officialProducts.filter(product => {
         const matchesQuery = `${product.name} ${product.sku} ${product.category}`.toLowerCase().includes(query);
-        const categories = product.category.split("|").map(part => part.trim());
-        const matchesCategory = categoryFilter === "all" || categories.includes(categoryFilter);
-        const matchesSeries = seriesFilter === "all" || productSeries(product) === seriesFilter;
-        const matchesNew = !newOnly || isNewListing(product);
         const profit = Number(product.profit_price_cad);
         const matchesProfit = !range || (
           (range.exclusiveMin ? profit > range.min : profit >= range.min) &&
           profit <= range.max
         );
-        return matchesQuery && matchesCategory && matchesSeries && matchesNew && matchesProfit;
+        return matchesQuery && matchesListFilter(product) && matchesProfit;
       });
 
       officialCatalog.replaceChildren();
@@ -878,21 +866,14 @@
 
       document.querySelector("#official-count").textContent = visible.length;
       document.querySelector("#official-fx").textContent = `FX ${officialMeta.fx} · profit ×${officialMeta.markup}`;
-      const updated = officialMeta.updatedAt ? new Date(officialMeta.updatedAt).toLocaleString() : "unknown";
-      document.querySelector("#official-meta").textContent = `Soft Toys, Animals, Bag Charms · series filters · last catalog update ${updated}.`;
       for (const button of categoryNav.querySelectorAll(".category-chip")) {
-        const value = button.dataset.value;
-        button.setAttribute("aria-pressed", String(
-          value === "new" ? newOnly : value === categoryFilter
-        ));
-      }
-      for (const button of seriesNav.querySelectorAll(".category-chip")) {
-        button.setAttribute("aria-pressed", String(button.dataset.value === seriesFilter));
+        button.setAttribute("aria-pressed", String(button.dataset.value === listFilter));
       }
       for (const button of profitNav.querySelectorAll(".profit-chip")) {
         button.setAttribute("aria-pressed", String(button.dataset.value === profitFilter));
       }
       updateHeaderStats();
+      updateFooterMeta();
     }
 
     function showView(viewId) {
@@ -934,11 +915,8 @@
           updatedAt: data.updated_at
         };
         profitFilter = "all";
-        categoryFilter = "all";
-        seriesFilter = "all";
-        newOnly = false;
+        listFilter = "all";
         renderCategoryNav();
-        renderSeriesNav();
         renderProfitNav();
         renderOfficial();
       } catch (error) {

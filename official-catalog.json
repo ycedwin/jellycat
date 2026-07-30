@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-07-30T13:36:23.932756+00:00",
+  "updated_at": "2026-07-30T13:50:24.345440+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -1896,17 +1896,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bartholomew Bear Musical Pull",
-      "sku": "MP4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1010/44518/MP4BAR__63867.1727979649.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bartholomew Bear Pouch",
       "sku": "BAR4PP",
       "category": "Animals",
@@ -2050,17 +2039,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Black & Cream Puppy Musical Pull",
-      "sku": "MP4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1011/49026/MP4BCP__01891.1732748364.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Blue Bunny",
       "sku": "BAS4BB",
       "category": "Animals | Soft Toys",
@@ -2102,17 +2080,6 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Musical Pull",
-      "sku": "MP4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1009/44515/MP4B__11778.1727979646.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2204,17 +2171,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Fox Cub Musical Pull",
-      "sku": "MP4FXC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-fox-cub-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1622/49031/MP4FXC__59369.1732748368.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Fudge Puppy",
       "sku": "BAS3SPAN",
       "category": "Animals | Soft Toys",
@@ -2234,17 +2190,6 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Giraffe Musical Pull",
-      "sku": "MP4GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1623/44543/MP4GF__45408.1727979680.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2575,17 +2520,6 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Cream Bunny 'Berry' Musical Pull",
-      "sku": "MP4MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-musical-pull/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1773/49713/MP4MS__69867.1743166222.jpg?c=1",
-      "official_price_usd": "50.00",
-      "official_price_cad": "70.50",
-      "profit_price_cad": "84.60",
       "added_at": "2026-07-30"
     },
     {
@@ -4317,7 +4251,7 @@
     }
   ],
   "counts": {
-    "total": 392,
-    "pruned": 141
+    "total": 386,
+    "pruned": 6
   }
 }
