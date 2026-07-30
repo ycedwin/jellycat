@@ -68,6 +68,26 @@
       text-transform: uppercase;
     }
 
+    .header-stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .55rem .9rem;
+      margin: 1rem auto 0;
+      max-width: 40rem;
+    }
+
+    .header-stat {
+      padding: .35rem .75rem;
+      border: 1px solid rgb(255 255 255 / 28%);
+      border-radius: 999px;
+      background: rgb(21 54 74 / 35%);
+      color: rgb(255 255 255 / 92%);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+
     h1 {
       position: relative;
       margin: 0;
@@ -416,12 +436,13 @@
   </style>
 </head>
 <body>
-  <div class="announcement">A small shelf of very soft friends</div>
+  <div class="announcement" id="site-announcement">Official US prices · CAD via fixed FX</div>
 
   <header>
-    <p class="eyebrow">Personal stock catalog</p>
     <h1>My Jellycat Shelf</h1>
-    <p class="intro">A simple reference for what is currently on my shelf, with links and prices from the official Jellycat website.</p>
+    <div class="header-stats" id="header-stats" aria-live="polite">
+      <span class="header-stat">Loading…</span>
+    </div>
   </header>
 
   <main>
@@ -443,6 +464,7 @@
       </label>
 
       <nav class="category-nav" id="category-nav" aria-label="Category filters"></nav>
+      <nav class="category-nav" id="series-nav" aria-label="Series filters"></nav>
       <nav class="profit-nav" id="profit-nav" aria-label="Profit price ranges"></nav>
 
       <p class="summary" aria-live="polite">
@@ -504,6 +526,7 @@
     const officialSearch = document.querySelector("#official-search");
     const profitNav = document.querySelector("#profit-nav");
     const categoryNav = document.querySelector("#category-nav");
+    const seriesNav = document.querySelector("#series-nav");
     const stockSources = [
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-cpq37DxcW9dhxC_-uTZgT8owPFsaiQ_GRYqi74LyY6glhL_Thc6oTMrFRfL96NtEYgJDUwEbSaz7/pub?output=csv",
       "stock.csv"
@@ -513,10 +536,13 @@
     let officialMeta = { fx: 1.41, markup: 1.2, updatedAt: null };
     let profitFilter = "all";
     let categoryFilter = "all";
+    let seriesFilter = "all";
     let newOnly = false;
     let profitRanges = [];
     const officialCategories = ["Soft Toys", "Animals", "Bag Charms"];
+    const officialSeries = ["Amuseables", "Bashful", "Bartholomew", "Blossom", "Smudge", "Little", "Fuddlewuddle"];
     const NEW_LISTING_DAYS = 30;
+    const SKIP_PRODUCT_RE = /\b(blankie|comforter|soother|rattle|personaliz(?:e|ed|ation)?|personalised?|book|board book)\b/i;
 
     function parseCsv(text) {
       const rows = [];
@@ -750,6 +776,40 @@
       return Date.now() - added < NEW_LISTING_DAYS * 24 * 60 * 60 * 1000;
     }
 
+    function shouldSkipProduct(product) {
+      const blob = `${product.name || ""} ${product.sku || ""} ${product.official_url || ""}`;
+      if (SKIP_PRODUCT_RE.test(blob)) return true;
+      const sku = product.sku || "";
+      return sku.startsWith("BK") || sku.startsWith("BB44") || sku.startsWith("SETBK") || sku.startsWith("SETBB");
+    }
+
+    function productSeries(product) {
+      const name = product.name || "";
+      return officialSeries.find(series => name.startsWith(series)) || "Other";
+    }
+
+    function updateHeaderStats() {
+      const root = document.querySelector("#header-stats");
+      const stockUnits = products.reduce((sum, product) => sum + Number(product.quantity || 0), 0);
+      const updated = officialMeta.updatedAt
+        ? new Date(officialMeta.updatedAt).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })
+        : "—";
+      root.replaceChildren();
+      for (const label of [
+        `${officialProducts.length} official`,
+        `${products.length} on shelf · ${stockUnits} units`,
+        `Updated ${updated}`,
+        `FX ${officialMeta.fx}`
+      ]) {
+        const chip = document.createElement("span");
+        chip.className = "header-stat";
+        chip.textContent = label;
+        root.append(chip);
+      }
+      document.querySelector("#site-announcement").textContent =
+        `Soft toys & bag charms · profit = CAD × ${officialMeta.markup}`;
+    }
+
     function renderCategoryNav() {
       const options = [["all", "All"], ...officialCategories.map(name => [name, name])];
       renderChipNav(categoryNav, options, categoryFilter, value => {
@@ -769,9 +829,20 @@
       categoryNav.append(newChip);
     }
 
+    function renderSeriesNav() {
+      const present = new Set(officialProducts.map(productSeries));
+      const series = officialSeries.filter(name => present.has(name));
+      if (present.has("Other")) series.push("Other");
+      const options = [["all", "All series"], ...series.map(name => [name, name])];
+      renderChipNav(seriesNav, options, seriesFilter, value => {
+        seriesFilter = value;
+        renderOfficial();
+      }, "category-chip");
+    }
+
     function renderProfitNav() {
       profitRanges = computeProfitRanges(officialProducts);
-      const options = [["all", "All"], ...profitRanges.map(range => [range.id, range.label])];
+      const options = [["all", "All prices"], ...profitRanges.map(range => [range.id, range.label])];
       renderChipNav(profitNav, options, profitFilter, value => {
         profitFilter = value;
         renderOfficial();
@@ -785,13 +856,14 @@
         const matchesQuery = `${product.name} ${product.sku} ${product.category}`.toLowerCase().includes(query);
         const categories = product.category.split("|").map(part => part.trim());
         const matchesCategory = categoryFilter === "all" || categories.includes(categoryFilter);
+        const matchesSeries = seriesFilter === "all" || productSeries(product) === seriesFilter;
         const matchesNew = !newOnly || isNewListing(product);
         const profit = Number(product.profit_price_cad);
         const matchesProfit = !range || (
           (range.exclusiveMin ? profit > range.min : profit >= range.min) &&
           profit <= range.max
         );
-        return matchesQuery && matchesCategory && matchesNew && matchesProfit;
+        return matchesQuery && matchesCategory && matchesSeries && matchesNew && matchesProfit;
       });
 
       officialCatalog.replaceChildren();
@@ -807,16 +879,20 @@
       document.querySelector("#official-count").textContent = visible.length;
       document.querySelector("#official-fx").textContent = `FX ${officialMeta.fx} · profit ×${officialMeta.markup}`;
       const updated = officialMeta.updatedAt ? new Date(officialMeta.updatedAt).toLocaleString() : "unknown";
-      document.querySelector("#official-meta").textContent = `Soft Toys, Animals, Bag Charms · last catalog update ${updated}. Refresh reloads the saved list; new items are added by the daily job or local script.`;
+      document.querySelector("#official-meta").textContent = `Soft Toys, Animals, Bag Charms · series filters · last catalog update ${updated}.`;
       for (const button of categoryNav.querySelectorAll(".category-chip")) {
         const value = button.dataset.value;
         button.setAttribute("aria-pressed", String(
           value === "new" ? newOnly : value === categoryFilter
         ));
       }
+      for (const button of seriesNav.querySelectorAll(".category-chip")) {
+        button.setAttribute("aria-pressed", String(button.dataset.value === seriesFilter));
+      }
       for (const button of profitNav.querySelectorAll(".profit-chip")) {
         button.setAttribute("aria-pressed", String(button.dataset.value === profitFilter));
       }
+      updateHeaderStats();
     }
 
     function showView(viewId) {
@@ -837,6 +913,7 @@
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           products = parseCsv(await response.text());
           render();
+          updateHeaderStats();
           return;
         } catch (error) {
           console.error(`Could not load ${source}`, error);
@@ -850,7 +927,7 @@
         const response = await fetch(`official-catalog.json?v=${Date.now()}`);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
-        officialProducts = data.products || [];
+        officialProducts = (data.products || []).filter(product => !shouldSkipProduct(product));
         officialMeta = {
           fx: data.fx_usd_to_cad ?? 1.41,
           markup: data.profit_markup ?? 1.2,
@@ -858,8 +935,10 @@
         };
         profitFilter = "all";
         categoryFilter = "all";
+        seriesFilter = "all";
         newOnly = false;
         renderCategoryNav();
+        renderSeriesNav();
         renderProfitNav();
         renderOfficial();
       } catch (error) {

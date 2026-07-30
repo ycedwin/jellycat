@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-07-30T13:15:44.906378+00:00",
+  "updated_at": "2026-07-30T13:36:23.932756+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -540,17 +540,6 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Amuseables Diamond Ring with Personalized Bag",
-      "sku": "BAGSA2DIR",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/amuseables-diamond-ring-with-personalised-bag/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/299/51752/BAGSA2DIR__58117.1764159983.jpg?c=1",
-      "official_price_usd": "50.00",
-      "official_price_cad": "70.50",
-      "profit_price_cad": "84.60",
       "added_at": "2026-07-30"
     },
     {
@@ -1863,17 +1852,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bartholomew Bear Blankie",
-      "sku": "BLNK4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/537/42606/BLNK4BAR__95335.1727977117.jpg?c=1",
-      "official_price_usd": "80.00",
-      "official_price_cad": "112.80",
-      "profit_price_cad": "135.36",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bartholomew Bear Bouffant",
       "sku": "BAR3LH",
       "category": "Animals | Soft Toys",
@@ -1885,39 +1863,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bartholomew Bear Bouffant with Personalized Cream Jumper",
-      "sku": "JUMPCBAR3LH",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-bouffant-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2033/52901/JUMPCBAR3LH__64142.1774643205.jpg?c=1",
-      "official_price_usd": "67.00",
-      "official_price_cad": "94.47",
-      "profit_price_cad": "113.36",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear Bouffant with Personalized Navy Jumper",
-      "sku": "JUMPNBAR3LH",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-bouffant-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2034/52914/JUMPNBAR3LH__82353.1774643205.jpg?c=1",
-      "official_price_usd": "67.00",
-      "official_price_cad": "94.47",
-      "profit_price_cad": "113.36",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear Bouffant with Personalized Red Jumper",
-      "sku": "JUMPRBAR3LH",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-bouffant-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2035/52896/JUMPRBAR3LH__65262.1774643205.jpg?c=1",
-      "official_price_usd": "67.00",
-      "official_price_cad": "94.47",
-      "profit_price_cad": "113.36",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bartholomew Bear Bundlesnug",
       "sku": "BARB4HOOD",
       "category": "Animals",
@@ -1926,17 +1871,6 @@
       "official_price_usd": "70.00",
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear Comforter",
-      "sku": "CMF4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/604/42892/CMF4BAR__52713.1727977477.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
       "added_at": "2026-07-30"
     },
     {
@@ -1984,28 +1918,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bartholomew Bear Ring Rattle",
-      "sku": "BAR4RR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/319/48824/BAR4RR__55388.1732743643.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear Soother",
-      "sku": "STH4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1361/46083/STH4BAR__57804.1727981600.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bartholomew Bear Tote Bag",
       "sku": "BAR2BT",
       "category": "Animals",
@@ -2014,39 +1926,6 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear with Personalized Cream Jumper",
-      "sku": "JUMPCBARM3BR",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/797/43627/JUMPCBARM3BR__68384.1727978463.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear with Personalized Navy Jumper",
-      "sku": "JUMPNBARM3BR",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/847/43844/JUMPNBARM3BR__95753.1727978739.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear with Personalized Red Jumper",
-      "sku": "JUMPRBARM3BR",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/895/44053/JUMPRBARM3BR__82475.1727979023.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2160,28 +2039,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Beige Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3B",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-beige-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/848/51572/JUMPNBAS3B__06198.1762532863.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Beige Bunny with Personalized Red Jumper",
-      "sku": "JUMPRBAS3B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-beige-bunny-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/896/51578/JUMPRBAS3B__70958.1762532864.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Black & Cream Puppy",
       "sku": "BAS3BCP",
       "category": "Animals | Soft Toys",
@@ -2190,28 +2047,6 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Black & Cream Puppy Blankie",
-      "sku": "BLNK4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/538/42610/BLNK4BCP__81138.1727977121.jpg?c=1",
-      "official_price_usd": "80.00",
-      "official_price_cad": "112.80",
-      "profit_price_cad": "135.36",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Black & Cream Puppy Comforter",
-      "sku": "CMF4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/605/42901/CMF4BCP__62308.1727977486.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
       "added_at": "2026-07-30"
     },
     {
@@ -2226,39 +2061,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Black & Cream Puppy Ring Rattle",
-      "sku": "BRR4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/566/42743/BRR4BCP__82122.1727977289.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Black & Cream Puppy Soother",
-      "sku": "STH4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1362/46096/STH4BCP__31589.1727981614.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Black & Cream Puppy with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BCP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-black-cream-puppy-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/850/43857/JUMPNBAS3BCP__80153.1727978755.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Blue Bunny",
       "sku": "BAS4BB",
       "category": "Animals | Soft Toys",
@@ -2267,17 +2069,6 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Blue Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS4BB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-blue-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/884/44009/JUMPNBAS4BB__08668.1727978963.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2314,39 +2105,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Blush Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BLU",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-blush-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/853/53498/JUMPNBAS3BLU__22830.1784822391.png?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Blankie",
-      "sku": "BLNK4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-blankies/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/536/42602/BLNK4B__34757.1727977112.jpg?c=1",
-      "official_price_usd": "80.00",
-      "official_price_cad": "112.80",
-      "profit_price_cad": "135.36",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Comforter",
-      "sku": "CMF4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-comforters/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/603/42889/CMF4B__39286.1727977473.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Bunny Musical Pull",
       "sku": "MP4B",
       "category": "Animals",
@@ -2355,28 +2113,6 @@
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Ring Rattle",
-      "sku": "BRR4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/565/48954/BRR4B__69897.1732743816.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Soother",
-      "sku": "STH4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-soothers/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1360/46079/STH4B__94333.1727981594.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
       "added_at": "2026-07-30"
     },
     {
@@ -2424,17 +2160,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Cream Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BC",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-cream-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/849/43853/JUMPNBAS3BC__46294.1727978751.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Dino",
       "sku": "BAS3DNO",
       "category": "Animals | Soft Toys",
@@ -2457,66 +2182,11 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Dragon Ring Rattle",
-      "sku": "BRR4DR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-dragon-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/567/42755/BRR4DR__06151.1727977303.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Dragon Soother",
-      "sku": "STH4DR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-dragon-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1363/46109/STH4DR__96876.1727981628.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Duckling",
       "sku": "BAS3DCK",
       "category": "Animals | Soft Toys",
       "official_url": "https://us.jellycat.com/bashful-duckling/",
       "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/337/48866/BAS3DCK__54987.1750295515.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Duckling Comforter",
-      "sku": "CMF4DCK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-duckling-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1765/49725/CMF4DCK__25972.1743166234.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Duckling Ring Rattle",
-      "sku": "BRR4DCK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-duckling-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1766/49717/BRR4DCK__36182.1743166225.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Duckling Soother",
-      "sku": "STH4DCK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-duckling-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1769/49692/STH4DCK__91700.1743166198.jpg?c=1",
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
@@ -2534,44 +2204,11 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Fox Cub Comforter",
-      "sku": "CMF4FXC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-fox-cub-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1620/42916/CMF4FXC__33647.1727977505.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Fox Cub Musical Pull",
       "sku": "MP4FXC",
       "category": "Animals",
       "official_url": "https://us.jellycat.com/bashful-fox-cub-musical-pull/",
       "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1622/49031/MP4FXC__59369.1732748368.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Fox Cub Ring Rattle",
-      "sku": "BRR4FXC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-fox-cub-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1618/42758/BRR4FXC__54743.1727977306.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Fox Cub with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3FXC",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-fox-cub-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/862/43905/JUMPNBAS3FXC__91404.1727978819.jpg?c=1",
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
@@ -2589,17 +2226,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Fudge Puppy with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3SPAN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-fudge-puppy-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/877/43977/JUMPNBAS3SPAN__40596.1727978920.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Giraffe",
       "sku": "BAS3GN",
       "category": "Animals | Soft Toys",
@@ -2611,66 +2237,11 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Giraffe Blankie",
-      "sku": "BLNK2GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1617/48944/BLNK2GF__79435.1732748341.jpg?c=1",
-      "official_price_usd": "80.00",
-      "official_price_cad": "112.80",
-      "profit_price_cad": "135.36",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Giraffe Comforter",
-      "sku": "CMF4GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1621/42919/CMF4GF__75911.1727977508.jpg?c=1",
-      "official_price_usd": "28.00",
-      "official_price_cad": "39.48",
-      "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Giraffe Musical Pull",
       "sku": "MP4GF",
       "category": "Animals",
       "official_url": "https://us.jellycat.com/bashful-giraffe-musical-pull/",
       "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1623/44543/MP4GF__45408.1727979680.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Giraffe Ring Rattle",
-      "sku": "BRR4GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1619/42761/BRR4GF__54734.1727977310.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Giraffe Soother",
-      "sku": "STH4GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1625/46120/STH4GF__75890.1727981642.jpg?c=1",
-      "official_price_usd": "33.00",
-      "official_price_cad": "46.53",
-      "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Giraffe with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3GN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-giraffe-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/864/43913/JUMPNBAS3GN__78168.1727978830.jpg?c=1",
       "official_price_usd": "45.00",
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
@@ -2688,17 +2259,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Hippo with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3HPO",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-hippo-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1780/49764/JUMPNBAS3HPO__63627.1744391526.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Kitten",
       "sku": "BAS3KTN",
       "category": "Animals | Soft Toys",
@@ -2707,39 +2267,6 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Kitten with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3KTN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-kitten-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1762/49654/JUMPNBAS3KTN__70690.1741629719.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Lamb Ring Rattle",
-      "sku": "BRR4LAM",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-lamb-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/568/42764/BRR4LAM__87390.1727977314.jpg?c=1",
-      "official_price_usd": "23.00",
-      "official_price_cad": "32.43",
-      "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Lilac Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3HYUS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-lilac-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/865/43917/JUMPNBAS3HYUS__56113.1727978836.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2754,28 +2281,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Lion with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3LION",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-lion-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/869/43937/JUMPNBAS3LION__80018.1727978865.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Luxe Bunny Blankie",
-      "sku": "BLNK4LUN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/539/42622/BLNK4LUN__05850.1727977137.jpg?c=1",
-      "official_price_usd": "100.00",
-      "official_price_cad": "141.00",
-      "profit_price_cad": "169.20",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Luxe Bunny Juniper",
       "sku": "BAS3JUN",
       "category": "Animals | Soft Toys",
@@ -2784,17 +2289,6 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Luxe Bunny Juniper with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3JUN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-juniper-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1538/43925/JUMPNBAS3JUN__39552.1727978848.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
       "added_at": "2026-07-30"
     },
     {
@@ -2809,17 +2303,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Luxe Bunny Luna with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3LUN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-luna-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1634/46524/JUMPNBAS3LUN__67213.1729125011.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Luxe Bunny Nimbus",
       "sku": "BAS3NIM",
       "category": "Animals | Soft Toys",
@@ -2828,17 +2311,6 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Luxe Bunny Nimbus with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3NIM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-nimbus-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1530/43953/JUMPNBAS3NIM__42824.1727978885.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
       "added_at": "2026-07-30"
     },
     {
@@ -2853,28 +2325,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Luxe Bunny Rosa with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3ROS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-rosa-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1635/46528/JUMPNBAS3ROS__97945.1729125016.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Luxe Bunny Soother",
-      "sku": "SO4WIL",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-soothers/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1308/45923/SO4WIL__60501.1727981403.jpg?c=1",
-      "official_price_usd": "60.00",
-      "official_price_cad": "84.60",
-      "profit_price_cad": "101.52",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Luxe Bunny Willow",
       "sku": "BAS3WIL",
       "category": "Animals | Soft Toys",
@@ -2883,17 +2333,6 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Luxe Bunny Willow with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3WIL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-willow-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1637/46536/JUMPNBAS3WIL__63925.1729125024.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
       "added_at": "2026-07-30"
     },
     {
@@ -2919,17 +2358,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Luxe Puppy Orlando with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3PUP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-puppy-orlando-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1748/49736/JUMPNBAS3PUP__02929.1743181475.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Monkey",
       "sku": "BAS3MK",
       "category": "Animals | Soft Toys",
@@ -2938,17 +2366,6 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Monkey with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3MK",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-monkey-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/871/43945/JUMPNBAS3MK__61069.1727978875.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -2974,17 +2391,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Patchwork Brown Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3PWB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-patchwork-brown-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1779/49768/JUMPNBAS3PWB__31556.1744381214.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Pink Bunny",
       "sku": "BAS4BP",
       "category": "Animals | Soft Toys",
@@ -2993,17 +2399,6 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Pink Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS4BP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-pink-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/885/44013/JUMPNBAS4BP__19060.1727978968.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -3029,17 +2424,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Silver Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-silver-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/854/43873/JUMPNBAS3BS__54044.1727978775.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Toffee Puppy",
       "sku": "BAS3TPUS",
       "category": "Animals | Soft Toys",
@@ -3051,17 +2435,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Toffee Puppy with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3TPUS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-toffee-puppy-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/880/43993/JUMPNBAS3TPUS__71825.1727978941.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Tulip Pink Bunny",
       "sku": "BAS3BTP",
       "category": "Animals | Soft Toys",
@@ -3070,17 +2443,6 @@
       "official_price_usd": "14.00",
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Tulip Pink Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BTP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-tulip-pink-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/857/52648/JUMPNBAS3BTP__08793.1773087944.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -3106,17 +2468,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Twinkle Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3TW",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-twinkle-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/881/43997/JUMPNBAS3TW__64163.1727978947.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Unicorn",
       "sku": "BAS3UC",
       "category": "Animals | Soft Toys",
@@ -3136,17 +2487,6 @@
       "official_price_usd": "18.00",
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Viola Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3VB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-viola-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/882/44001/JUMPNBAS3VB__05264.1727978952.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -3205,17 +2545,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Blossom Beige Bunny 'Petal' with Personalized Navy Jumper",
-      "sku": "JUMPNBPM3BM",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-beige-bunny-petal-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1848/50641/JUMPNBPM3BM__56907.1750871673.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Blossom Blush Bunny 'Cherry'",
       "sku": "BPS3EC",
       "category": "Animals | Soft Toys",
@@ -3224,17 +2553,6 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Blush Bunny 'Cherry' with Personalized Navy Jumper",
-      "sku": "JUMPNBPS3EC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-blush-bunny-cherry-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1853/50671/JUMPNBPS3EC__93673.1750871709.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -3260,28 +2578,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Blossom Cream Bunny 'Berry' Blankie",
-      "sku": "BLNK2MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1772/49708/BLNK2MS__53004.1743166218.jpg?c=1",
-      "official_price_usd": "90.00",
-      "official_price_cad": "126.90",
-      "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Cream Bunny 'Berry' Comforter",
-      "sku": "CMF4MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-comforter/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1767/49696/CMF4MS__66498.1743166200.jpg?c=1",
-      "official_price_usd": "30.00",
-      "official_price_cad": "42.30",
-      "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Blossom Cream Bunny 'Berry' Musical Pull",
       "sku": "MP4MS",
       "category": "Animals",
@@ -3293,39 +2589,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Blossom Cream Bunny 'Berry' Ring Rattle",
-      "sku": "BRR4MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-ring-rattle/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1768/49700/BRR4MS__15293.1743166204.jpg?c=1",
-      "official_price_usd": "25.00",
-      "official_price_cad": "35.25",
-      "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Cream Bunny 'Berry' Soother",
-      "sku": "STH4MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1770/49704/STH4MS__65763.1743166213.jpg?c=1",
-      "official_price_usd": "35.00",
-      "official_price_cad": "49.35",
-      "profit_price_cad": "59.22",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Cream Bunny 'Berry' with Personalized Navy Jumper",
-      "sku": "JUMPNBMP3MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-cream-bunny-berry-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1851/50676/JUMPNBMP3MS__62919.1750871715.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Blossom Silver Bunny 'Bloom'",
       "sku": "BPM3BJ",
       "category": "Animals | Soft Toys",
@@ -3334,17 +2597,6 @@
       "official_price_usd": "25.00",
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Blossom Silver Bunny 'Bloom' with Personalized Navy Jumper",
-      "sku": "JUMPNBPM3BJ",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/blossom-silver-bunny-bloom-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1857/50651/JUMPNBPM3BJ__22418.1750871685.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -3843,39 +3095,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Hoppleston Luxe Bunny with Personalized Cream Jumper",
-      "sku": "JUMPCBAS3BROW",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/hoppleston-luxe-bunny-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1966/52150/JUMPCBAS3BROW__06571.1767961605.jpg?c=1",
-      "official_price_usd": "57.00",
-      "official_price_cad": "80.37",
-      "profit_price_cad": "96.44",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Hoppleston Luxe Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3BROW",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/hoppleston-luxe-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1962/52137/JUMPNBAS3BROW__91343.1767961596.jpg?c=1",
-      "official_price_usd": "57.00",
-      "official_price_cad": "80.37",
-      "profit_price_cad": "96.44",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Hoppleston Luxe Bunny with Personalized Red Jumper",
-      "sku": "JUMPRBAS3BROW",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/hoppleston-luxe-bunny-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1963/52139/JUMPRBAS3BROW__66976.1767961590.jpg?c=1",
-      "official_price_usd": "57.00",
-      "official_price_cad": "80.37",
-      "profit_price_cad": "96.44",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Hopscone Luxe Bunny",
       "sku": "BAS3KUP",
       "category": "Animals | Soft Toys",
@@ -3884,28 +3103,6 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Hopscone Luxe Bunny with Personalized Cream Jumper",
-      "sku": "JUMPCBAS3KUP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-hopscone-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1837/50561/JUMPCBAS3KUP__73364.1750769121.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Hopscone Luxe Bunny with Personalized Red Jumper",
-      "sku": "JUMPRBAS3KUP",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/bashful-luxe-bunny-hopscone-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1838/50576/JUMPRBAS3KUP__53638.1750769138.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
       "added_at": "2026-07-30"
     },
     {
@@ -4082,39 +3279,6 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Leola Bear with Personalized Cream Jumper",
-      "sku": "JUMPCBARM2BP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/leola-bear-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1991/52346/JUMPCBARM2BP__30746.1769516899.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Leola Bear with Personalized Navy Jumper",
-      "sku": "JUMPNBARM2BP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/leola-bear-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1989/52348/JUMPNBARM2BP__87093.1769516899.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Leola Bear with Personalized Red Jumper",
-      "sku": "JUMPRBARM2BP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/leola-bear-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1990/52350/JUMPRBARM2BP__66903.1769516899.jpg?c=1",
-      "official_price_usd": "45.00",
-      "official_price_cad": "63.45",
-      "profit_price_cad": "76.14",
       "added_at": "2026-07-30"
     },
     {
@@ -4514,600 +3678,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Personalized Bartholomew Bear Blankie",
-      "sku": "PERSBLNK4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bartholomew-bear-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1111/44978/PERSBLNK4BAR__25050.1727980249.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bartholomew Bear Soother",
-      "sku": "PERSSTH4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bartholomew-bear-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1139/45091/PERSSTH4BAR__97357.1727980389.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Beige Bunny 'Birthday'",
-      "sku": "PERSBAS3BEBB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-beige-bunny-birthday/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1750/49658/PERSBAS3BEBB__23361.1741629732.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Beige Bunny Blankie",
-      "sku": "PERSBLNK4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-beige-bunny-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1110/51591/PERSBLNK4B__76732.1762532864.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Beige Bunny Huge",
-      "sku": "PERSBAH2BN",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-beige-bunny-huge/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1073/51583/PERSBAH2BN__68507.1762532864.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Beige Bunny Medium",
-      "sku": "PERSBAS3B",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-beige-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1079/51587/PERSBAS3B__45792.1762532864.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Beige Bunny Soother",
-      "sku": "PERSSTH4B",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-beige-bunny-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1138/51539/PERSSTH4B__99202.1762532862.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Black & Cream Puppy Blankie",
-      "sku": "PERSBLNK4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-black-cream-puppy-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1112/44982/PERSBLNK4BCP__02185.1727980255.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Black & Cream Puppy Soother",
-      "sku": "PERSSTH4BCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-black-cream-puppy-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1141/45099/PERSSTH4BCP__92341.1727980399.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Blue Bunny Medium",
-      "sku": "PERSBAS4BB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-blue-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1104/44952/PERSBAS4BB__54525.1727980216.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Blue Bunny Soother",
-      "sku": "PERSSTH4BB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-blue-bunny-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1140/45095/PERSSTH4BB__46675.1727980394.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Blush Bunny Blankie",
-      "sku": "PERSBLNK4BLU",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-blush-bunny-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1113/44986/PERSBLNK4BLU__00906.1727980259.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Blush Bunny Medium",
-      "sku": "PERSBAS3BLU",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-blush-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1082/44841/PERSBAS3BLU__04611.1727980071.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Blush Bunny Soother",
-      "sku": "PERSSTH4BLU",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-blush-bunny-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1142/45103/PERSSTH4BLU__31923.1727980404.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Bunny ‘Graduation’",
-      "sku": "PERSBAS3GRAD",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-bunny-graduation-outfit/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2026/52822/PERSBAS3GRAD__51119.1773808035.jpg?c=1",
-      "official_price_usd": "68.00",
-      "official_price_cad": "95.88",
-      "profit_price_cad": "115.06",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Cream Bunny Huge",
-      "sku": "PERSBAH2BC",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-cream-bunny-huge/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1072/44799/PERSBAH2BC__31922.1727980018.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Cream Bunny Medium",
-      "sku": "PERSBAS3BC",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-cream-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1080/44831/PERSBAS3BC__32776.1727980060.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Dragon Soother",
-      "sku": "PERSSTH4DR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-dragon-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1144/45111/PERSSTH4DR__06641.1727980413.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Duckling Soother",
-      "sku": "PERSSTH4DCK",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-duckling-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1802/49853/PERSSTH4DCK__85113.1744381203.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Giraffe Blankie",
-      "sku": "PERSBLNK2GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-giraffe-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1648/46617/PERSBLNK2GF__25662.1731029682.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Giraffe Soother",
-      "sku": "PERSSTH4GF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-giraffe-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1652/46633/PERSSTH4GF__37004.1731029698.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Lilac Bunny Medium",
-      "sku": "PERSBAS3HYUS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-lilac-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1091/44880/PERSBAS3HYUS__05854.1727980123.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Juniper",
-      "sku": "PERSBAS3JUN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-juniper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1545/44889/PERSBAS3JUN__23775.1727980135.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Luna Blankie",
-      "sku": "PERSBLNK4LUN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-luna-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1115/44994/PERSBLNK4LUN__92522.1727980270.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Luna Huge",
-      "sku": "PERSBAH2LUN",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-luna-huge/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1075/44811/PERSBAH2LUN__12647.1727980034.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Luna Medium",
-      "sku": "PERSBAS3LUN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-luna-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1093/44893/PERSBAS3LUN__03452.1727980141.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Luna Soother",
-      "sku": "PERSSO4LUN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-luna-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1131/45058/PERSSO4LUN__07321.1727980348.jpg?c=1",
-      "official_price_usd": "68.00",
-      "official_price_cad": "95.88",
-      "profit_price_cad": "115.06",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Nimbus",
-      "sku": "PERSBAS3NIM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-nimbus/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1546/44912/PERSBAS3NIM__88054.1727980165.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Rosa Blankie",
-      "sku": "PERSBLNK4ROS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-rosa-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1116/44999/PERSBLNK4ROS__78640.1727980276.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Rosa Huge",
-      "sku": "PERSBAH2ROS",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-rosa-huge/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1076/44815/PERSBAH2ROS__04342.1727980039.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Rosa Medium",
-      "sku": "PERSBAS3ROS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-rosa-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1098/44921/PERSBAS3ROS__52298.1727980177.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Rosa Soother",
-      "sku": "PERSSO4ROS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-rosa-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1133/45067/PERSSO4ROS__94967.1727980359.jpg?c=1",
-      "official_price_usd": "68.00",
-      "official_price_cad": "95.88",
-      "profit_price_cad": "115.06",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Willow Blankie",
-      "sku": "PERSBLNK4WIL",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-willow-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1117/45004/PERSBLNK4WIL__23527.1727980282.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Willow Huge",
-      "sku": "PERSBAH2WIL",
-      "category": "Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-willow-huge/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1077/44819/PERSBAH2WIL__30021.1727980044.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Willow Medium",
-      "sku": "PERSBAS3WIL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-willow-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1103/44947/PERSBAS3WIL__65867.1727980210.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Luxe Bunny Willow Soother",
-      "sku": "PERSSO4WIL",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-willow-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1135/45076/PERSSO4WIL__95219.1727980371.jpg?c=1",
-      "official_price_usd": "68.00",
-      "official_price_cad": "95.88",
-      "profit_price_cad": "115.06",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Patchwork Brown Bunny Original",
-      "sku": "PERSBAS3PWB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-patchwork-brown-bunny-original/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1776/49772/PERSBAS3PWB__51311.1744381222.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Pink Bunny Medium",
-      "sku": "PERSBAS4BP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-pink-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1105/44957/PERSBAS4BP__09527.1727980221.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Silver Bunny Blankie",
-      "sku": "PERSBLNK4BS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-silver-bunny-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1114/44990/PERSBLNK4BS__98741.1727980265.jpg?c=1",
-      "official_price_usd": "88.00",
-      "official_price_cad": "124.08",
-      "profit_price_cad": "148.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Silver Bunny Medium",
-      "sku": "PERSBAS3BS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-silver-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1083/44845/PERSBAS3BS__68977.1727980077.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Silver Bunny Soother",
-      "sku": "PERSSTH4BS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-bashful-silver-bunny-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1143/45107/PERSSTH4BS__51656.1727980409.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Tulip Pink Bunny Medium",
-      "sku": "PERSBAS3BTP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-tulip-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1086/52652/PERSBAS3BTP__56712.1773087944.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Twinkle Bunny Medium",
-      "sku": "PERSBAS3TW",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-twinkle-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1101/44938/PERSBAS3TW__07817.1727980198.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Bashful Viola Bunny Medium",
-      "sku": "PERSBAS3VB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-viola-bunny-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1102/44942/PERSBAS3VB__38185.1727980203.jpg?c=1",
-      "official_price_usd": "41.00",
-      "official_price_cad": "57.81",
-      "profit_price_cad": "69.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Blossom Cream Bunny 'Berry' Blankie",
-      "sku": "PERSBLNK2MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-blossom-cream-bunny-berry-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1799/49862/PERSBLNK2MS__32018.1744381835.jpg?c=1",
-      "official_price_usd": "98.00",
-      "official_price_cad": "138.18",
-      "profit_price_cad": "165.82",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Blossom Cream Bunny 'Berry' Soother",
-      "sku": "PERSSTH4MS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-blossom-cream-bunny-berry-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1800/49857/PERSSTH4MS__50530.1744381208.jpg?c=1",
-      "official_price_usd": "43.00",
-      "official_price_cad": "60.63",
-      "profit_price_cad": "72.76",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Cream Bunny with Plant",
-      "sku": "PERSBB3PLA",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-cream-bunny-with-plant/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2029/52827/PERSBB3PLA__65422.1773808035.jpg?c=1",
-      "official_price_usd": "63.00",
-      "official_price_cad": "88.83",
-      "profit_price_cad": "106.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Cream Bunny with Rose",
-      "sku": "PERSBB6ROSE",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-cream-bunny-with-rose/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1964/52681/PERSBB6ROSE__85681.1773232036.jpg?c=1",
-      "official_price_usd": "63.00",
-      "official_price_cad": "88.83",
-      "profit_price_cad": "106.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Cream Bunny with Star",
-      "sku": "PERSBB3STAR",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-cream-bunny-with-star/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2027/52838/PERSBB3STAR__39970.1773808035.jpg?c=1",
-      "official_price_usd": "63.00",
-      "official_price_cad": "88.83",
-      "profit_price_cad": "106.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Hopscone Luxe Bunny",
-      "sku": "PERSBAS3KUP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-bashful-luxe-bunny-hopscone-original/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1835/50571/PERSBAS3KUP__98924.1750769132.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Puddlesea Bunny",
-      "sku": "PERSBAS3PWBL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-puddlesea-bunny/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2050/53008/PERSBAS3PWBL__33390.1778538050.png?c=1",
-      "official_price_usd": "48.00",
-      "official_price_cad": "67.68",
-      "profit_price_cad": "81.22",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Smudge Elephant Blankie",
-      "sku": "PERSSMG4BLNK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-smudge-elephant-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1649/46621/PERSSMG4BLNK__70185.1731029686.jpg?c=1",
-      "official_price_usd": "108.00",
-      "official_price_cad": "152.28",
-      "profit_price_cad": "182.74",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Smudge Elephant Soother",
-      "sku": "PERSSMG4SE",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/personalised-smudge-elephant-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1650/46625/PERSSMG4SE__71257.1731029690.jpg?c=1",
-      "official_price_usd": "68.00",
-      "official_price_cad": "95.88",
-      "profit_price_cad": "115.06",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Personalized Zodihop Luxe Bunny",
-      "sku": "PERSBAS3COS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/personalised-zodihop-luxe-bunny/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2024/52828/PERSBAS3COS__51100.1773808035.jpg?c=1",
-      "official_price_usd": "58.00",
-      "official_price_cad": "81.78",
-      "profit_price_cad": "98.14",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Pinchsnap Crab",
       "sku": "CR2CRB",
       "category": "Animals | Soft Toys",
@@ -5127,39 +3697,6 @@
       "official_price_usd": "40.00",
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Puddlesea Bunny with Personalized Cream Jumper",
-      "sku": "JUMPCBAS3PWBL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/puddlesea-bunny-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2048/53018/JUMPCBAS3PWBL__41797.1778538079.png?c=1",
-      "official_price_usd": "52.00",
-      "official_price_cad": "73.32",
-      "profit_price_cad": "87.98",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Puddlesea Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3PWBL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/puddlesea-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2049/53003/JUMPNBAS3PWBL__94520.1778538042.png?c=1",
-      "official_price_usd": "52.00",
-      "official_price_cad": "73.32",
-      "profit_price_cad": "87.98",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Puddlesea Bunny with Personalized Red Jumper",
-      "sku": "JUMPRBAS3PWBL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/puddlesea-bunny-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2047/53013/JUMPRBAS3PWBL__98787.1778538063.png?c=1",
-      "official_price_usd": "52.00",
-      "official_price_cad": "73.32",
-      "profit_price_cad": "87.98",
       "added_at": "2026-07-30"
     },
     {
@@ -5295,39 +3832,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Skipson Lamb with Personalized Cream Jumper",
-      "sku": "JUMPCBAS3LAM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/skipson-lamb-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1960/52138/JUMPCBAS3LAM__87404.1767961610.jpg?c=1",
-      "official_price_usd": "47.00",
-      "official_price_cad": "66.27",
-      "profit_price_cad": "79.52",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Skipson Lamb with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3LAM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/skipson-lamb-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1961/52677/JUMPNBAS3LAM__82780.1773232035.jpg?c=1",
-      "official_price_usd": "47.00",
-      "official_price_cad": "66.27",
-      "profit_price_cad": "79.52",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Skipson Lamb with Personalized Red Jumper",
-      "sku": "JUMPRBAS3LAM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/skipson-lamb-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1967/52132/JUMPRBAS3LAM__59819.1767961615.jpg?c=1",
-      "official_price_usd": "47.00",
-      "official_price_cad": "66.27",
-      "profit_price_cad": "79.52",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Sky Dragon",
       "sku": "SKY2DD",
       "category": "Animals | Soft Toys",
@@ -5413,28 +3917,6 @@
       "official_price_usd": "23.00",
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Smudge Elephant Blankie",
-      "sku": "SMG4BLNK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/smudge-elephant-blankie/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1293/45818/SMG4BLNK__71172.1727981274.jpg?c=1",
-      "official_price_usd": "100.00",
-      "official_price_cad": "141.00",
-      "profit_price_cad": "169.20",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Smudge Elephant Soother",
-      "sku": "SMG4SE",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/smudge-elephant-soother/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1294/45827/SMG4SE__28527.1727981285.jpg?c=1",
-      "official_price_usd": "60.00",
-      "official_price_cad": "84.60",
-      "profit_price_cad": "101.52",
       "added_at": "2026-07-30"
     },
     {
@@ -5812,39 +4294,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Zodihop Luxe Bunny with Personalized Cream Jumper",
-      "sku": "JUMPCBAS3COS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/zodihop-luxe-bunny-with-personalised-cream-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2030/52852/JUMPCBAS3COS__01967.1773808036.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Zodihop Luxe Bunny with Personalized Navy Jumper",
-      "sku": "JUMPNBAS3COS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/zodihop-luxe-bunny-with-personalised-navy-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2028/52813/JUMPNBAS3COS__28382.1773808035.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Zodihop Luxe Bunny with Personalized Red Jumper",
-      "sku": "JUMPRBAS3COS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/zodihop-luxe-bunny-with-personalised-red-jumper/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2025/52847/JUMPRBAS3COS__17247.1773808036.jpg?c=1",
-      "official_price_usd": "62.00",
-      "official_price_cad": "87.42",
-      "profit_price_cad": "104.90",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Zumblebi Alien",
       "sku": "AL3HA",
       "category": "Animals | Soft Toys",
@@ -5868,8 +4317,7 @@
     }
   ],
   "counts": {
-    "total": 533,
-    "added_this_run": 0,
-    "removed_books": 79
+    "total": 392,
+    "pruned": 141
   }
 }
