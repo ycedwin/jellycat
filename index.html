@@ -148,7 +148,7 @@
 
     select { padding: 0 2.5rem 0 1.1rem; }
 
-    input:focus, select:focus, .edit-link:focus-visible, .official-link:focus-visible {
+    input:focus, select:focus, .edit-link:focus-visible, .official-mark:focus-visible {
       outline: 3px solid rgb(239 198 208 / 65%);
       outline-offset: 2px;
     }
@@ -270,12 +270,50 @@
     }
 
     .card h2 {
-      min-height: 2.5em;
-      margin: 0 0 .75rem;
+      flex: 1;
+      min-width: 0;
+      min-height: 0;
+      margin: 0;
       font-family: Georgia, "Times New Roman", serif;
       font-size: 1.08rem;
       font-weight: 400;
       line-height: 1.25;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      gap: .55rem;
+      margin: 0 0 .75rem;
+    }
+
+    .official-mark {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.55rem;
+      height: 1.55rem;
+      margin-top: .1rem;
+      border: 1px solid var(--line);
+      border-radius: .4rem;
+      background: var(--cream);
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .official-mark svg {
+      width: .85rem;
+      height: .85rem;
+    }
+
+    .official-mark:hover {
+      border-color: var(--ink);
+    }
+
+    .official-mark:focus-visible {
+      outline: 3px solid rgb(239 198 208 / 65%);
+      outline-offset: 2px;
     }
 
     .prices {
@@ -332,15 +370,6 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-    }
-
-    .official-link {
-      display: inline-block;
-      margin-top: .75rem;
-      color: var(--ink);
-      font-size: .82rem;
-      font-weight: 700;
-      text-underline-offset: .22rem;
     }
 
     .empty, .error {
@@ -641,6 +670,32 @@
       }).format(Number(value));
     }
 
+    function officialHref(product) {
+      return product.official_url || `https://us.jellycat.com/search.php?search_query=${encodeURIComponent(product.name)}`;
+    }
+
+    function officialMark(product) {
+      const link = document.createElement("a");
+      link.className = "official-mark";
+      link.href = officialHref(product);
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.title = "Official product";
+      link.setAttribute("aria-label", `Official page for ${product.name}`);
+      // Narrow external-mark; keeps the row one line without link text.
+      link.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 14 20 4M20 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+      return link;
+    }
+
+    function titleRow(product) {
+      const row = document.createElement("div");
+      row.className = "title-row";
+      const name = document.createElement("h2");
+      name.textContent = product.name;
+      row.append(name, officialMark(product));
+      return row;
+    }
+
     function productCard(product) {
       const article = document.createElement("article");
       article.className = "card";
@@ -674,9 +729,6 @@
       sku.className = "sku";
       sku.textContent = `SKU ${product.sku}`;
 
-      const name = document.createElement("h2");
-      name.textContent = product.name;
-
       const prices = document.createElement("div");
       prices.className = "prices";
 
@@ -699,14 +751,7 @@
       officialPrice.append(officialLabel, officialValue);
       prices.append(myPrice, officialPrice);
 
-      const link = document.createElement("a");
-      link.className = "official-link";
-      link.href = product.official_url || `https://us.jellycat.com/search.php?search_query=${encodeURIComponent(product.name)}`;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "View official product ↗";
-
-      body.append(sku, name, prices, link);
+      body.append(sku, titleRow(product), prices);
       article.append(imageWrap, body);
       return article;
     }
@@ -743,8 +788,6 @@
       const sku = document.createElement("p");
       sku.className = "sku";
       sku.textContent = product.sku ? `SKU ${product.sku}` : "Official listing";
-      const name = document.createElement("h2");
-      name.textContent = product.name;
 
       const prices = document.createElement("div");
       prices.className = "prices three";
@@ -765,14 +808,7 @@
         prices.append(block);
       }
 
-      const link = document.createElement("a");
-      link.className = "official-link";
-      link.href = product.official_url;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "View official product ↗";
-
-      body.append(sku, name, prices, link);
+      body.append(sku, titleRow(product), prices);
       article.append(imageWrap, body);
       return article;
     }
