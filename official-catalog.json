@@ -1,30 +1,8 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-07-30T13:13:39.451459+00:00",
+  "updated_at": "2026-07-30T13:15:44.906378+00:00",
   "products": [
-    {
-      "name": "A Fantastic Day for Finnegan Frog Book",
-      "sku": "BK4FIN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/a-fantastic-day-for-finnegan-frog-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/471/42333/BK4FIN__36590.1727976771.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "A Monster Called Pip Book",
-      "sku": "BK4MCP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/a-monster-called-pip-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/490/42399/BK4MCP__08492.1727976853.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
     {
       "name": "Albee Bee",
       "sku": "HAP3BEE",
@@ -34,39 +12,6 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "All Kinds of Cats Book",
-      "sku": "BK4CATS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/all-kinds-of-cats-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/464/42306/BK4CATS__80047.1727976737.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "All Kinds of Cats Book & Jellycat Jack Medium",
-      "sku": "SETBK4CATS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/all-kinds-of-cats-book-and-jellycat-jack/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1237/45543/SETBK4CATS__66345.1727980937.jpg?c=1",
-      "official_price_usd": "66.00",
-      "official_price_cad": "93.06",
-      "profit_price_cad": "111.67",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "All Kinds of Grumpy Book",
-      "sku": "BK4AKG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/all-kinds-of-grumpy-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1823/49950/BK4AKG__59423.1748008111.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
       "added_at": "2026-07-30"
     },
     {
@@ -1852,17 +1797,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Archie, My Dinosaur Friend Book",
-      "sku": "BK4ARC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/archie-my-dinosaur-friend-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/458/42276/BK4ARC__55946.1727976700.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Audrey Hootsoftly",
       "sku": "AUD3HOOT",
       "category": "Animals | Soft Toys",
@@ -2025,17 +1959,6 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bartholomew Bear Loves You Book",
-      "sku": "BK4BBRLY",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bartholomew-bear-loves-you-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1491/42285/BK4BBRLY__13445.1727976711.jpg?c=1",
-      "official_price_usd": "26.00",
-      "official_price_cad": "36.66",
-      "profit_price_cad": "43.99",
       "added_at": "2026-07-30"
     },
     {
@@ -2421,17 +2344,6 @@
       "official_price_usd": "28.00",
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Bashful Bunny Loves You Book",
-      "sku": "BK4BBLY",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-bunny-loves-you-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1458/42282/BK4BBLY__39076.1727976707.jpg?c=1",
-      "official_price_usd": "26.00",
-      "official_price_cad": "36.66",
-      "profit_price_cad": "43.99",
       "added_at": "2026-07-30"
     },
     {
@@ -3095,17 +3007,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Bashful Puppy Loves You Book",
-      "sku": "BK4BPLY",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/bashful-puppy-loves-you-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1492/42300/BK4BPLY__14883.1727976729.jpg?c=1",
-      "official_price_usd": "26.00",
-      "official_price_cad": "36.66",
-      "profit_price_cad": "43.99",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Bashful Red Love Heart Bunny",
       "sku": "BB3LOVE",
       "category": "Animals | Soft Toys",
@@ -3257,28 +3158,6 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Beatrice Butterfly's Wild Garden Book",
-      "sku": "BK4WG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/beatrice-butterflys-wild-garden-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/513/42468/BK4WG__45328.1727976937.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Beatrice Butterfly's Wild Garden Book & Beatrice Butterfly",
-      "sku": "SETBK4WG",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/beatrice-butterflys-wild-garden-book-and-beatrice-butterfly/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1272/45695/SETBK4WG__34916.1727981122.jpg?c=1",
-      "official_price_usd": "54.00",
-      "official_price_cad": "76.14",
-      "profit_price_cad": "91.37",
       "added_at": "2026-07-30"
     },
     {
@@ -3678,17 +3557,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Dino Tails Activity Book",
-      "sku": "BK444ND",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/dino-tails-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/454/42264/BK444ND__13594.1727976684.jpg?c=1",
-      "official_price_usd": "20.00",
-      "official_price_cad": "28.20",
-      "profit_price_cad": "33.84",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Dorit Duckling",
       "sku": "ROCK3D",
       "category": "Animals | Soft Toys",
@@ -3909,28 +3777,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Ginger, the Courageous Kitten Book",
-      "sku": "BK4CK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/ginger-the-courageous-kitten-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1710/49377/BK4CK__32552.1736176653.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Ginger, the Courageous Kitten Book and Fuddlewuddle Ginger Cat",
-      "sku": "SETBK4CK",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/ginger-the-courageous-kitten-book-and-fuddlewuddle-ginger-cat/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1719/49393/SETBK4CK__37855.1736176688.jpg?c=1",
-      "official_price_usd": "53.00",
-      "official_price_cad": "74.73",
-      "profit_price_cad": "89.68",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Gobfrey Whale Shark",
       "sku": "WHL3SH",
       "category": "Animals | Soft Toys",
@@ -3950,17 +3796,6 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Goodnight Bunny Book",
-      "sku": "BK4GNBN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/goodnight-bunny-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/475/42351/BK4GNBN__97832.1727976793.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
       "added_at": "2026-07-30"
     },
     {
@@ -4085,369 +3920,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "If I Were A Bunny Board Book - Beige",
-      "sku": "BB444BB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-bunny-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/385/41997/BB444BB__90109.1727976352.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Bunny Board Book - Blush",
-      "sku": "BB44BLB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-bunny-board-book-blush/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1443/42102/BB44BLB__27983.1727976480.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Bunny Book & Bashful Beige Bunny Small",
-      "sku": "SETBB444BB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-bunny-book-and-bashful-bunny/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1209/45398/SETBB444BB__00566.1727980765.jpg?c=1",
-      "official_price_usd": "39.00",
-      "official_price_cad": "54.99",
-      "profit_price_cad": "65.99",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Bunny Book & Bashful Blush Bunny Medium",
-      "sku": "SETBB44BLB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-bunny-book-and-bashful-blush-bunny/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1228/45502/SETBB44BLB__93281.1727980889.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Butterfly Board Book",
-      "sku": "BB444BUT",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-butterfly-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/387/42006/BB444BUT__88130.1727976363.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Butterfly Book & Beatrice Butterfly",
-      "sku": "SETBB444BUT",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-butterfly-book-and-beatrice-butterfly/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1211/45410/SETBB444BUT__65476.1727980780.jpg?c=1",
-      "official_price_usd": "54.00",
-      "official_price_cad": "76.14",
-      "profit_price_cad": "91.37",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Calf Board Book",
-      "sku": "BB44CALF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-calf-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1709/49424/BB44CALF__39878.1736176738.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Dog Board Book",
-      "sku": "BB444DG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-dog-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1552/46675/BB444DG__01464.1731418935.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Dog Board Book & Bashful Toffee Puppy Medium",
-      "sku": "SETBB444DG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-dog-board-book-bashful-toffee-puppy-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1560/46735/SETBB444DG__50285.1731418998.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Dragon Board Book",
-      "sku": "BB444DGN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-dragon-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/390/46493/BB444DGN__61325.1729124973.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Dragon Book & Bashful Dragon Small",
-      "sku": "SETBB444DGN",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-dragon-book-and-bashful-dragon/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1213/45426/SETBB444DGN__38324.1727980799.jpg?c=1",
-      "official_price_usd": "39.00",
-      "official_price_cad": "54.99",
-      "profit_price_cad": "65.99",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I were a Duckling Board Book",
-      "sku": "BB44DCK",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-duckling-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/411/42105/BB44DCK__09426.1727976484.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Duckling Board Book & Bashful Duckling Medium",
-      "sku": "SETBB44DCK",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-duckling-board-book-and-bashful-duckling/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1229/45506/SETBB44DCK__38087.1727980894.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Fox Board Book",
-      "sku": "BB444FOX",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-fox-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/393/42030/BB444FOX__00065.1727976393.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Hedgehog Board Book",
-      "sku": "BB444HEDGN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-hedgehog-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/396/46576/BB444HEDGN__05055.1729211279.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Hedgehog Book",
-      "sku": "BB444HEDG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-hedgehog-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/395/42036/BB444HEDG__73978.1727976400.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Kitten Board Book",
-      "sku": "BB44KIT",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-kitten-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1738/49482/BB44KIT__59779.1738932755.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Kitten Board Book and Bashful Kitten Original",
-      "sku": "SETBB44KIT",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-kitten-board-book-and-bashful-kitten-original/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1744/49583/SETBB44KIT__94740.1740066843.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Kitty Board Book",
-      "sku": "BB444CKN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-kitty-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1551/46669/BB444CKN__08539.1731418929.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Lamb Board Book",
-      "sku": "BB444LBN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-lamb-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/399/42048/BB444LBN__49837.1727976414.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Lion Board Book",
-      "sku": "BB444LI",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-lion-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1553/46681/BB444LI__72335.1731418942.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Panda Board Book",
-      "sku": "BB444PDA",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-panda-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/404/42066/BB444PDA__69197.1727976436.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Puppy Board Book",
-      "sku": "BB444BWP",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-puppy-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/388/42009/BB444BWP__85012.1727976367.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Puppy Book & Bashful Puppy Small",
-      "sku": "SETBB444BWP",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-puppy-book-and-bashful-puppy/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1212/45414/SETBB444BWP__16587.1727980785.jpg?c=1",
-      "official_price_usd": "39.00",
-      "official_price_cad": "54.99",
-      "profit_price_cad": "65.99",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Rabbit Board Book",
-      "sku": "BB444R",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-rabbit-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/406/42072/BB444R__94445.1727976443.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were A Seahorse Board Book",
-      "sku": "BB444SH",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-seahorse-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/407/42075/BB444SH__79361.1727976447.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Squirrel Board Book",
-      "sku": "BB444SQ",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-squirrel-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1455/42081/BB444SQ__21802.1727976454.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Unicorn Board Book",
-      "sku": "BB444UNI",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-unicorn-board-book-1/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1517/42093/BB444UNI__24787.1727976469.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were a Unicorn Board Book & Bashful Unicorn Medium",
-      "sku": "SETBB444UNI",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/if-i-were-a-unicorn-board-book-and-bashful-unicorn-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1509/45494/SETBB444UNI__31239.1727980880.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I were a Zebra Board Book",
-      "sku": "BB444ZEB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-a-zebra-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/410/42099/BB444ZEB__06021.1727976476.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were An Elephant Board Book",
-      "sku": "BB4ELUS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-an-elephant-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/415/42116/BB4ELUS__84206.1727976497.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were An Octopus Board Book",
-      "sku": "BB444OC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-an-octopus-board-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/401/42057/BB444OC__90837.1727976425.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "If I Were An Owl Book",
-      "sku": "BB444OWL",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/if-i-were-an-owl-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/402/42060/BB444OWL__96543.1727976428.jpg?c=1",
-      "official_price_usd": "15.00",
-      "official_price_cad": "21.15",
-      "profit_price_cad": "25.38",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Isobel Chihuahua",
       "sku": "ISB3CH",
       "category": "Animals | Soft Toys",
@@ -4456,28 +3928,6 @@
       "official_price_usd": "33.00",
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "It's a Big World Bartholomew Book",
-      "sku": "BK4BAR",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/its-a-big-world-bartholomew-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1457/42279/BK4BAR__77453.1727976703.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "It's a Big World Bartholomew Book & Bartholomew Bear Medium",
-      "sku": "SETBK4BAR",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/its-a-big-world-bartholomew-book-and-bartholomew-bear-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1510/45522/SETBK4BAR__91013.1727980914.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
       "added_at": "2026-07-30"
     },
     {
@@ -4547,28 +3997,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Just Like Me Book",
-      "sku": "BK4JLM",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/just-like-me-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1493/42363/BK4JLM__42178.1727976809.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Just Like Me Book & Bashful Giraffe Medium",
-      "sku": "SETBK4JLM",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/just-like-me-book-and-bashful-giraffe-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1511/45595/SETBK4JLM__13624.1727981000.jpg?c=1",
-      "official_price_usd": "51.00",
-      "official_price_cad": "71.91",
-      "profit_price_cad": "86.29",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Keli Pelican",
       "sku": "PEL2CAN",
       "category": "Animals | Soft Toys",
@@ -4610,28 +4038,6 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Lapin Timide Et Ses Petites Aventures & Bashful Beige Bunny Medium",
-      "sku": "SETBK4LMF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/lapin-timide-et-ses-petites-aventures-and-bashful-beige-bunny/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1250/45607/SETBK4LMF__11247.1727981017.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Lapin Timide Et Ses Petites Aventures Livre",
-      "sku": "BK4LMF",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/lapin-timide-et-ses-petites-aventures-livre/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/482/42375/BK4LMF__46362.1727976824.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
       "added_at": "2026-07-30"
     },
     {
@@ -4954,17 +4360,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Mitzi Reindeer's Dream Book",
-      "sku": "BK4RD",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/mitzi-reindeers-dream-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/506/42447/BK4RD__97989.1727976911.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Mooliet Cow",
       "sku": "C3CW",
       "category": "Animals | Soft Toys",
@@ -4973,17 +4368,6 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Munro in the Middle Book",
-      "sku": "BK4MUN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/munro-in-the-middle-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1826/49938/BK4MUN__81740.1748008138.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
       "added_at": "2026-07-30"
     },
     {
@@ -5031,17 +4415,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Muswell Mole and the Buried Treasure Book",
-      "sku": "BK4MUZ",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/muswell-mole-and-the-buried-treasure-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1828/49958/BK4MUZ__72350.1748008113.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Oat Flufflet Bunny",
       "sku": "BASS6TCAR",
       "category": "Animals | Soft Toys",
@@ -5064,17 +4437,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Odell's Amazing Arms Book",
-      "sku": "BK4OAA",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/odell-s-amazing-arms-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1831/50014/BK4OAA__79916.1748008096.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Otto Sausage Dog",
       "sku": "OT3SD",
       "category": "Animals | Soft Toys",
@@ -5094,39 +4456,6 @@
       "official_price_usd": "50.00",
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Otto the Loyal Long Dog Book",
-      "sku": "BK4OD",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/otto-the-loyal-long-dog-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/499/42426/BK4OD__08793.1727976885.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Otto the Loyal Long Dog Book & Otto Sausage Dog Medium",
-      "sku": "SETBK4OD",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/otto-the-loyal-long-dog-book-and-otto-sausage-dog/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1263/45659/SETBK4OD__92307.1727981078.jpg?c=1",
-      "official_price_usd": "53.00",
-      "official_price_cad": "74.73",
-      "profit_price_cad": "89.68",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Otto's Snowy Christmas Book",
-      "sku": "BK4OSC",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/ottos-snowy-christmas-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/502/42435/BK4OSC__32400.1727976896.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
       "added_at": "2026-07-30"
     },
     {
@@ -5834,28 +5163,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Puppy Makes Mischief Book",
-      "sku": "BK4PM",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/puppy-makes-mischief-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/503/42438/BK4PM__93232.1727976900.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Puppy Tails Activity Book",
-      "sku": "BK444PTN",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/puppy-tails-activity-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/455/42267/BK444PTN__23856.1727976688.jpg?c=1",
-      "official_price_usd": "22.00",
-      "official_price_cad": "31.02",
-      "profit_price_cad": "37.22",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Ramone Bull",
       "sku": "RAM4BL",
       "category": "Animals | Soft Toys",
@@ -6208,28 +5515,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Smudge Rabbit and the Falling Star Book",
-      "sku": "BK4SMB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/smudge-rabbit-and-the-falling-star-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1689/49280/BK4SMB__04088.1734429859.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Smudge Rabbit and the Falling Star Book and Smudge Rabbit Medium",
-      "sku": "SETBK4SMB",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/smudge-rabbit-and-the-falling-star-book-and-smudge-rabbit-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1721/49403/SETBK4SMB__10505.1736176713.jpg?c=1",
-      "official_price_usd": "56.00",
-      "official_price_cad": "78.96",
-      "profit_price_cad": "94.75",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Smudge Rabbit Backpack",
       "sku": "SMG2RBP",
       "category": "Animals",
@@ -6260,28 +5545,6 @@
       "official_price_usd": "90.00",
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Smudge the Littlest Elephant Book",
-      "sku": "BK4SMG",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/smudge-the-littlest-elephant-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/508/42453/BK4SMG__10229.1727976918.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Smudge the Littlest Elephant Book & Smudge Elephant Medium",
-      "sku": "SETBK4SMG",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/smudge-the-littlest-elephant-book-and-smudge-elephant/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1270/45687/SETBK4SMG__75934.1727981111.jpg?c=1",
-      "official_price_usd": "56.00",
-      "official_price_cad": "78.96",
-      "profit_price_cad": "94.75",
       "added_at": "2026-07-30"
     },
     {
@@ -6337,94 +5600,6 @@
       "official_price_usd": "38.00",
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Magic Bunny Book",
-      "sku": "BK4MB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/the-magic-bunny-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/487/42390/BK4MB__62048.1727976843.jpg?c=1",
-      "official_price_usd": "19.00",
-      "official_price_cad": "26.79",
-      "profit_price_cad": "32.15",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Pick of the Sticks Book",
-      "sku": "BK4PTS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/the-pick-of-the-sticks-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1711/49432/BK4PTS__94048.1736176746.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Pick of the Sticks Book and Bashful Black & Cream Puppy Medium",
-      "sku": "SETBK4PTS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/the-pick-of-the-sticks-book-and-bashful-black-cream-puppy-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1720/49362/SETBK4PTS__78354.1736176615.jpg?c=1",
-      "official_price_usd": "51.00",
-      "official_price_cad": "71.91",
-      "profit_price_cad": "86.29",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Playful Polar Bears Book",
-      "sku": "BK4PPB",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/the-playful-polar-bears-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/504/42441/BK4PPB__45424.1727976903.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Sky Dragon Book",
-      "sku": "BK4TSD",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/the-sky-dragon-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/511/42462/BK4TSD__67016.1727976929.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Sky Dragon Book & Bashful Dragon Medium",
-      "sku": "SETBK4TSD",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/the-sky-dragon-book-and-bashful-dragon/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1271/45691/SETBK4TSD__98845.1727981117.jpg?c=1",
-      "official_price_usd": "51.00",
-      "official_price_cad": "71.91",
-      "profit_price_cad": "86.29",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Very Brave Lion Book",
-      "sku": "BK4BL",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/the-very-brave-lion-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/459/42288/BK4BL__19644.1727976714.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "The Very Brave Lion Book & Fuddlewuddle Lion Medium",
-      "sku": "SETBK4BL",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/the-very-brave-lion-book-and-fuddlewuddle-lion/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1233/45527/SETBK4BL__77670.1727980919.jpg?c=1",
-      "official_price_usd": "53.00",
-      "official_price_cad": "74.73",
-      "profit_price_cad": "89.68",
       "added_at": "2026-07-30"
     },
     {
@@ -6538,28 +5713,6 @@
       "added_at": "2026-07-30"
     },
     {
-      "name": "Warm in the Storm Book",
-      "sku": "BK4WTS",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/warm-in-the-storm-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1459/42489/BK4WTS__25717.1727976963.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Warm in the Storm Book & Bashful Fox Cub Medium",
-      "sku": "SETBK4WTS",
-      "category": "Animals | Soft Toys",
-      "official_url": "https://us.jellycat.com/warm-in-the-storm-book-and-bashful-fox-cub-medium/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1512/45711/SETBK4WTS__16382.1727981140.jpg?c=1",
-      "official_price_usd": "49.00",
-      "official_price_cad": "69.09",
-      "profit_price_cad": "82.91",
-      "added_at": "2026-07-30"
-    },
-    {
       "name": "Wheat Flufflet Bunny",
       "sku": "BASS6TLB",
       "category": "Animals | Soft Toys",
@@ -6568,28 +5721,6 @@
       "official_price_usd": "30.00",
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "When I Wonder Book",
-      "sku": "BK4WIW",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/when-i-wonder-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/518/42483/BK4WIW__26199.1727976955.jpg?c=1",
-      "official_price_usd": "18.00",
-      "official_price_cad": "25.38",
-      "profit_price_cad": "30.46",
-      "added_at": "2026-07-30"
-    },
-    {
-      "name": "Who Can I Find Book",
-      "sku": "BK4WHO",
-      "category": "Animals",
-      "official_url": "https://us.jellycat.com/who-can-i-find-book/",
-      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/514/42471/BK4WHO__35395.1727976941.jpg?c=1",
-      "official_price_usd": "16.00",
-      "official_price_cad": "22.56",
-      "profit_price_cad": "27.07",
       "added_at": "2026-07-30"
     },
     {
@@ -6737,8 +5868,8 @@
     }
   ],
   "counts": {
-    "total": 612,
+    "total": 533,
     "added_this_run": 0,
-    "fetched_this_run": 899
+    "removed_books": 79
   }
 }

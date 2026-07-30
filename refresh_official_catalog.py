@@ -27,6 +27,18 @@ CATEGORIES = [
 
 PRICE_RE = re.compile(r"\$([0-9]+(?:\.[0-9]{2})?)\s*USD", re.I)
 SKU_RE = re.compile(r"/products/\d+/[^/]+/([A-Za-z0-9_-]+?)(?:__|\.)")
+BOOK_RE = re.compile(r"\b(book|board book)\b", re.I)
+
+
+def is_book(item: dict) -> bool:
+    sku = item.get("sku", "")
+    name = item.get("name", "")
+    url = item.get("official_url", "")
+    if sku.startswith(("BK", "BB44", "SETBK", "SETBB")):
+        return True
+    if BOOK_RE.search(name) or "-book" in url or "_book" in url:
+        return True
+    return False
 
 
 def load_catalog() -> dict:
@@ -129,7 +141,7 @@ def fetch_category(scraper, category: str, base_url: str) -> list[dict]:
         before = len(products)
         for card in soup.select("li.product"):
             item = parse_card(card, category)
-            if not item or item["official_url"] in seen:
+            if not item or is_book(item) or item["official_url"] in seen:
                 continue
             seen.add(item["official_url"])
             products.append(item)
@@ -148,7 +160,7 @@ def main() -> None:
     catalog = load_catalog()
     catalog["fx_usd_to_cad"] = USD_TO_CAD
     catalog["profit_markup"] = PROFIT_MARKUP
-    existing = {item["official_url"]: item for item in catalog.get("products", [])}
+    existing = {item["official_url"]: item for item in catalog.get("products", []) if not is_book(item)}
 
     scraper = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "darwin", "mobile": False}
@@ -160,6 +172,8 @@ def main() -> None:
 
     added = 0
     for item in discovered:
+        if is_book(item):
+            continue
         url = item["official_url"]
         if url in existing:
             # Append-only: keep first-seen record; merge category tags if needed.
