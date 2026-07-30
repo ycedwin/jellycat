@@ -148,6 +148,7 @@
     .summary {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       gap: 1rem;
       margin: 0 0 1rem;
       color: var(--muted);
@@ -155,6 +156,35 @@
     }
 
     .summary strong { color: var(--ink); }
+
+    .sort-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .25rem;
+      width: 2.4rem;
+      height: 2.4rem;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .sort-button svg {
+      width: 1.05rem;
+      height: 1.05rem;
+    }
+
+    .sort-button[data-dir="desc"] svg {
+      transform: scaleY(-1);
+    }
+
+    .sort-button:focus-visible {
+      outline: 3px solid rgb(239 198 208 / 65%);
+      outline-offset: 2px;
+    }
 
     .grid {
       display: grid;
@@ -631,8 +661,11 @@
       <nav class="category-nav" id="category-nav" aria-label="Listing filters"></nav>
       <nav class="profit-nav" id="profit-nav" aria-label="Profit price ranges"></nav>
 
-      <p class="summary" aria-live="polite">
-        <span><strong id="official-count">0</strong> listings</span>
+      <p class="summary">
+        <span aria-live="polite"><strong id="official-count">0</strong> listings</span>
+        <button class="sort-button" id="sell-sort" type="button" data-dir="asc" title="Sort sell price: low to high" aria-label="Sort by sell price, currently low to high">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h8M8 17h4M4 7v10m0 0 2.5-2.5M4 17l2.5-2.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        </button>
       </p>
 
       <section class="grid" id="official-catalog" aria-label="Official Jellycat listings">
@@ -698,6 +731,7 @@
     let officialMeta = { fx: 1.41, markup: 1.2, updatedAt: null };
     let profitFilter = "all";
     let listFilter = "all";
+    let sellSort = "asc";
     const NEW_LISTING_DAYS = 30;
     const SERIES_FILTERS = ["Amuseables", "Bashful", "Bartholomew", "Little", "Fuddlewuddle"];
     const CATEGORY_FILTERS = ["Animals", "Bag Charms"];
@@ -1034,6 +1068,11 @@
         );
         return matchesQuery && matchesListFilter(product) && matchesProfit;
       });
+      visible.sort((a, b) => {
+        const left = Number(a.profit_price_cad) || 0;
+        const right = Number(b.profit_price_cad) || 0;
+        return sellSort === "asc" ? left - right : right - left;
+      });
 
       officialCatalog.replaceChildren();
       if (!visible.length) {
@@ -1046,6 +1085,11 @@
       }
 
       document.querySelector("#official-count").textContent = visible.length;
+      const sortButton = document.querySelector("#sell-sort");
+      sortButton.dataset.dir = sellSort;
+      const sortLabel = sellSort === "asc" ? "low to high" : "high to low";
+      sortButton.title = `Sort sell price: ${sortLabel}`;
+      sortButton.setAttribute("aria-label", `Sort by sell price, currently ${sortLabel}`);
       for (const button of categoryNav.querySelectorAll(".category-chip")) {
         button.setAttribute("aria-pressed", String(button.dataset.value === listFilter));
       }
@@ -1109,6 +1153,10 @@
     search.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
     officialSearch.addEventListener("input", renderOfficial);
+    document.querySelector("#sell-sort").addEventListener("click", () => {
+      sellSort = sellSort === "asc" ? "desc" : "asc";
+      renderOfficial();
+    });
     for (const tab of document.querySelectorAll(".view-tab")) {
       tab.addEventListener("click", () => showView(tab.dataset.view));
     }
