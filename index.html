@@ -479,7 +479,8 @@
       color: var(--green-ink);
     }
 
-    #official-catalog.grid {
+    #official-catalog.grid,
+    #catalog.grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: .75rem;
     }
@@ -622,7 +623,8 @@
 
     @media (max-width: 800px) {
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      #official-catalog.grid { grid-template-columns: 1fr; }
+      #official-catalog.grid,
+      #catalog.grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 610px) {
@@ -833,7 +835,7 @@
 
     function productCard(product) {
       const article = document.createElement("article");
-      article.className = "card";
+      article.className = "card row";
 
       const imageWrap = document.createElement("div");
       imageWrap.className = "image-wrap";
@@ -854,7 +856,6 @@
       const badge = document.createElement("span");
       badge.className = `badge ${product.status.toLowerCase().replaceAll(" ", "-")}`;
       badge.textContent = `${product.status} · ${product.quantity}`;
-
       imageWrap.append(image, badge);
 
       const body = document.createElement("div");
@@ -862,29 +863,27 @@
 
       const sku = document.createElement("p");
       sku.className = "sku";
-      sku.textContent = `SKU ${product.sku}`;
+      sku.textContent = product.sku ? `SKU ${product.sku}` : "My stock";
 
       const prices = document.createElement("div");
-      prices.className = "prices";
-
-      const myPrice = document.createElement("div");
-      const myLabel = document.createElement("span");
-      myLabel.className = "price-label";
-      myLabel.textContent = "My price";
-      const myValue = document.createElement("span");
-      myValue.className = "price";
-      myValue.textContent = money(product.my_price_cad, "CAD");
-      myPrice.append(myLabel, myValue);
-
-      const officialPrice = document.createElement("div");
-      const officialLabel = document.createElement("span");
-      officialLabel.className = "price-label";
-      officialLabel.textContent = "Official";
-      const officialValue = document.createElement("span");
-      officialValue.className = "price";
-      officialValue.textContent = money(product.official_price_usd, "USD");
-      officialPrice.append(officialLabel, officialValue);
-      prices.append(myPrice, officialPrice);
+      prices.className = "prices three";
+      const sell = product.source_sell_price || product.my_price_cad;
+      for (const [label, value, currency] of [
+        ["USD", product.official_price_usd, "USD"],
+        ["My", product.my_price_cad, "CAD"],
+        ["Sell", sell, "CAD"]
+      ]) {
+        const block = document.createElement("div");
+        block.className = "price-box";
+        const title = document.createElement("span");
+        title.className = "price-label";
+        title.textContent = label;
+        const amount = document.createElement("span");
+        amount.className = "price";
+        amount.textContent = money(value, currency);
+        block.append(title, amount);
+        prices.append(block);
+      }
 
       body.append(sku, titleRow(product), prices);
       article.append(imageWrap, body);
