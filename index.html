@@ -292,23 +292,21 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 1.55rem;
-      height: 1.55rem;
-      margin-top: .1rem;
-      border: 1px solid var(--line);
-      border-radius: .4rem;
-      background: var(--cream);
-      color: var(--ink);
+      height: 1.35rem;
+      margin-top: .15rem;
       text-decoration: none;
     }
 
-    .official-mark svg {
-      width: .85rem;
-      height: .85rem;
+    .official-mark img {
+      display: block;
+      height: 1.35rem;
+      width: auto;
+      max-width: 4.5rem;
+      object-fit: contain;
     }
 
     .official-mark:hover {
-      border-color: var(--ink);
+      opacity: .75;
     }
 
     .official-mark:focus-visible {
@@ -680,10 +678,13 @@
       link.href = officialHref(product);
       link.target = "_blank";
       link.rel = "noopener";
-      link.title = "Official product";
-      link.setAttribute("aria-label", `Official page for ${product.name}`);
-      // Narrow external-mark; keeps the row one line without link text.
-      link.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 14 20 4M20 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>';
+      link.title = "Official Jellycat product";
+      link.setAttribute("aria-label", `Official Jellycat page for ${product.name}`);
+      const logo = document.createElement("img");
+      logo.src = "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/250x100/jellycat-logo-250x100_1713397226__60866.original.png";
+      logo.alt = "Jellycat";
+      logo.loading = "lazy";
+      link.append(logo);
       return link;
     }
 
