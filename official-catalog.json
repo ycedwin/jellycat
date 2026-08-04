@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-08-03T16:26:41.357436+00:00",
+  "updated_at": "2026-08-04T16:13:03.166652+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2272,6 +2272,18 @@
       "retired": false
     },
     {
+      "name": "Bashful Bunny Junior",
+      "sku": "BASJ6BC",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bashful-bunny-junior/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2082/53658/BASJ6BC__41174.1785756365.jpg?c=1",
+      "official_price_usd": "32.00",
+      "official_price_cad": "45.12",
+      "profit_price_cad": "54.14",
+      "added_at": "2026-08-04",
+      "retired": false
+    },
+    {
       "name": "Bashful Bunny ‘Gold Medal Ski’",
       "sku": "BAS3BSK",
       "category": "Animals | Soft Toys",
@@ -3373,6 +3385,18 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Jellycat Jack Junior",
+      "sku": "JEL6J",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/jellycat-jack-junior/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2083/53654/JEL6J__62129.1785756365.jpg?c=1",
+      "official_price_usd": "40.00",
+      "official_price_cad": "56.40",
+      "profit_price_cad": "67.68",
+      "added_at": "2026-08-04",
       "retired": false
     },
     {
@@ -4637,11 +4661,11 @@
     }
   ],
   "counts": {
-    "total": 386,
-    "added_this_run": 0,
+    "total": 388,
+    "added_this_run": 2,
     "retired_marked_this_run": 0,
-    "live_this_run": 386,
-    "fetched_this_run": 585,
+    "live_this_run": 388,
+    "fetched_this_run": 589,
     "scrape_ok": true
   }
 }
