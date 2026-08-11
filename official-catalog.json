@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-08-10T14:59:05.229662+00:00",
+  "updated_at": "2026-08-11T14:57:43.004345+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -1225,6 +1225,18 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Peanut ‘Cat’",
+      "sku": "A6PCT",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-peanut-cat-outfit/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1865/51190/A6PCT__48621.1755274481.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-08-11",
       "retired": false
     },
     {
@@ -2836,6 +2848,18 @@
       "retired": false
     },
     {
+      "name": "Broox Bat",
+      "sku": "BAT3B",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/broox-bat/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1842/50697/BAT3B__37327.1750934772.jpg?c=1",
+      "official_price_usd": "38.00",
+      "official_price_cad": "53.58",
+      "profit_price_cad": "64.30",
+      "added_at": "2026-08-11",
+      "retired": false
+    },
+    {
       "name": "Budgeby Parrot",
       "sku": "PAR3P",
       "category": "Animals | Soft Toys",
@@ -3880,6 +3904,18 @@
       "retired": false
     },
     {
+      "name": "Ooky Jack O Lantern",
+      "sku": "OOK3JOL",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/ooky-jack-o-lantern/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1845/50709/OOK3JOL__38839.1751390672.jpg?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-08-11",
+      "retired": false
+    },
+    {
       "name": "Otto Sausage Dog",
       "sku": "OT3SD",
       "category": "Animals | Soft Toys",
@@ -4661,11 +4697,11 @@
     }
   ],
   "counts": {
-    "total": 388,
-    "added_this_run": 0,
+    "total": 391,
+    "added_this_run": 3,
     "retired_marked_this_run": 0,
-    "live_this_run": 388,
-    "fetched_this_run": 589,
+    "live_this_run": 391,
+    "fetched_this_run": 593,
     "scrape_ok": true
   }
 }
