@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-08-11T14:57:43.004345+00:00",
+  "updated_at": "2026-08-12T14:57:34.886401+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2680,6 +2680,18 @@
       "retired": false
     },
     {
+      "name": "Bashful Woodland Bunny",
+      "sku": "CTM3B",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bashful-woodland-bunny/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1808/53607/CTM3B__47975.1785194765.jpg?c=1",
+      "official_price_usd": "33.00",
+      "official_price_cad": "46.53",
+      "profit_price_cad": "55.84",
+      "added_at": "2026-08-12",
+      "retired": false
+    },
+    {
       "name": "Beatrice Butterfly",
       "sku": "BEAT2B",
       "category": "Animals | Soft Toys",
@@ -3258,7 +3270,7 @@
     {
       "name": "Ghost Bob",
       "sku": "GH3B",
-      "category": "Soft Toys",
+      "category": "Animals | Soft Toys",
       "official_url": "https://us.jellycat.com/ghost-bob/",
       "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2079/53570/GH3B__99782.1785166045.jpg?c=1",
       "official_price_usd": "30.00",
@@ -3306,7 +3318,7 @@
     {
       "name": "Growlston Gargoyle",
       "sku": "GAR3GYL",
-      "category": "Soft Toys",
+      "category": "Animals | Soft Toys",
       "official_url": "https://us.jellycat.com/growlston-gargoyle/",
       "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2080/53580/GAR3GYL__28714.1785166045.jpg?c=1",
       "official_price_usd": "45.00",
@@ -3685,7 +3697,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Little Pup",
@@ -3709,7 +3721,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Little Pup Bag Charm",
@@ -3937,7 +3949,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Peanut Penguin",
@@ -4697,11 +4709,11 @@
     }
   ],
   "counts": {
-    "total": 391,
-    "added_this_run": 3,
-    "retired_marked_this_run": 0,
-    "live_this_run": 391,
-    "fetched_this_run": 593,
+    "total": 392,
+    "added_this_run": 1,
+    "retired_marked_this_run": 3,
+    "live_this_run": 389,
+    "fetched_this_run": 525,
     "scrape_ok": true
   }
 }
