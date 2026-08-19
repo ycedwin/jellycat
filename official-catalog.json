@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-08-18T14:34:19.715234+00:00",
+  "updated_at": "2026-08-19T14:34:07.888788+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -409,7 +409,7 @@
       "official_price_cad": "38.77",
       "profit_price_cad": "46.53",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Amuseables Cloud",
@@ -2245,7 +2245,7 @@
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Blue Elephant",
@@ -2341,7 +2341,7 @@
       "official_price_cad": "19.74",
       "profit_price_cad": "23.69",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Dino",
@@ -4711,9 +4711,9 @@
   "counts": {
     "total": 392,
     "added_this_run": 0,
-    "retired_marked_this_run": 3,
-    "live_this_run": 386,
-    "fetched_this_run": 522,
+    "retired_marked_this_run": 0,
+    "live_this_run": 389,
+    "fetched_this_run": 525,
     "scrape_ok": true
   }
 }
