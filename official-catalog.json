@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-08-19T14:34:07.888788+00:00",
+  "updated_at": "2026-08-20T14:36:47.357155+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2440,6 +2440,18 @@
       "retired": false
     },
     {
+      "name": "Bashful Lilac Bunny",
+      "sku": "BAS3HYUS",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/bashful-lilac-bunny/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/346/41644/BAS3HYUS__15848.1727975873.jpg?c=1",
+      "official_price_usd": "18.00",
+      "official_price_cad": "25.38",
+      "profit_price_cad": "30.46",
+      "added_at": "2026-08-20",
+      "retired": false
+    },
+    {
       "name": "Bashful Lion",
       "sku": "BAS3LION",
       "category": "Animals | Soft Toys",
@@ -2557,7 +2569,7 @@
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Patchwork Brown Bunny",
@@ -4709,9 +4721,9 @@
     }
   ],
   "counts": {
-    "total": 392,
-    "added_this_run": 0,
-    "retired_marked_this_run": 0,
+    "total": 393,
+    "added_this_run": 1,
+    "retired_marked_this_run": 1,
     "live_this_run": 389,
     "fetched_this_run": 525,
     "scrape_ok": true
