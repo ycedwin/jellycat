@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-01T17:39:24.063290+00:00",
+  "updated_at": "2026-09-02T17:39:03.814454+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -49,7 +49,7 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Aruba Coconut",
@@ -493,7 +493,7 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Collette Tarte Au Citron",
@@ -817,7 +817,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Horatio Pistachio",
@@ -1453,7 +1453,7 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Rose Bouquet",
@@ -1501,7 +1501,7 @@
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Sardine Tin",
@@ -1897,7 +1897,7 @@
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables USA Soccer Ball",
@@ -2329,7 +2329,7 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Cream Bunny",
@@ -2353,7 +2353,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Dragon",
@@ -2629,7 +2629,7 @@
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Tulip Pink Bunny",
@@ -2713,7 +2713,7 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Betty Corgi",
@@ -2737,7 +2737,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Blossom Beige Bunny 'Petal'",
@@ -2845,7 +2845,7 @@
       "official_price_cad": "84.60",
       "profit_price_cad": "101.52",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bretti Yeti",
@@ -2977,7 +2977,7 @@
       "official_price_cad": "35.25",
       "profit_price_cad": "42.30",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Cream Bunny with Plant",
@@ -3193,7 +3193,7 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Fuddlewuddle Dragon",
@@ -3253,7 +3253,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Fuddlewuddle Puppy",
@@ -3385,7 +3385,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Isobel Chihuahua",
@@ -3553,7 +3553,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Lazulia Dragon",
@@ -3709,7 +3709,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Little Pup",
@@ -3733,7 +3733,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Little Pup Bag Charm",
@@ -3793,7 +3793,7 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Maffles Manatee",
@@ -3805,7 +3805,7 @@
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Malachy Dragon",
@@ -3841,7 +3841,7 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Mooliet Cow",
@@ -3949,7 +3949,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Otto Sausage Dog Bag",
@@ -3961,7 +3961,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Peanut Penguin",
@@ -4057,7 +4057,7 @@
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Ramsley Sheep",
@@ -4309,7 +4309,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Smudge Lamb",
@@ -4429,7 +4429,7 @@
       "official_price_cad": "141.00",
       "profit_price_cad": "169.20",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Squawkatoo",
@@ -4723,9 +4723,9 @@
   "counts": {
     "total": 393,
     "added_this_run": 0,
-    "retired_marked_this_run": 0,
-    "live_this_run": 387,
-    "fetched_this_run": 523,
+    "retired_marked_this_run": 24,
+    "live_this_run": 366,
+    "fetched_this_run": 552,
     "scrape_ok": true
   }
 }
