@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-02T17:39:03.814454+00:00",
+  "updated_at": "2026-09-03T17:33:42.012395+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2353,7 +2353,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Dragon",
@@ -3553,7 +3553,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Lazulia Dragon",
@@ -4723,9 +4723,9 @@
   "counts": {
     "total": 393,
     "added_this_run": 0,
-    "retired_marked_this_run": 24,
-    "live_this_run": 366,
-    "fetched_this_run": 552,
+    "retired_marked_this_run": 0,
+    "live_this_run": 368,
+    "fetched_this_run": 556,
     "scrape_ok": true
   }
 }
