@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-08T17:47:28.896490+00:00",
+  "updated_at": "2026-09-09T17:37:14.032417+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -145,6 +145,18 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Birthday Cake Bag",
+      "sku": "A4BCBG",
+      "category": "Bag Charms",
+      "official_url": "https://us.jellycat.com/amuseables-birthday-cake-bag/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2088/53783/A4BCBG__57806.1787753522.jpg?c=1",
+      "official_price_usd": "75.00",
+      "official_price_cad": "105.75",
+      "profit_price_cad": "126.90",
+      "added_at": "2026-09-09",
       "retired": false
     },
     {
@@ -688,6 +700,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Fitswell Mitten",
+      "sku": "A4MITT",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-fitswell-mitten/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2090/53735/A4MITT__47638.1787753556.jpg?c=1",
+      "official_price_usd": "43.00",
+      "official_price_cad": "60.63",
+      "profit_price_cad": "72.76",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
       "name": "Amuseables Fleurette Tarte Aux Fraises",
       "sku": "A6TAF",
       "category": "Soft Toys",
@@ -1084,6 +1108,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Mullover Spiced Drink",
+      "sku": "A4VINC",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-mullover-spiced-drink/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2092/53744/A4VINC__14900.1787753532.jpg?c=1",
+      "official_price_usd": "45.00",
+      "official_price_cad": "63.45",
+      "profit_price_cad": "76.14",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
       "name": "Amuseables Mulshi Woodland Floor",
       "sku": "A4WDF",
       "category": "Soft Toys",
@@ -1288,6 +1324,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Perta Snow Boot",
+      "sku": "A2SBOOT",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-perta-snow-boot/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2086/53759/A2SBOOT__19472.1787753488.jpg?c=1",
+      "official_price_usd": "70.00",
+      "official_price_cad": "98.70",
+      "profit_price_cad": "118.44",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
       "name": "Amuseables Philippe Palmier",
       "sku": "A6PAL",
       "category": "Soft Toys",
@@ -1345,6 +1393,18 @@
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Pomilly",
+      "sku": "A2HAT",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-pomilly/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2085/53754/A2HAT__80545.1787753472.jpg?c=1",
+      "official_price_usd": "55.00",
+      "official_price_cad": "77.55",
+      "profit_price_cad": "93.06",
+      "added_at": "2026-09-09",
       "retired": false
     },
     {
@@ -1513,6 +1573,18 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Silver Star",
+      "sku": "A6STA",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-silver-star/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2093/53769/A6STA__05869.1787753522.jpg?c=1",
+      "official_price_usd": "35.00",
+      "official_price_cad": "49.35",
+      "profit_price_cad": "59.22",
+      "added_at": "2026-09-09",
       "retired": false
     },
     {
@@ -2533,7 +2605,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Luxe Puppy Orlando",
@@ -2738,6 +2810,18 @@
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
       "retired": true
+    },
+    {
+      "name": "Bizzlestomp Bear",
+      "sku": "ASP1B",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bizzlestomp-bear/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2094/53725/ASP1B__88900.1787748395.jpg?c=1",
+      "official_price_usd": "125.00",
+      "official_price_cad": "176.25",
+      "profit_price_cad": "211.50",
+      "added_at": "2026-09-09",
+      "retired": false
     },
     {
       "name": "Blossom Beige Bunny 'Petal'",
@@ -3253,7 +3337,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Fuddlewuddle Puppy",
@@ -3709,7 +3793,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Little Pup",
@@ -3733,7 +3817,7 @@
       "official_price_cad": "56.40",
       "profit_price_cad": "67.68",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Little Pup Bag Charm",
@@ -3868,6 +3952,18 @@
       "retired": false
     },
     {
+      "name": "Munro Scottie Dog 'Winter Jumper'",
+      "sku": "MUN2JUM",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/munro-scottie-dog-winter-jumper-outfit/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2099/53730/MUN2JUM__06433.1787753440.jpg?c=1",
+      "official_price_usd": "60.00",
+      "official_price_cad": "84.60",
+      "profit_price_cad": "101.52",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
       "name": "Munro Scottie Dog Bag Charm",
       "sku": "MUN4BC",
       "category": "Animals | Bag Charms",
@@ -3961,7 +4057,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Peanut Penguin",
@@ -4153,6 +4249,30 @@
       "official_price_cad": "98.70",
       "profit_price_cad": "118.44",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Rufferty Puppy Handbag",
+      "sku": "BCP4TB",
+      "category": "Animals",
+      "official_url": "https://us.jellycat.com/rufferty-puppy-handbag/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2097/53778/BCP4TB__89423.1787753476.jpg?c=1",
+      "official_price_usd": "80.00",
+      "official_price_cad": "112.80",
+      "profit_price_cad": "135.36",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
+      "name": "Rufferty Puppy Pouch",
+      "sku": "BCP4PP",
+      "category": "Animals",
+      "official_url": "https://us.jellycat.com/rufferty-puppy-pouch/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2096/53824/BCP4PP__24516.1787758004.jpg?c=1",
+      "official_price_usd": "38.00",
+      "official_price_cad": "53.58",
+      "profit_price_cad": "64.30",
+      "added_at": "2026-09-09",
       "retired": false
     },
     {
@@ -4576,6 +4696,18 @@
       "retired": false
     },
     {
+      "name": "Ulrich Wolf",
+      "sku": "WOL1W",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/ulrich-wolf/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2100/53764/WOL1W__77322.1787753412.jpg?c=1",
+      "official_price_usd": "83.00",
+      "official_price_cad": "117.03",
+      "profit_price_cad": "140.44",
+      "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
       "name": "Vivacious Vegetable Carrot",
       "sku": "VV6C",
       "category": "Soft Toys",
@@ -4721,11 +4853,11 @@
     }
   ],
   "counts": {
-    "total": 393,
-    "added_this_run": 0,
-    "retired_marked_this_run": 0,
-    "live_this_run": 368,
-    "fetched_this_run": 556,
+    "total": 404,
+    "added_this_run": 11,
+    "retired_marked_this_run": 4,
+    "live_this_run": 376,
+    "fetched_this_run": 507,
     "scrape_ok": true
   }
 }
