@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-09T17:37:14.032417+00:00",
+  "updated_at": "2026-09-10T17:30:54.585054+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -421,7 +421,7 @@
       "official_price_cad": "38.77",
       "profit_price_cad": "46.53",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Amuseables Cloud",
@@ -4854,10 +4854,10 @@
   ],
   "counts": {
     "total": 404,
-    "added_this_run": 11,
-    "retired_marked_this_run": 4,
-    "live_this_run": 376,
-    "fetched_this_run": 507,
+    "added_this_run": 0,
+    "retired_marked_this_run": 0,
+    "live_this_run": 377,
+    "fetched_this_run": 508,
     "scrape_ok": true
   }
 }
