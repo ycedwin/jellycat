@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-10T17:30:54.585054+00:00",
+  "updated_at": "2026-09-11T17:34:36.343586+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -1765,6 +1765,30 @@
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Sports Ski Club Goggles",
+      "sku": "AS2SKGO",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-sports-ski-club-goggles/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2102/53852/AS2SKGO__24497.1788967622.jpg?c=1",
+      "official_price_usd": "55.00",
+      "official_price_cad": "77.55",
+      "profit_price_cad": "93.06",
+      "added_at": "2026-09-11",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Sports Ski Goggles",
+      "sku": "AS2SKG",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-sports-ski-goggles/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1490/48756/AS2SKG__43010.1732743560.jpg?c=1",
+      "official_price_usd": "55.00",
+      "official_price_cad": "77.55",
+      "profit_price_cad": "93.06",
+      "added_at": "2026-09-11",
       "retired": false
     },
     {
@@ -4588,6 +4612,18 @@
       "retired": false
     },
     {
+      "name": "Tawoola Owl",
+      "sku": "GRU3WL",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/tawoola-owl/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2098/53740/GRU3WL__86481.1787748413.jpg?c=1",
+      "official_price_usd": "62.00",
+      "official_price_cad": "87.42",
+      "profit_price_cad": "104.90",
+      "added_at": "2026-09-11",
+      "retired": false
+    },
+    {
       "name": "Thimble Turtle",
       "sku": "TS4TUR",
       "category": "Animals | Soft Toys",
@@ -4853,11 +4889,11 @@
     }
   ],
   "counts": {
-    "total": 404,
-    "added_this_run": 0,
+    "total": 407,
+    "added_this_run": 3,
     "retired_marked_this_run": 0,
-    "live_this_run": 377,
-    "fetched_this_run": 508,
+    "live_this_run": 380,
+    "fetched_this_run": 512,
     "scrape_ok": true
   }
 }
