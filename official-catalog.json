@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-13T17:18:39.354423+00:00",
+  "updated_at": "2026-09-14T19:04:09.114734+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -361,6 +361,18 @@
       "official_price_cad": "63.45",
       "profit_price_cad": "76.14",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Cheese Fondue",
+      "sku": "A4CFN",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-cheese-fondue/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1887/51133/A4CFN__95365.1755199426.png?c=1",
+      "official_price_usd": "45.00",
+      "official_price_cad": "63.45",
+      "profit_price_cad": "76.14",
+      "added_at": "2026-09-14",
       "retired": false
     },
     {
@@ -928,6 +940,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Letter to Santa",
+      "sku": "A4LTS",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-letter-to-santa/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1882/51343/A4LTS__39038.1756728320.png?c=1",
+      "official_price_usd": "55.00",
+      "official_price_cad": "77.55",
+      "profit_price_cad": "93.06",
+      "added_at": "2026-09-14",
+      "retired": false
+    },
+    {
       "name": "Amuseables Life Ring",
       "sku": "A2LF",
       "category": "Soft Toys",
@@ -1264,6 +1288,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Peanut Reindeer",
+      "sku": "A1LPRD",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-peanut-reindeer/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1571/51318/A1LPRD__46644.1756400224.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-09-14",
+      "retired": false
+    },
+    {
       "name": "Amuseables Peanut ‘Cat’",
       "sku": "A6PCT",
       "category": "Soft Toys",
@@ -1444,6 +1480,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Raclette",
+      "sku": "A4RAC",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-raclette/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1888/51042/A4RAC__71768.1755191362.png?c=1",
+      "official_price_usd": "35.00",
+      "official_price_cad": "49.35",
+      "profit_price_cad": "59.22",
+      "added_at": "2026-09-14",
+      "retired": false
+    },
+    {
       "name": "Amuseables Rainbow",
       "sku": "A2RB",
       "category": "Soft Toys",
@@ -1621,6 +1669,18 @@
       "official_price_cad": "53.58",
       "profit_price_cad": "64.30",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Snow Globe",
+      "sku": "A4SG",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-snow-globe/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1885/51337/A4SG__09489.1756728308.png?c=1",
+      "official_price_usd": "40.00",
+      "official_price_cad": "56.40",
+      "profit_price_cad": "67.68",
+      "added_at": "2026-09-14",
       "retired": false
     },
     {
@@ -1969,6 +2029,18 @@
       "official_price_cad": "77.55",
       "profit_price_cad": "93.06",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Toastie Pink and White Marshmallows",
+      "sku": "A6MPWT",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-toastie-pink-and-white-marshmallows/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1886/51109/A6MPWT__61544.1755191334.png?c=1",
+      "official_price_usd": "40.00",
+      "official_price_cad": "56.40",
+      "profit_price_cad": "67.68",
+      "added_at": "2026-09-14",
       "retired": false
     },
     {
@@ -2377,6 +2449,18 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Bashful Bunny 'Snow Suit'",
+      "sku": "BAS3BSKI",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/bashful-beige-bunny-snow-suit/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1881/51277/BAS3BSKI__88877.1756378582.png?c=1",
+      "official_price_usd": "65.00",
+      "official_price_cad": "91.65",
+      "profit_price_cad": "109.98",
+      "added_at": "2026-09-14",
       "retired": false
     },
     {
@@ -3541,6 +3625,18 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Jellycat Jack Decoration",
+      "sku": "JELC6D",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/jellycat-jack-decoration/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1884/51178/JELC6D__12029.1755259947.png?c=1",
+      "official_price_usd": "25.00",
+      "official_price_cad": "35.25",
+      "profit_price_cad": "42.30",
+      "added_at": "2026-09-14",
       "retired": false
     },
     {
@@ -4889,11 +4985,11 @@
     }
   ],
   "counts": {
-    "total": 407,
-    "added_this_run": 0,
+    "total": 415,
+    "added_this_run": 8,
     "retired_marked_this_run": 0,
-    "live_this_run": 380,
-    "fetched_this_run": 512,
+    "live_this_run": 388,
+    "fetched_this_run": 520,
     "scrape_ok": true
   }
 }
