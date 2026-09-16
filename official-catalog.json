@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-15T17:57:33.397005+00:00",
+  "updated_at": "2026-09-16T17:59:47.009783+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2389,6 +2389,18 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Bashful Beige Bunny Decoration",
+      "sku": "BAS6BD",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/bashful-beige-bunny-decoration/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/1871/51082/BAS6BD__37896.1755191374.png?c=1",
+      "official_price_usd": "25.00",
+      "official_price_cad": "35.25",
+      "profit_price_cad": "42.30",
+      "added_at": "2026-09-16",
       "retired": false
     },
     {
@@ -4985,11 +4997,11 @@
     }
   ],
   "counts": {
-    "total": 415,
-    "added_this_run": 0,
+    "total": 416,
+    "added_this_run": 1,
     "retired_marked_this_run": 0,
-    "live_this_run": 388,
-    "fetched_this_run": 520,
+    "live_this_run": 389,
+    "fetched_this_run": 521,
     "scrape_ok": true
   }
 }
