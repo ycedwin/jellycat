@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-17T17:57:39.950595+00:00",
+  "updated_at": "2026-09-18T17:31:59.112529+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2725,7 +2725,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Luxe Puppy Orlando",
@@ -2761,7 +2761,7 @@
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Patchwork Brown Bunny",
@@ -2821,7 +2821,7 @@
       "official_price_cad": "25.38",
       "profit_price_cad": "30.46",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Bashful Tulip Pink Bunny",
@@ -3457,7 +3457,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Fuddlewuddle Puppy",
@@ -4999,9 +4999,9 @@
   "counts": {
     "total": 416,
     "added_this_run": 0,
-    "retired_marked_this_run": 0,
-    "live_this_run": 389,
-    "fetched_this_run": 521,
+    "retired_marked_this_run": 1,
+    "live_this_run": 391,
+    "fetched_this_run": 523,
     "scrape_ok": true
   }
 }
