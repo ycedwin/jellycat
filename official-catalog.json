@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-21T19:06:15.514773+00:00",
+  "updated_at": "2026-09-22T17:58:30.676123+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -1297,7 +1297,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-09-14",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Amuseables Peanut ‘Cat’",
@@ -4999,9 +4999,9 @@
   "counts": {
     "total": 416,
     "added_this_run": 0,
-    "retired_marked_this_run": 0,
-    "live_this_run": 394,
-    "fetched_this_run": 588,
+    "retired_marked_this_run": 1,
+    "live_this_run": 393,
+    "fetched_this_run": 587,
     "scrape_ok": true
   }
 }
