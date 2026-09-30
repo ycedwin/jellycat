@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-09-29T19:08:27.521147+00:00",
+  "updated_at": "2026-09-30T18:51:27.297272+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -2545,7 +2545,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Bashful Dragon",
@@ -4177,7 +4177,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Otto Sausage Dog Bag",
@@ -4561,7 +4561,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Smudge Lamb",
@@ -4909,7 +4909,7 @@
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Yummy Duckling",
@@ -4999,7 +4999,7 @@
   "counts": {
     "total": 416,
     "added_this_run": 0,
-    "retired_marked_this_run": 0,
+    "retired_marked_this_run": 2,
     "live_this_run": 393,
     "fetched_this_run": 587,
     "scrape_ok": true
