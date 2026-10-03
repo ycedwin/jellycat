@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-02T19:01:08.999067+00:00",
+  "updated_at": "2026-10-03T17:49:37.232307+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -3457,7 +3457,7 @@
       "official_price_cad": "49.35",
       "profit_price_cad": "59.22",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Fuddlewuddle Puppy",
@@ -4177,7 +4177,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Otto Sausage Dog Bag",
@@ -4561,7 +4561,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Smudge Lamb",
@@ -4909,7 +4909,7 @@
       "official_price_cad": "28.20",
       "profit_price_cad": "33.84",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Yummy Duckling",
@@ -4999,9 +4999,9 @@
   "counts": {
     "total": 416,
     "added_this_run": 0,
-    "retired_marked_this_run": 4,
-    "live_this_run": 392,
-    "fetched_this_run": 587,
+    "retired_marked_this_run": 3,
+    "live_this_run": 390,
+    "fetched_this_run": 583,
     "scrape_ok": true
   }
 }
