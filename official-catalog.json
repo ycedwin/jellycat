@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-11T18:38:28.829788+00:00",
+  "updated_at": "2026-10-12T21:59:46.279024+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -157,6 +157,18 @@
       "official_price_cad": "105.75",
       "profit_price_cad": "126.90",
       "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Birthday Cake Bag Charm",
+      "sku": "A4BCBC",
+      "category": "Bag Charms | Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-birthday-cake-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2087/53789/A4BCBC__90837.1787753503.jpg?c=1",
+      "official_price_usd": "43.00",
+      "official_price_cad": "60.63",
+      "profit_price_cad": "72.76",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -616,6 +628,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Disco Ball Key Chain Bag Charm",
+      "sku": "A4DBBC",
+      "category": "Bag Charms | Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-disco-ball-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2089/53749/A4DBBC__11846.1787753539.jpg?c=1",
+      "official_price_usd": "45.00",
+      "official_price_cad": "63.45",
+      "profit_price_cad": "76.14",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Amuseables Doughnut",
       "sku": "A2DOU",
       "category": "Soft Toys",
@@ -721,6 +745,18 @@
       "official_price_cad": "60.63",
       "profit_price_cad": "72.76",
       "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Fitzsnug Mitten",
+      "sku": "A4MITTE",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-fitzsnug-mitten/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2126/54170/A4MITTE__98661.1791458857.jpg?c=1",
+      "official_price_usd": "43.00",
+      "official_price_cad": "60.63",
+      "profit_price_cad": "72.76",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -1084,6 +1120,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables Molasi Cookie",
+      "sku": "A6CHALB",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-molasi-cookie/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2124/54048/A6CHALB__12230.1790743559.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Amuseables Mona Macaron",
       "sku": "A6MACC",
       "category": "Soft Toys",
@@ -1117,6 +1165,18 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Moon Bag Charm",
+      "sku": "A4MOONBC",
+      "category": "Bag Charms | Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-moon-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2091/53798/A4MOONBC__02854.1787753549.jpg?c=1",
+      "official_price_usd": "33.00",
+      "official_price_cad": "46.53",
+      "profit_price_cad": "55.84",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -1408,6 +1468,30 @@
       "retired": false
     },
     {
+      "name": "Amuseables Pinecone Tree",
+      "sku": "A6ATR",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-pinecone-tree/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2115/54040/A6ATR__42232.1790743546.png?c=1",
+      "official_price_usd": "98.00",
+      "official_price_cad": "138.18",
+      "profit_price_cad": "165.82",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Pinecone Wreath",
+      "sku": "A2AW",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-pinecone-wreath/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2117/54052/A2AW__56375.1790743566.png?c=1",
+      "official_price_usd": "83.00",
+      "official_price_cad": "117.03",
+      "profit_price_cad": "140.44",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Amuseables Pink and White Marshmallows",
       "sku": "A6MPW",
       "category": "Soft Toys",
@@ -1621,6 +1705,18 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Scarffles Hot Chocolate",
+      "sku": "A4HOTCH",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-scarffles-hot-chocolate/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2123/54036/A4HOTCH__93292.1790743540.png?c=1",
+      "official_price_usd": "45.00",
+      "official_price_cad": "63.45",
+      "profit_price_cad": "76.14",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -2140,6 +2236,18 @@
       "retired": false
     },
     {
+      "name": "Amuseables ​Hosomaki Bag Charm",
+      "sku": "A4CUCHBC",
+      "category": "Bag Charms | Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-hosomaki-key-chain-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2057/53183/A4CUCHBC__70861.1780586939.jpg?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Audrey Hootsoftly",
       "sku": "AUD3HOOT",
       "category": "Animals | Soft Toys",
@@ -2185,6 +2293,18 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Bartholomew Bear 'Alpine'",
+      "sku": "BARL2SS",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bartholomew-bear-alpine/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2122/54064/BARL2SS__26206.1790743586.png?c=1",
+      "official_price_usd": "85.00",
+      "official_price_cad": "119.85",
+      "profit_price_cad": "143.82",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -2248,6 +2368,18 @@
       "retired": false
     },
     {
+      "name": "Bartholomew Bear Jr. Winter Warmer Decoration",
+      "sku": "BARS6DEC",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bartholomew-bear-jr-winter-warmer-decoration/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2118/54068/BARS6DEC__45858.1790743593.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Bartholomew Bear Junior",
       "sku": "BARM6BO",
       "category": "Animals | Soft Toys",
@@ -2281,6 +2413,18 @@
       "official_price_cad": "126.90",
       "profit_price_cad": "152.28",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Bartholomew Bear Winter Warmer Decoration",
+      "sku": "BARS6DE",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/bartholomew-bear-winter-warmer-decoration/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2119/54060/BARS6DE__25978.1790743579.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -2944,6 +3088,18 @@
       "retired": true
     },
     {
+      "name": "Birchly Moose",
+      "sku": "M3MOO",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/birchly-moose/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2116/54072/M3MOO__08692.1790743599.png?c=1",
+      "official_price_usd": "60.00",
+      "official_price_cad": "84.60",
+      "profit_price_cad": "101.52",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Bizzlestomp Bear",
       "sku": "ASP1B",
       "category": "Animals | Soft Toys",
@@ -3400,6 +3556,18 @@
       "retired": false
     },
     {
+      "name": "Franilla Luxe Bunny",
+      "sku": "BAS3HEX",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/franilla-luxe-bunny/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2125/54076/BAS3HEX__40018.1790743606.png?c=1",
+      "official_price_usd": "50.00",
+      "official_price_cad": "70.50",
+      "profit_price_cad": "84.60",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Fuddlewuddle Dino",
       "sku": "FW6DN",
       "category": "Animals | Soft Toys",
@@ -3676,6 +3844,18 @@
       "retired": false
     },
     {
+      "name": "Jellycat Jack ‘Alpine’",
+      "sku": "JELC3C",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/jellycat-jack-alpine/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2120/54056/JELC3C__63692.1790743573.png?c=1",
+      "official_price_usd": "80.00",
+      "official_price_cad": "112.80",
+      "profit_price_cad": "135.36",
+      "added_at": "2026-10-12",
+      "retired": false
+    },
+    {
       "name": "Jerboa",
       "sku": "JEB3RAT",
       "category": "Animals | Soft Toys",
@@ -3805,6 +3985,18 @@
       "official_price_cad": "46.53",
       "profit_price_cad": "55.84",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Leola Bear Winter Warmer Decoration",
+      "sku": "BARL6D",
+      "category": "Animals | Soft Toys",
+      "official_url": "https://us.jellycat.com/leola-bear-winter-warmer-decoration/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2121/54044/BARL6D__36599.1790743552.png?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -4405,6 +4597,18 @@
       "official_price_cad": "112.80",
       "profit_price_cad": "135.36",
       "added_at": "2026-09-09",
+      "retired": false
+    },
+    {
+      "name": "Rufferty Puppy Key Chain Bag Charm",
+      "sku": "BAS4BCPBC",
+      "category": "Animals | Bag Charms | Soft Toys",
+      "official_url": "https://us.jellycat.com/rufferty-puppy-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2095/53774/BAS4BCPBC__16082.1787748614.jpg?c=1",
+      "official_price_usd": "32.00",
+      "official_price_cad": "45.12",
+      "profit_price_cad": "54.14",
+      "added_at": "2026-10-12",
       "retired": false
     },
     {
@@ -5009,11 +5213,11 @@
     }
   ],
   "counts": {
-    "total": 417,
-    "added_this_run": 0,
+    "total": 434,
+    "added_this_run": 17,
     "retired_marked_this_run": 0,
-    "live_this_run": 393,
-    "fetched_this_run": 588,
+    "live_this_run": 410,
+    "fetched_this_run": 618,
     "scrape_ok": true
   }
 }
