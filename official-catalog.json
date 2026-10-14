@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-13T20:06:53.838618+00:00",
+  "updated_at": "2026-10-14T18:20:11.670351+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -4777,7 +4777,7 @@
       "official_price_cad": "32.43",
       "profit_price_cad": "38.92",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Smudge Lamb",
@@ -5216,8 +5216,8 @@
     "total": 434,
     "added_this_run": 0,
     "retired_marked_this_run": 1,
-    "live_this_run": 412,
-    "fetched_this_run": 620,
+    "live_this_run": 411,
+    "fetched_this_run": 618,
     "scrape_ok": true
   }
 }
