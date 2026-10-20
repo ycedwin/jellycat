@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-19T19:40:56.880021+00:00",
+  "updated_at": "2026-10-20T18:22:54.814625+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -4381,7 +4381,7 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
-      "retired": true
+      "retired": false
     },
     {
       "name": "Otto Sausage Dog Bag",
@@ -5216,8 +5216,8 @@
     "total": 434,
     "added_this_run": 0,
     "retired_marked_this_run": 0,
-    "live_this_run": 413,
-    "fetched_this_run": 621,
+    "live_this_run": 414,
+    "fetched_this_run": 623,
     "scrape_ok": true
   }
 }
