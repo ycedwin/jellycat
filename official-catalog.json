@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-21T18:26:07.978523+00:00",
+  "updated_at": "2026-10-22T18:20:34.692445+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -1345,6 +1345,18 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
+      "retired": true
+    },
+    {
+      "name": "Amuseables Peanut Bag Charm",
+      "sku": "APN4BCH",
+      "category": "Bag Charms",
+      "official_url": "https://us.jellycat.com/amuseables-peanut-key-chain-bag-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2149/54260/APN4BCH__99705.1792682829.jpg?c=1",
+      "official_price_usd": "28.00",
+      "official_price_cad": "39.48",
+      "profit_price_cad": "47.38",
+      "added_at": "2026-10-22",
       "retired": false
     },
     {
@@ -3337,6 +3349,18 @@
       "official_price_cad": "42.30",
       "profit_price_cad": "50.76",
       "added_at": "2026-07-30",
+      "retired": true
+    },
+    {
+      "name": "Clyde Capybara Bag Charm",
+      "sku": "CLY4CBCH",
+      "category": "Bag Charms",
+      "official_url": "https://us.jellycat.com/clyde-capybara-clip-on-charm/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2150/54271/CLY4CBCH__55041.1792682843.jpg?c=1",
+      "official_price_usd": "32.00",
+      "official_price_cad": "45.12",
+      "profit_price_cad": "54.14",
+      "added_at": "2026-10-22",
       "retired": false
     },
     {
@@ -5213,11 +5237,11 @@
     }
   ],
   "counts": {
-    "total": 434,
-    "added_this_run": 0,
-    "retired_marked_this_run": 0,
+    "total": 436,
+    "added_this_run": 2,
+    "retired_marked_this_run": 2,
     "live_this_run": 414,
-    "fetched_this_run": 623,
+    "fetched_this_run": 622,
     "scrape_ok": true
   }
 }
