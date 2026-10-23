@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-22T18:20:34.692445+00:00",
+  "updated_at": "2026-10-23T18:07:21.271230+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -4417,7 +4417,7 @@
       "official_price_cad": "70.50",
       "profit_price_cad": "84.60",
       "added_at": "2026-07-30",
-      "retired": false
+      "retired": true
     },
     {
       "name": "Peanut Penguin",
@@ -5238,10 +5238,10 @@
   ],
   "counts": {
     "total": 436,
-    "added_this_run": 2,
-    "retired_marked_this_run": 2,
-    "live_this_run": 414,
-    "fetched_this_run": 622,
+    "added_this_run": 0,
+    "retired_marked_this_run": 1,
+    "live_this_run": 413,
+    "fetched_this_run": 621,
     "scrape_ok": true
   }
 }
