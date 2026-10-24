@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-23T18:07:21.271230+00:00",
+  "updated_at": "2026-10-24T17:14:57.311647+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -5239,7 +5239,7 @@
   "counts": {
     "total": 436,
     "added_this_run": 0,
-    "retired_marked_this_run": 1,
+    "retired_marked_this_run": 0,
     "live_this_run": 413,
     "fetched_this_run": 621,
     "scrape_ok": true
