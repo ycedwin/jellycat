@@ -1,7 +1,7 @@
 {
   "fx_usd_to_cad": 1.41,
   "profit_markup": 1.2,
-  "updated_at": "2026-10-25T17:26:37.975875+00:00",
+  "updated_at": "2026-10-26T19:46:22.223476+00:00",
   "products": [
     {
       "name": "Albee Bee",
@@ -601,6 +601,18 @@
       "official_price_cad": "39.48",
       "profit_price_cad": "47.38",
       "added_at": "2026-07-30",
+      "retired": false
+    },
+    {
+      "name": "Amuseables Crunchfall Pecan Pie",
+      "sku": "A4PEA",
+      "category": "Soft Toys",
+      "official_url": "https://us.jellycat.com/amuseables-crunchfall-pecan-pie/",
+      "image_url": "https://cdn11.bigcommerce.com/s-23s5gfmhr7/images/stencil/640w/products/2135/54199/A4PEA__82453.1791897746.jpg?c=1",
+      "official_price_usd": "35.00",
+      "official_price_cad": "49.35",
+      "profit_price_cad": "59.22",
+      "added_at": "2026-10-26",
       "retired": false
     },
     {
@@ -5237,11 +5249,11 @@
     }
   ],
   "counts": {
-    "total": 436,
-    "added_this_run": 0,
+    "total": 437,
+    "added_this_run": 1,
     "retired_marked_this_run": 0,
-    "live_this_run": 413,
-    "fetched_this_run": 621,
+    "live_this_run": 414,
+    "fetched_this_run": 622,
     "scrape_ok": true
   }
 }
