@@ -136,6 +136,52 @@ def next_page_url(current_url: str, soup: BeautifulSoup) -> str | None:
     return None
 
 
+RETRY_STATUSES = frozenset({403, 408, 425, 429, 500, 502, 503, 504})
+
+
+def make_scraper():
+    # GH Actions is Linux; a darwin UA there made Cloudflare 403 more often.
+    return cloudscraper.create_scraper(
+        browser={"browser": "chrome", "platform": "linux", "mobile": False}
+    )
+
+
+def get_with_retry(
+    url: str,
+    scraper,
+    attempts: int = 6,
+    *,
+    sleep=time.sleep,
+    new_scraper=None,
+):
+    make = new_scraper or make_scraper
+    response = None
+    for i in range(attempts):
+        try:
+            response = scraper.get(url, timeout=60)
+        except Exception as exc:
+            if i + 1 >= attempts:
+                raise
+            wait = min(60, 2**i)
+            print(f"  request error ({exc}) — retry {i + 1}/{attempts} in {wait}s")
+            sleep(wait)
+            scraper = make()
+            continue
+        if response.status_code in RETRY_STATUSES:
+            if i + 1 >= attempts:
+                break
+            wait = min(60, 2**i)
+            print(f"  HTTP {response.status_code} {url} — retry {i + 1}/{attempts} in {wait}s")
+            sleep(wait)
+            scraper = make()
+            continue
+        response.raise_for_status()
+        return scraper, response
+    if response is not None:
+        response.raise_for_status()
+    raise RuntimeError(f"Failed to fetch {url}")
+
+
 def fetch_category(scraper, category: str, base_url: str) -> list[dict]:
     products = []
     seen = set()
@@ -143,8 +189,7 @@ def fetch_category(scraper, category: str, base_url: str) -> list[dict]:
     page = 1
 
     while url and page <= 80:
-        response = scraper.get(url, timeout=60)
-        response.raise_for_status()
+        scraper, response = get_with_retry(url, scraper)
         soup = BeautifulSoup(response.text, "html.parser")
         before = len(products)
         for card in soup.select("li.product"):
@@ -174,9 +219,7 @@ def main() -> None:
         if not should_skip(item)
     }
 
-    scraper = cloudscraper.create_scraper(
-        browser={"browser": "chrome", "platform": "darwin", "mobile": False}
-    )
+    scraper = make_scraper()
     discovered = []
     for category, url in CATEGORIES:
         print(f"Fetching {category}…")
