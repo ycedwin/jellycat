@@ -51,9 +51,7 @@ python refresh_official_catalog.py
 
 Then commit/push `official-catalog.json`, or open the local site and hit **Refresh listings**.
 
-### Weekly on GitHub
-
-`.github/workflows/refresh-official-catalog.yml` runs once a week (Monday) and pushes new products when found. GitHub’s IPs often get a Jellycat 403, so local refresh is the reliable path. You can also run it from **Actions → Refresh official catalog → Run workflow**.
+There is no GitHub Actions scrape (their IPs get a Jellycat 403). Refresh from this machine when you want new listings.
 
 Change FX or markup in `refresh_official_catalog.py` (`USD_TO_CAD`, `PROFIT_MARKUP`).
 
