@@ -2,7 +2,7 @@ name: Refresh official catalog
 
 on:
   schedule:
-    - cron: "0 14 * * *" # daily 14:00 UTC
+    - cron: "0 14 * * 1" # weekly Monday 14:00 UTC
   workflow_dispatch:
 
 permissions:
